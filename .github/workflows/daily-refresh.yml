@@ -1,0 +1,41 @@
+name: Daily refresh (meets tracker)
+on:
+  workflow_dispatch:
+    inputs:
+      limit: { description: "Cap new PDFs (0 = all)", required: false, default: "0", type: string }
+  schedule:
+    - cron: "35 1 * * *"   # 07:05 IST — morning-fresh; off the :00 marks
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: "22" }
+      - name: Install deps
+        run: |
+          npm install playwright@1 cheerio@1 pdfjs-dist --no-save
+          npx playwright install --with-deps chromium
+      - name: Run pipeline
+        env:
+          SCREENER_EMAIL: ${{ secrets.SCREENER_EMAIL }}
+          SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
+          SCREENER_FILTER_URL: ${{ secrets.SCREENER_FILTER_URL }}
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION: ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+          SCRAPE_DO_API_KEY: ${{ secrets.SCRAPE_DO_API_KEY }}
+          LIMIT: ${{ inputs.limit || '0' }}
+        run: node screener-test/run-pipeline.mjs
+      - name: Commit data
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Meets refresh ($(date -u +%Y-%m-%d))"
+          for a in 1 2 3 4; do git push origin HEAD:main && exit 0; git fetch origin main; git rebase origin/main || { git rebase --abort; exit 1; }; sleep $((a*2)); done
+          echo "push failed"; exit 1
