@@ -94,15 +94,18 @@ scrape-announcements  ->  extract-events  ->  enrich-sectors  ->  build-events
 | `SCREENER_EMAIL` | yes | Screener.in login |
 | `SCREENER_PASSWORD` | yes | Screener.in login |
 | `SCREENER_FILTER_URL` | optional | A saved-filter announcements feed (e.g. `https://www.screener.in/announcements/user-filters/<ID>/`). Falls back to the general feed. |
-| `BEDROCK_API_KEY` | yes | Amazon Bedrock bearer API key (Claude) |
-| `BEDROCK_REGION` | optional | Default `us-east-1` |
-| `BEDROCK_MODEL_ID` | optional | Default `us.anthropic.claude-3-5-sonnet-20241022-v2:0` |
+| `BEDROCK_API_KEY` | yes | **Secret** — Amazon Bedrock bearer API key (Claude Converse) |
+| `AWS_REGION` | recommended | **Repo variable** — Bedrock region (defaults to `us-east-1`) |
+| `BEDROCK_MODEL_IDS` | recommended | **Repo variable** — comma-separated Claude model chain, tried in order with patient retry on Bedrock overload. Use the same values as the paramemo repo. |
 | `SCRAPE_DO_API_KEY` | optional | scrape.do fallback for stubborn PDF fetches |
 
-**Bedrock note:** `BEDROCK_MODEL_ID` must be a Claude model **enabled in your
-Bedrock account/region** (format like `us.anthropic.claude-...-v1:0`). The default
-is Claude 3.5 Sonnet v2, which supports document (PDF) input. Enable it under
-**AWS Bedrock console → Model access**. If the call errors, that is the fix.
+**Bedrock note:** Auth is the single secret `BEDROCK_API_KEY` (bearer key for the
+Bedrock Converse API). `AWS_REGION` and `BEDROCK_MODEL_IDS` are repo **variables** —
+set them to the same values as the paramemo repo. `BEDROCK_MODEL_IDS` is a
+comma-separated list of Claude model IDs tried in order (with patient retry on
+overload); every ID must be **enabled in your Bedrock account/region** under
+**AWS Bedrock console → Model access** and must support document (PDF) input.
+If the call errors, that is the fix.
 
 Tuning env: `LIMIT` (cap new PDFs/run, 0 = all), `FORCE=1` (reprocess all),
 `ENRICH_LIMIT` (default 40), `HORIZON_DAYS` (default 60), `HEADFUL=1`, `DEBUG=1`.

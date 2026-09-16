@@ -24,8 +24,8 @@ jobs:
           SCREENER_PASSWORD: ${{ secrets.SCREENER_PASSWORD }}
           SCREENER_FILTER_URL: ${{ secrets.SCREENER_FILTER_URL }}
           BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
-          BEDROCK_REGION: ${{ secrets.BEDROCK_REGION }}
-          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+          AWS_REGION: ${{ vars.AWS_REGION }}
+          BEDROCK_MODEL_IDS: ${{ vars.BEDROCK_MODEL_IDS }}
           SCRAPE_DO_API_KEY: ${{ secrets.SCRAPE_DO_API_KEY }}
           LIMIT: ${{ inputs.limit || '0' }}
         run: node screener-test/run-pipeline.mjs
