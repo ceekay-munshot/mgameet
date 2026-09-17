@@ -16,7 +16,6 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(HERE, "output");
 
 const BACKFILL_DAYS = 15;
-const MAX_PAGES = 40;
 
 // Investor-engagement heading filter (kept even for saved-filter feeds).
 const KEYWORDS =
@@ -134,48 +133,65 @@ function resolveWhen(r, today) {
 // day). Scroll to the bottom repeatedly until we've loaded past the 15-day window
 // or the list stops growing — so we capture EVERY filing in the window, not just
 // the first screen. Returns { rows, reached } where reached = we scrolled past the window.
-// Click the feed's "Show More" control (button or link) if present. Returns true if clicked.
+// Click the feed's "Show More" control. It re-renders (and briefly removes the
+// button) after each click, so WAIT for the button to (re)appear before clicking.
+// Returns true if clicked, false only when it is truly gone (whole feed loaded).
 async function clickShowMore(page) {
   const loc = page.locator("button, a").filter({ hasText: /^\s*(show|load|view)\s+more\s*$/i }).first();
   try {
-    if (await loc.count()) {
-      await loc.scrollIntoViewIfNeeded({ timeout: 2000 }).catch(() => {});
-      await loc.click({ timeout: 3000 });
-      return true;
-    }
-  } catch {}
-  return false;
+    await loc.waitFor({ state: "visible", timeout: 8000 });
+    await loc.scrollIntoViewIfNeeded({ timeout: 2000 }).catch(() => {});
+    await loc.click({ timeout: 4000 });
+    return true;
+  } catch { return false; }
 }
 
-// The Screener filter feed paginates via a "Show More" button (AJAX-appends the
-// next chunk; no ?p= URLs). Click it repeatedly — waiting for the row count to
-// grow after each click and ACCUMULATING rows (so a transient re-render never
-// loses what we've seen) — until we've loaded past the 15-day window, the button
-// disappears, or growth stalls. Returns every filing in the window.
+// The feed is grouped by day with ABSOLUTE date headers ("Sep 15, 2026" / "Today"
+// / "Yesterday") and paginates via a "Show More" button that appends a small batch.
+// Return the parseable date-header texts so we know how far back we've loaded.
+async function feedHeaders(page) {
+  return page.evaluate(() => {
+    const re = /^(?:today|yesterday|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s+20\d\d)$/i;
+    const out = [];
+    for (const el of document.querySelectorAll("body *")) {
+      if (el.querySelector("a")) continue; // headers aren't links / containers of links
+      const own = [...el.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(" ").replace(/\s+/g, " ").trim();
+      if (own && own.length <= 20 && re.test(own)) out.push(own);
+    }
+    return [...new Set(out)];
+  }).catch(() => []);
+}
+
+// Click "Show More" repeatedly, ACCUMULATING rows (so a transient re-render never
+// drops what we've seen), until a day-header older than the 15-day window is on
+// screen (we've loaded the whole window), the button is gone, or growth stalls.
 async function loadFeed(page, today) {
-  const acc = new Map(); // pdf_url -> row (dedup + survives DOM re-renders)
+  const acc = new Map(); // pdf_url -> row
   const domCount = () => page.evaluate(() => document.querySelectorAll('a[href*="/company/"]').length).catch(() => 0);
   const grab = async () => { for (const r of await extractRows(page)) if (r.pdf_url) acc.set(r.pdf_url, r); };
-  // Oldest announcement age (days) among rows we can date. Used only to know when
-  // we've clearly loaded PAST the window — with a +10d margin so a single old row
-  // near the boundary can't stop us early and undercount.
-  const oldestAge = () => { let o = -1; for (const r of acc.values()) { const d = resolveWhen(r, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } } return o; };
+  const oldestAge = async () => {
+    let o = -1;
+    for (const h of await feedHeaders(page)) { const d = parseWhen(h, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } }
+    for (const r of acc.values()) { const d = resolveWhen(r, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } }
+    return o;
+  };
 
   await grab();
   let clicks = 0, stagnant = 0;
-  for (let i = 0; i < 25; i++) {
-    if (oldestAge() > BACKFILL_DAYS + 10) break; // loaded well past the 15-day window -> we have all of it
+  for (let i = 0; i < 50; i++) {
+    if (await oldestAge() > BACKFILL_DAYS) break;   // a day-group older than 15d is visible -> window fully loaded
+    if (acc.size > 600) break;                       // safety cap
     const before = await domCount();
-    if (!(await clickShowMore(page))) break; // no more "Show More" -> the whole feed is loaded
+    if (!(await clickShowMore(page))) break;         // button truly gone -> whole feed loaded
     clicks++;
-    for (let w = 0; w < 20; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
+    for (let w = 0; w < 24; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
     const prev = acc.size;
     await grab();
-    if (acc.size <= prev) { if (++stagnant >= 2) break; } else { stagnant = 0; }
+    if (acc.size <= prev) { if (++stagnant >= 3) break; } else { stagnant = 0; }
   }
-  const reached = oldestAge() > BACKFILL_DAYS;
-  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s); oldest≈${oldestAge()}d back, reached=${reached}`);
-  return { rows: [...acc.values()], reached };
+  const age = await oldestAge();
+  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s); oldest ≈${age}d back`);
+  return { rows: [...acc.values()], reached: age > BACKFILL_DAYS };
 }
 
 export async function main() {
