@@ -136,19 +136,33 @@ function resolveWhen(r, today) {
 // the first screen. Returns { rows, reached } where reached = we scrolled past the window.
 async function loadFeed(page, today) {
   let rows = [], last = -1, stagnant = 0, reached = false;
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 60; i++) {
     rows = await extractRows(page);
+    // Diagnostic probe (first 2 iterations): reveal how this feed loads more.
+    if (i < 2) {
+      const diag = await page.evaluate(() => {
+        const A = [...document.querySelectorAll("a")];
+        const pag = [...new Set(A.filter((a) => /[?&](p|page)=/i.test(a.href || "")).map((a) => (a.getAttribute("href") || "").slice(0, 70)))].slice(0, 8);
+        const more = [...new Set([...document.querySelectorAll("a,button")].filter((x) => /load more|show more|view more|\bnext\b|older/i.test(x.textContent || "")).map((x) => x.tagName + ":" + (x.textContent || "").replace(/\s+/g, " ").trim().slice(0, 24)))].slice(0, 8);
+        return { sh: document.body.scrollHeight, companyLinks: document.querySelectorAll('a[href*="/company/"]').length, pdfLinks: A.filter((a) => /bseindia\.com|nseindia\.com/i.test(a.href || "")).length, pag, more };
+      }).catch(() => ({}));
+      console.log(`  [feed] iter ${i}: rows=${rows.length} sh=${diag.sh} companyLinks=${diag.companyLinks} pdfLinks=${diag.pdfLinks} pag=${JSON.stringify(diag.pag)} more=${JSON.stringify(diag.more)}`);
+    }
     let oldest = today;
     for (const r of rows) { const d = resolveWhen(r, today); if (d && d < oldest) oldest = d; }
     if (rows.length && ymdDiffDays(today, oldest) > BACKFILL_DAYS) { reached = true; break; }
-    if (rows.length === last) { if (++stagnant >= 5) break; } else { stagnant = 0; }
+    if (rows.length === last) { if (++stagnant >= 4) break; } else { stagnant = 0; }
     last = rows.length;
+    // Try several "load more" strategies: scroll to bottom, bring last row into
+    // view, and click any load-more/next control.
     await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight);
       const els = document.querySelectorAll('a[href*="/company/"]');
       if (els.length) els[els.length - 1].scrollIntoView({ block: "end" });
-      window.scrollTo(0, document.body.scrollHeight);
+      const btn = [...document.querySelectorAll("a,button")].find((x) => /load more|show more|view more|older/i.test(x.textContent || ""));
+      if (btn) btn.click();
     }).catch(() => {});
-    await sleep(1000);
+    await sleep(1200);
   }
   return { rows, reached };
 }
