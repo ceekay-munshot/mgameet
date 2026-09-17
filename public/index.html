@@ -1,66 +1,206 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Meets Tracker</title>
-  <style>
-    :root { color-scheme: light dark; --bg:#fff; --fg:#0f172a; --muted:#64748b; --card:#f8fafc; --border:#e2e8f0; --accent:#2563eb; }
-    @media (prefers-color-scheme: dark) { :root { --bg:#0b1120; --fg:#e2e8f0; --muted:#94a3b8; --card:#111827; --border:#1f2937; --accent:#60a5fa; } }
-    * { box-sizing: border-box; }
-    body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; padding:24px 16px; }
-    .wrap { max-width:720px; margin:0 auto; }
-    h1 { font-size:20px; margin:0 0 4px; }
-    .sub { color:var(--muted); margin:0 0 20px; font-size:13px; }
-    .stat { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:12px; }
-    .big { font-size:40px; font-weight:700; line-height:1; }
-    .lbl { color:var(--muted); font-size:13px; margin-top:4px; }
-    ul { list-style:none; padding:0; margin:0; }
-    li { padding:10px 0; border-top:1px solid var(--border); font-size:13px; }
-    li:first-child { border-top:none; }
-    .d { color:var(--accent); font-weight:600; }
-    a { color:var(--accent); }
-    code { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:1px 6px; font-size:12px; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Investor Meet Tracker</title>
+<meta name="description" content="Upcoming analyst & investor meetings for Indian listed companies — who is meeting whom, and when." />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{display:['"Space Grotesk"','sans-serif'],sans:['"Inter"','sans-serif'],mono:['"JetBrains Mono"','monospace']}}}};</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/echarts@5/dist/echarts.min.js"></script>
+<script src="https://unpkg.com/exceljs@4.4.0/dist/exceljs.min.js"></script>
+<style>
+ html,body{background:#FBFAFF;} body{font-family:"Inter",system-ui,sans-serif;color:#1e293b;min-height:100vh;background-image:radial-gradient(40rem 40rem at 8% -8%,rgba(139,92,246,.16),transparent 60%),radial-gradient(38rem 38rem at 105% 4%,rgba(236,72,153,.12),transparent 58%),radial-gradient(42rem 42rem at 60% 120%,rgba(59,130,246,.12),transparent 60%);background-attachment:fixed;}
+ .font-display{font-family:"Space Grotesk",sans-serif;} .font-mono{font-family:"JetBrains Mono",monospace;}
+ .brand-gradient{background-image:linear-gradient(100deg,#6366F1,#A855F7 45%,#EC4899 80%);-webkit-background-clip:text;background-clip:text;color:transparent;}
+ .card{background:#fff;border-radius:1.5rem;box-shadow:0 1px 2px rgba(16,24,40,.04),0 12px 32px -16px rgba(16,24,40,.18);transition:transform .2s,box-shadow .2s;}
+ .card-hover:hover{transform:translateY(-3px);box-shadow:0 20px 44px -18px rgba(16,24,40,.28);}
+ .tab-btn{transition:all .18s;} .tab-btn[aria-selected="true"]{background-image:linear-gradient(100deg,#6366F1,#A855F7 55%,#EC4899);color:#fff;box-shadow:0 10px 26px -10px rgba(139,92,246,.65);} .tab-btn[aria-selected="false"]{color:#475569;} .tab-btn[aria-selected="false"]:hover{background:#fff;transform:translateY(-1px);}
+ .fade-in{animation:fadeIn .28s ease both;} @keyframes fadeIn{from{opacity:0;transform:translateY(6px);}to{opacity:none;}}
+ .chart-box{width:100%;height:340px;} .chart-donut{width:100%;height:280px;} @media(max-width:640px){.chart-box{height:300px;}}
+</style>
+
+<!-- additive styles (do not alter the token block above) -->
+<style>
+ .pill{display:inline-flex;align-items:center;gap:.32rem;padding:.16rem .55rem;border-radius:9999px;font-size:.72rem;font-weight:600;line-height:1.25;white-space:nowrap;}
+ .pill i,.pill svg{width:13px;height:13px;}
+ .chip{display:inline-flex;align-items:center;gap:.35rem;padding:.28rem .7rem;border-radius:9999px;font-size:.78rem;font-weight:600;line-height:1;}
+ .ctrl{background:#fff;border:1px solid #e6e3f2;border-radius:.75rem;padding:.5rem .7rem;font-size:.82rem;color:#334155;font-weight:500;outline:none;transition:border-color .15s,box-shadow .15s;}
+ .ctrl:focus{border-color:#a855f7;box-shadow:0 0 0 3px rgba(168,85,247,.14);}
+ select.ctrl{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .5rem center;padding-right:1.8rem;cursor:pointer;}
+ .seg{display:inline-flex;background:#f1eefb;border-radius:9999px;padding:.2rem;gap:.2rem;}
+ .seg-btn{padding:.4rem .9rem;border-radius:9999px;font-size:.8rem;font-weight:600;color:#64748b;transition:all .15s;display:inline-flex;align-items:center;gap:.4rem;}
+ .seg-btn[aria-pressed="true"]{background:#fff;color:#7c3aed;box-shadow:0 4px 12px -6px rgba(124,58,237,.5);}
+ .mtable{width:100%;border-collapse:separate;border-spacing:0;}
+ .mtable th{font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:#94a3b8;font-weight:700;text-align:left;padding:.55rem .75rem;position:sticky;top:0;background:#fff;z-index:1;}
+ .mtable td{padding:.7rem .75rem;border-top:1px solid #f1f0f7;font-size:.83rem;vertical-align:middle;}
+ .mtable tbody tr{transition:background .12s;}
+ .mtable tbody tr:hover{background:#faf8ff;}
+ .src-btn{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:.6rem;background:#eef2ff;color:#4f46e5;transition:all .15s;}
+ .src-btn:hover{background:#4f46e5;color:#fff;transform:translateY(-1px);}
+ .shimmer{background-image:linear-gradient(90deg,#eceafa 0%,#f6f4fd 50%,#eceafa 100%);background-size:200% 100%;animation:sh 1.4s infinite;border-radius:.75rem;}
+ @keyframes sh{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+ .spin{width:44px;height:44px;border-radius:9999px;border:4px solid #ece9f9;border-top-color:#8b5cf6;animation:rot .8s linear infinite;}
+ @keyframes rot{to{transform:rotate(360deg);}}
+ .hscroll{overflow:auto;} .hscroll::-webkit-scrollbar{height:9px;width:9px;} .hscroll::-webkit-scrollbar-thumb{background:#dcd8ef;border-radius:9999px;} .hscroll::-webkit-scrollbar-track{background:transparent;}
+ .kpi-ico{width:42px;height:42px;border-radius:.9rem;display:grid;place-items:center;flex:none;}
+ .kpi-ico i,.kpi-ico svg{width:21px;height:21px;}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>📅 Investor Meet Tracker</h1>
-    <p class="sub">Data-engine placeholder — the real dashboard ships in Prompt 2. This page just proves the deploy + <code>data/events.json</code> pipeline works.</p>
-    <div class="stat">
-      <div class="big" id="count">…</div>
-      <div class="lbl" id="updated">loading data/events.json…</div>
+
+<!-- Loading -->
+<div id="loading" class="fixed inset-0 z-50 grid place-items-center bg-[#FBFAFF]">
+  <div class="flex flex-col items-center gap-4">
+    <div class="spin"></div>
+    <p class="text-sm font-medium text-slate-500">Loading upcoming meetings…</p>
+  </div>
+</div>
+
+<!-- Error -->
+<div id="errorState" class="hidden fixed inset-0 z-50 grid place-items-center p-6 bg-[#FBFAFF]">
+  <div class="card max-w-md w-full p-8 text-center">
+    <div class="mx-auto mb-4 grid place-items-center w-14 h-14 rounded-2xl bg-rose-50 text-rose-500"><i data-lucide="triangle-alert" class="w-7 h-7"></i></div>
+    <h2 class="font-display text-lg font-bold text-slate-800">Couldn't load the data</h2>
+    <p id="errorMsg" class="text-sm text-slate-500 mt-1">We couldn't reach <code>data/events.json</code>.</p>
+    <button id="retryBtn" class="mt-5 chip bg-violet-600 text-white hover:bg-violet-700 mx-auto"><i data-lucide="refresh-cw"></i> Try again</button>
+  </div>
+</div>
+
+<div id="appRoot" class="hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+
+  <!-- Header -->
+  <header class="pt-6 pb-4 flex flex-wrap items-center justify-between gap-4">
+    <div>
+      <h1 class="font-display text-2xl sm:text-[1.9rem] font-bold leading-tight"><span class="brand-gradient">📅 Investor Meet Tracker</span></h1>
+      <p class="text-sm text-slate-500 mt-1">Upcoming analyst &amp; investor meetings for Indian listed companies — who's meeting whom, and when.</p>
     </div>
-    <div class="stat">
-      <div class="lbl" style="margin:0 0 8px">Next few meetings</div>
-      <ul id="list"><li>loading…</li></ul>
+    <div class="flex items-center gap-2.5">
+      <span id="updatedBadge" class="chip bg-white/80 text-slate-500 border border-slate-200/70"><i data-lucide="clock" class="text-violet-500"></i><span>—</span></span>
+      <button id="exportBtn" class="chip text-white shadow-lg" style="background-image:linear-gradient(100deg,#6366F1,#A855F7 55%,#EC4899);box-shadow:0 10px 26px -12px rgba(139,92,246,.7)"><i data-lucide="file-down"></i> Export Excel</button>
+    </div>
+  </header>
+
+  <!-- KPI strip -->
+  <div id="kpiStrip" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-5">
+    <div class="card p-3.5 flex items-center gap-3">
+      <div class="kpi-ico" style="background:#eef2ff;color:#6366F1"><i data-lucide="calendar-days"></i></div>
+      <div><div id="kpi-upcoming" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Upcoming</div></div>
+    </div>
+    <div class="card p-3.5 flex items-center gap-3">
+      <div class="kpi-ico" style="background:#fce7f3;color:#EC4899"><i data-lucide="sun"></i></div>
+      <div><div id="kpi-today" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Today</div></div>
+    </div>
+    <div class="card p-3.5 flex items-center gap-3">
+      <div class="kpi-ico" style="background:#dbeafe;color:#3B82F6"><i data-lucide="calendar-range"></i></div>
+      <div><div id="kpi-week" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">This week</div></div>
+    </div>
+    <div class="card p-3.5 flex items-center gap-3">
+      <div class="kpi-ico" style="background:#d1fae5;color:#10B981"><i data-lucide="building-2"></i></div>
+      <div><div id="kpi-companies" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Companies</div></div>
+    </div>
+    <div class="card p-3.5 flex items-center gap-3">
+      <div class="kpi-ico" style="background:#fef3c7;color:#F59E0B"><i data-lucide="presentation"></i></div>
+      <div><div id="kpi-confs" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Conferences</div></div>
     </div>
   </div>
-  <script>
-    (async () => {
-      const $ = (id) => document.getElementById(id);
-      try {
-        const r = await fetch("data/events.json", { cache: "no-store" });
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        const d = await r.json();
-        $("count").textContent = d.count ?? (d.events || []).length ?? 0;
-        $("updated").textContent =
-          "upcoming events • generated " + (d.generated_at ? new Date(d.generated_at).toLocaleString() : "—");
-        const rows = (d.events || []).slice(0, 8);
-        $("list").innerHTML = rows.length
-          ? rows.map((e) =>
-              `<li><span class="d">${e.event_date}</span> — ${e.company || "?"} <em>(${e.event_type || "?"})</em>` +
-              (e.counterparty ? " · " + e.counterparty : "") +
-              (e.pdf_url ? ` · <a href="${e.pdf_url}" target="_blank" rel="noopener">source</a>` : "") +
-              `</li>`
-            ).join("")
-          : "<li>No upcoming events yet — run the pipeline to populate data.</li>";
-      } catch (e) {
-        $("count").textContent = "—";
-        $("updated").textContent = "No data yet (" + e.message + "). Run: node screener-test/run-pipeline.mjs";
-        $("list").innerHTML = "<li>events.json not found.</li>";
-      }
-    })();
-  </script>
+
+  <!-- Sticky tab bar -->
+  <div class="sticky top-0 z-30 -mx-4 px-4 py-2.5 mb-4" style="backdrop-filter:blur(8px);background:linear-gradient(#FBFAFFcc,#FBFAFFaa)">
+    <div role="tablist" class="mx-auto w-fit flex items-center gap-1 bg-white/70 rounded-full p-1 shadow-sm border border-white">
+      <button role="tab" data-tab="upcoming" aria-selected="true" class="tab-btn rounded-full px-4 sm:px-5 py-2 text-sm font-semibold flex items-center gap-2"><i data-lucide="list" class="w-4 h-4"></i>Upcoming</button>
+      <button role="tab" data-tab="overview" aria-selected="false" class="tab-btn rounded-full px-4 sm:px-5 py-2 text-sm font-semibold flex items-center gap-2"><i data-lucide="chart-pie" class="w-4 h-4"></i>Overview</button>
+      <button role="tab" data-tab="conferences" aria-selected="false" class="tab-btn rounded-full px-4 sm:px-5 py-2 text-sm font-semibold flex items-center gap-2"><i data-lucide="users-round" class="w-4 h-4"></i>Conferences</button>
+    </div>
+  </div>
+
+  <!-- ===== TAB 1: UPCOMING ===== -->
+  <section id="panel-upcoming" class="tab-panel fade-in">
+    <div class="card p-3.5 sm:p-4 mb-4">
+      <div class="flex flex-wrap items-end gap-2.5">
+        <label class="relative grow min-w-[190px]">
+          <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+          <input id="f-search" type="text" placeholder="Search company, investor, city…" class="ctrl w-full pl-9" />
+        </label>
+        <select id="f-type" class="ctrl"><option value="">All types</option></select>
+        <select id="f-sector" class="ctrl"><option value="">All sectors</option></select>
+        <select id="f-industry" class="ctrl"><option value="">All industries</option></select>
+        <select id="f-subindustry" class="ctrl"><option value="">All sub-industries</option></select>
+        <select id="f-mode" class="ctrl"><option value="">Any mode</option></select>
+        <select id="f-preset" class="ctrl">
+          <option value="all">Any date</option>
+          <option value="today">Today</option>
+          <option value="week">This week</option>
+          <option value="d15">Next 15 days</option>
+          <option value="d30">Next 30 days</option>
+          <option value="custom">Custom…</option>
+        </select>
+        <div class="flex items-center gap-1.5">
+          <input id="f-from" type="date" class="ctrl" title="From date" />
+          <span class="text-slate-300">→</span>
+          <input id="f-to" type="date" class="ctrl" title="To date" />
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center justify-between gap-3 mt-3">
+        <div class="flex items-center gap-2.5">
+          <span id="shownCount" class="text-sm font-semibold text-slate-500">— of — shown</span>
+          <button id="clearBtn" class="chip bg-slate-100 text-slate-500 hover:bg-slate-200 text-xs"><i data-lucide="x" class="w-3.5 h-3.5"></i>Clear</button>
+        </div>
+        <div class="seg" role="group" aria-label="View">
+          <button id="viewTable" class="seg-btn" aria-pressed="true"><i data-lucide="table-2" class="w-4 h-4"></i>Table</button>
+          <button id="viewTimeline" class="seg-btn" aria-pressed="false"><i data-lucide="calendar-clock" class="w-4 h-4"></i>Timeline</button>
+        </div>
+      </div>
+    </div>
+    <div id="upcomingBody"></div>
+  </section>
+
+  <!-- ===== TAB 2: OVERVIEW ===== -->
+  <section id="panel-overview" class="tab-panel hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="card p-4 lg:col-span-2 card-hover">
+        <div class="flex items-center gap-2 mb-1"><i data-lucide="calendar-days" class="w-4 h-4 text-violet-500"></i><h3 class="font-display font-semibold text-slate-800">Meetings per day</h3></div>
+        <p class="text-xs text-slate-400 mb-2">How busy the calendar looks over the coming days.</p>
+        <div id="chart-perday" class="chart-box"></div>
+      </div>
+      <div class="card p-4 card-hover">
+        <div class="flex items-center gap-2 mb-1"><i data-lucide="chart-pie" class="w-4 h-4 text-pink-500"></i><h3 class="font-display font-semibold text-slate-800">By meeting type</h3></div>
+        <p class="text-xs text-slate-400 mb-2">The mix of interaction formats.</p>
+        <div id="chart-type" class="chart-donut"></div>
+      </div>
+      <div class="card p-4 card-hover">
+        <div class="flex items-center gap-2 mb-1"><i data-lucide="monitor" class="w-4 h-4 text-sky-500"></i><h3 class="font-display font-semibold text-slate-800">Virtual vs In-person</h3></div>
+        <p class="text-xs text-slate-400 mb-2">How companies are meeting investors.</p>
+        <div id="chart-mode" class="chart-donut"></div>
+      </div>
+      <div class="card p-4 card-hover">
+        <div class="flex items-center gap-2 mb-1"><i data-lucide="building-2" class="w-4 h-4 text-emerald-500"></i><h3 class="font-display font-semibold text-slate-800">Busiest companies</h3></div>
+        <p class="text-xs text-slate-400 mb-2">Most upcoming investor meetings.</p>
+        <div id="chart-companies" class="chart-box"></div>
+      </div>
+      <div class="card p-4 card-hover">
+        <div class="flex items-center gap-2 mb-1"><i data-lucide="layers" class="w-4 h-4 text-amber-500"></i><h3 class="font-display font-semibold text-slate-800">By sector</h3></div>
+        <p class="text-xs text-slate-400 mb-2">Where the activity is concentrated.</p>
+        <div id="chart-sector" class="chart-box"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TAB 3: CONFERENCES ===== -->
+  <section id="panel-conferences" class="tab-panel hidden">
+    <div id="confBody" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+  </section>
+
+  <footer class="mt-10 text-center text-xs text-slate-400">
+    <p>Every meeting links to its official BSE/NSE disclosure PDF. <span id="genNote"></span></p>
+  </footer>
+</div>
+
+<script src="./js/ui.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
