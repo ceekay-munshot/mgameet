@@ -38,26 +38,29 @@ async function parseCompanyMeta(page) {
     const bse = txt.match(/BSE\s*[:\-]?\s*(\d{4,7})/);
     const ticker = (nse && nse[1]) || (bse && bse[1]) || null;
 
-    let sector = null, industry = null, sub_industry = null;
-
-    // Strategy A: explicit labels in the page text.
-    const lab = (name) => {
-      const m = txt.match(new RegExp(name + "\\s*[:\\-]\\s*([A-Za-z&,'()\\-/ ]{2,60})"));
-      return m ? m[1].trim().replace(/\s+(About|Website|BSE|NSE|Compare|Peers).*$/i, "").trim() : null;
+    // Screener renders the classification as a breadcrumb of /market/ links whose
+    // title attributes are "Broad Sector" / "Sector" / "Broad Industry" / "Industry".
+    // Map the 4-level hierarchy onto our 3 fields: Sector -> sector,
+    // Broad Industry -> industry, Industry (finest) -> sub_industry.
+    const marketLinks = Array.from(document.querySelectorAll('a[href*="/market/"]'));
+    const byTitle = (t) => {
+      const el = marketLinks.find((a) => (a.getAttribute("title") || "").trim().toLowerCase() === t);
+      return el ? clean(el.textContent) : null;
     };
-    sector = lab("Sector");
-    industry = lab("Industry");
-    sub_industry = lab("Sub[- ]?Industry") || lab("Sub[- ]?Sector");
+    let sector = byTitle("sector") || byTitle("broad sector");
+    let industry = byTitle("broad industry") || byTitle("industry");
+    let sub_industry = byTitle("industry");
+    if (sub_industry && sub_industry === industry) sub_industry = null; // don't duplicate
 
-    // Strategy B: peer-comparison / breadcrumb links each point at a classification group.
-    if (!industry || !sector) {
-      const links = Array.from(document.querySelectorAll('a[href*="/company/compare/"], nav.breadcrumb a, .breadcrumb a, [class*="breadcrumb"] a'))
-        .map((a) => clean(a.textContent))
-        .filter((t) => t && t.length > 1 && !/compare|companies|peers|home|screens?/i.test(t));
-      const uniq = [...new Set(links)];
-      if (!sector && uniq[0]) sector = uniq[0];
-      if (!industry && uniq[1]) industry = uniq[1];
-      if (!sub_industry && uniq[2]) sub_industry = uniq[2];
+    // Fallback: explicit "Label: value" text, should the breadcrumb ever be absent.
+    if (!sector || !industry) {
+      const lab = (name) => {
+        const m = txt.match(new RegExp(name + "\\s*[:\\-]\\s*([A-Za-z&,'()\\-/ ]{2,60})"));
+        return m ? m[1].trim().replace(/\s+(About|Website|BSE|NSE|Compare|Peers).*$/i, "").trim() : null;
+      };
+      sector = sector || lab("Sector");
+      industry = industry || lab("Industry");
+      sub_industry = sub_industry || lab("Sub[- ]?Industry") || lab("Sub[- ]?Sector");
     }
 
     const norm = (s) => { s = clean(s); return s && s.length <= 60 ? s : null; };
