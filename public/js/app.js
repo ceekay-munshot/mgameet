@@ -128,10 +128,11 @@
   }
 
   function whenCell(e) {
-    const rel = U.friendlyWhen(e.event_date, TODAY);
     const soon = U.diffDays(e.event_date, TODAY);
-    const col = soon === 0 ? "#EC4899" : soon === 1 ? "#A855F7" : "#6366F1";
-    return `<div class="leading-tight"><span class="font-semibold" style="color:${col}">${rel}</span><div class="text-[.72rem] text-slate-400">${U.dateLabel(e.event_date)}</div></div>`;
+    const rel = U.friendlyWhen(e.event_date, TODAY);
+    const col = soon === 1 ? "#A855F7" : "#6366F1";
+    const tag = soon === 0 ? `<span class="today-badge"><i data-lucide="dot" class="w-3 h-3"></i>Today</span>` : `<span class="font-semibold text-[.82rem]" style="color:${col}">${U.esc(rel)}</span>`;
+    return `<div class="leading-tight">${tag}<div class="num text-[.72rem] text-slate-400 mt-0.5">${U.dateLabel(e.event_date)}</div></div>`;
   }
   function srcLink(e) {
     if (!e.pdf_url) return `<span class="text-slate-300">—</span>`;
@@ -142,16 +143,22 @@
   function renderTable(rows) {
     const total = rows.length;
     const shown = rows.slice(0, state.tableLimit);
-    const trs = shown.map((e) => `<tr>
-      <td><div class="font-semibold text-slate-800">${U.esc(e.company || "—")}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></td>
+    const trs = shown.map((e) => {
+      const today = U.diffDays(e.event_date, TODAY) === 0;
+      const comp = e.company || "—";
+      const cp = e.counterparty ? U.clean(e.counterparty) : "";
+      const vn = e.venue ? U.clean(e.venue) : "";
+      return `<tr${today ? ' class="today-row"' : ""}>
+      <td class="cell-company"><div class="font-semibold text-slate-800 trunc" title="${U.esc(comp)}">${U.esc(comp)}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></td>
       <td>${U.typePill(e.event_type)}</td>
       <td>${whenCell(e)}</td>
-      <td class="font-mono text-[.78rem] text-slate-500">${e.event_time ? U.esc(U.fmtTime(e.event_time)) : '<span class="text-slate-300">—</span>'}</td>
+      <td class="num text-[.78rem] text-slate-500">${e.event_time ? U.esc(U.fmtTime(e.event_time)) : '<span class="text-slate-300">—</span>'}</td>
       <td>${U.modePill(e.mode)}</td>
-      <td class="text-slate-700">${dash(e.counterparty)}</td>
-      <td class="text-slate-500">${dash(e.venue)}</td>
+      <td class="cell-cp text-slate-700">${cp ? `<span class="trunc" title="${U.esc(cp)}">${U.esc(cp)}</span>` : '<span class="text-slate-300">—</span>'}</td>
+      <td class="cell-venue text-slate-500">${vn ? `<span class="trunc" title="${U.esc(vn)}">${U.esc(vn)}</span>` : '<span class="text-slate-300">—</span>'}</td>
       <td class="text-center">${srcLink(e)}</td>
-    </tr>`).join("");
+    </tr>`;
+    }).join("");
     const moreBtn = total > state.tableLimit
       ? `<div class="text-center mt-3"><button id="showMoreBtn" class="chip bg-white border border-slate-200 text-slate-600 hover:border-violet-300 mx-auto">Show ${Math.min(25, total - state.tableLimit)} more · ${total - state.tableLimit} hidden <i data-lucide="chevron-down" class="w-4 h-4"></i></button></div>`
       : "";
@@ -166,17 +173,18 @@
     const dates = Object.keys(groups).sort();
     return dates.map((d) => {
       const rel = U.friendlyWhen(d, TODAY), n = groups[d].length;
+      const isToday = U.diffDays(d, TODAY) === 0;
       const hot = U.diffDays(d, TODAY) <= 1;
       const head = `<div class="flex items-center gap-2 mb-2 mt-1">
         <span class="chip text-white text-xs" style="background-image:linear-gradient(100deg,${hot ? "#EC4899,#A855F7" : "#6366F1,#8B5CF6"})">${U.esc(rel)} · ${U.dayMonth(d)}</span>
         <span class="text-xs font-semibold text-slate-400">${n} meeting${n > 1 ? "s" : ""}</span>
         <div class="h-px flex-1 bg-slate-200/70"></div></div>`;
-      const cards = groups[d].map((e) => `<div class="card card-hover p-3.5">
+      const cards = groups[d].map((e) => `<div class="card card-hover p-3.5${isToday ? " tl-today" : ""}">
         <div class="flex items-start justify-between gap-2">
-          <div class="min-w-0"><div class="font-semibold text-slate-800 truncate">${U.esc(e.company || "—")}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></div>
+          <div class="min-w-0"><div class="font-semibold text-slate-800 truncate" title="${U.esc(e.company || "—")}">${U.esc(e.company || "—")}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></div>
           ${srcLink(e)}
         </div>
-        <div class="flex flex-wrap items-center gap-1.5 mt-2.5">${U.typePill(e.event_type)}${U.modePill(e.mode)}${e.event_time ? `<span class="pill bg-slate-100 text-slate-500"><i data-lucide="clock"></i>${U.esc(U.fmtTime(e.event_time))}</span>` : ""}</div>
+        <div class="flex flex-wrap items-center gap-1.5 mt-2.5">${U.typePill(e.event_type)}${U.modePill(e.mode)}${e.event_time ? `<span class="pill bg-slate-100 text-slate-500"><i data-lucide="clock"></i><span class="num">${U.esc(U.fmtTime(e.event_time))}</span></span>` : ""}</div>
         ${e.counterparty ? `<div class="text-[.8rem] text-slate-600 mt-2 flex items-start gap-1.5"><i data-lucide="handshake" class="w-3.5 h-3.5 mt-0.5 text-slate-400"></i><span>${U.esc(U.clean(e.counterparty))}</span></div>` : ""}
         ${e.venue ? `<div class="text-[.78rem] text-slate-400 mt-1 flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i>${U.esc(U.clean(e.venue))}</div>` : ""}
       </div>`).join("");
@@ -231,11 +239,16 @@
 
   function buildCharts() {
     if (chartsBuilt) return;
-    if (!window.echarts) { ["chart-perday", "chart-type", "chart-mode", "chart-companies", "chart-sector"].forEach((id) => chartMsg(id, "Charts need an internet connection to load.")); return; }
-    chartsBuilt = true;
+    const CHART_IDS = ["chart-perday", "chart-type", "chart-mode", "chart-companies", "chart-sector"];
+    if (!window.echarts) { CHART_IDS.forEach((id) => chartMsg(id, "Charts couldn't load.")); return; }
     const ev = DATA.events;
+    if (!ev.length) { CHART_IDS.forEach((id) => chartMsg(id, "No upcoming meetings to chart.")); return; }
+    chartsBuilt = true;
     const mk = (id) => (charts[id] = echarts.init($("#" + id)));
     const tt = { trigger: "item", backgroundColor: "rgba(255,255,255,.97)", borderColor: "#eee", textStyle: { color: "#334155", fontFamily: "Inter" }, extraCssText: "box-shadow:0 8px 24px -8px rgba(16,24,40,.25);border-radius:10px" };
+    const donutTitle = (total, sub) => ({ text: String(total), subtext: sub, left: "50%", top: "35%", textAlign: "center",
+      textStyle: { fontFamily: "Space Grotesk", fontWeight: 700, fontSize: 24, color: "#1e293b" },
+      subtextStyle: { fontFamily: "Inter", fontSize: 11, color: "#94a3b8" }, itemGap: 2 });
 
     // 1) meetings per day
     const maxD = ev.reduce((m, e) => (e.event_date > m ? e.event_date : m), TODAY);
@@ -259,7 +272,8 @@
     // 2) by type donut
     const typeData = U.TYPE_ORDER.filter((t) => ev.some((e) => e.event_type === t)).map((t) => ({ name: t, value: ev.filter((e) => e.event_type === t).length, itemStyle: { color: U.typeColor(t) } }));
     mk("chart-type").setOption({
-      textStyle: BASE_TEXT, tooltip: Object.assign({}, tt, { formatter: "{b}<br><b>{c}</b> ({d}%)" }),
+      textStyle: BASE_TEXT, title: donutTitle(typeData.reduce((s, d) => s + d.value, 0), "meetings"),
+      tooltip: Object.assign({}, tt, { formatter: "{b}<br><b>{c}</b> ({d}%)" }),
       legend: { type: "scroll", bottom: 0, textStyle: { color: "#64748b", fontSize: 11 }, icon: "circle" },
       series: [{ type: "pie", radius: ["46%", "72%"], center: ["50%", "44%"], avoidLabelOverlap: true, itemStyle: { borderColor: "#fff", borderWidth: 3 }, label: { show: false }, emphasis: { scale: true, scaleSize: 6, label: { show: true, formatter: "{b}\n{d}%", fontFamily: "Space Grotesk", fontWeight: 600, color: "#334155" } }, data: typeData }],
     });
@@ -267,8 +281,10 @@
     // 3) mode donut
     const modeDefs = [["Virtual", "#0ea5e9"], ["In-person", "#10b981"], ["Hybrid", "#8b5cf6"], ["Not specified", "#cbd5e1"]];
     const modeData = modeDefs.map(([n, c]) => ({ name: n, value: ev.filter((e) => (n === "Not specified" ? !e.mode : e.mode === n)).length, itemStyle: { color: c } })).filter((d) => d.value > 0);
-    mk("chart-mode").setOption({
-      textStyle: BASE_TEXT, tooltip: Object.assign({}, tt, { formatter: "{b}<br><b>{c}</b> ({d}%)" }),
+    if (!modeData.length) { chartMsg("chart-mode", "No mode data yet"); }
+    else mk("chart-mode").setOption({
+      textStyle: BASE_TEXT, title: donutTitle(modeData.reduce((s, d) => s + d.value, 0), "meetings"),
+      tooltip: Object.assign({}, tt, { formatter: "{b}<br><b>{c}</b> ({d}%)" }),
       legend: { bottom: 0, textStyle: { color: "#64748b", fontSize: 11 }, icon: "circle" },
       series: [{ type: "pie", radius: ["46%", "72%"], center: ["50%", "44%"], itemStyle: { borderColor: "#fff", borderWidth: 3 }, label: { show: true, formatter: "{d}%", fontFamily: "Space Grotesk", fontWeight: 600, color: "#475569", fontSize: 12 }, data: modeData }],
     });
@@ -300,49 +316,18 @@
   const resizeCharts = U.debounce(() => Object.values(charts).forEach((c) => c && c.resize()), 120);
 
   /* ---------------- Excel export ---------------- */
-  const COLS = [
-    ["Company", "company", 26], ["Sector", "sector", 20], ["Industry", "industry", 22], ["Sub-industry", "sub_industry", 24],
-    ["Type", "event_type", 16], ["Event Date", "event_date", 15], ["Time", "event_time", 10], ["Mode", "mode", 12],
-    ["Meeting With", "counterparty", 32], ["Venue", "venue", 24], ["Announced", "announced_at", 14], ["Source", "pdf_url", 12],
-  ];
   async function exportExcel() {
     const rows = getFiltered();
     const fname = `meets_${TODAY}.xlsx`;
-    if (!window.ExcelJS) return exportCsv(rows);
+    if (!window.ExcelJS || !window.MeetsExport) return exportCsv(rows);
     try {
-      const wb = new ExcelJS.Workbook();
-      const ws = wb.addWorksheet("Meetings", { views: [{ state: "frozen", ySplit: 1 }] });
-      ws.columns = COLS.map(([h, , w]) => ({ header: h, width: w }));
-      // header
-      const hr = ws.getRow(1); hr.height = 26;
-      hr.eachCell((c) => {
-        c.font = { bold: true, color: { argb: "FFFFFFFF" }, size: 11, name: "Calibri" };
-        c.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FF6366F1" } };
-        c.alignment = { horizontal: "center", vertical: "middle", wrapText: true };
-      });
-      ws.autoFilter = "A1:L1";
-      rows.forEach((e, i) => {
-        const r = ws.addRow([
-          e.company || "", e.sector || "", e.industry || "", e.sub_industry || "",
-          e.event_type || "", e.event_date ? new Date(e.event_date + "T00:00:00Z") : "", e.event_time ? U.fmtTime(e.event_time) : "",
-          e.mode || "", U.clean(e.counterparty) || "", U.clean(e.venue) || "", e.announced_at ? new Date(e.announced_at + "T00:00:00Z") : "", null,
-        ]);
-        r.eachCell({ includeEmpty: true }, (c) => { c.alignment = { vertical: "top", wrapText: true }; });
-        if (i % 2 === 1) r.eachCell({ includeEmpty: true }, (c) => { c.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF7F6FD" } }; });
-        // type tint (col E)
-        const tc = r.getCell(5); tc.fill = { type: "pattern", pattern: "solid", fgColor: { argb: U.argbTint(U.typeColor(e.event_type)) } }; tc.font = { bold: true, color: { argb: "FF" + U.darkHex(U.typeColor(e.event_type), 0.42) }, name: "Calibri" }; tc.alignment = { vertical: "top", wrapText: true };
-        r.getCell(6).numFmt = "ddd, dd mmm yyyy";
-        r.getCell(11).numFmt = "dd mmm yyyy";
-        const src = r.getCell(12);
-        if (e.pdf_url) { src.value = { text: "Open PDF", hyperlink: e.pdf_url }; src.font = { color: { argb: "FF4F46E5" }, underline: true }; }
-        else src.value = "—";
-      });
+      const wb = await window.MeetsExport.buildWorkbook(window.ExcelJS, rows, U);
       const buf = await wb.xlsx.writeBuffer();
       dl(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }), fname);
     } catch (e) { console.error(e); exportCsv(rows); }
   }
   function exportCsv(rows) {
-    const head = COLS.map((c) => c[0]);
+    const head = ["Company", "Sector", "Industry", "Sub-industry", "Type", "Event Date", "Time", "Mode", "Meeting With", "Venue", "Announced", "Source"];
     const line = (arr) => arr.map((v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`).join(",");
     const body = rows.map((e) => line([e.company, e.sector, e.industry, e.sub_industry, e.event_type, e.event_date, e.event_time ? U.fmtTime(e.event_time) : "", e.mode, U.clean(e.counterparty), U.clean(e.venue), e.announced_at, e.pdf_url]));
     dl(new Blob([[line(head)].concat(body).join("\n")], { type: "text/csv" }), `meets_${TODAY}.csv`);
