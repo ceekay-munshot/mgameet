@@ -434,5 +434,103 @@
     "heading": "Update On Analyst/Institutional Investor Meet (Group Meet) Scheduled To Be Held On Thursday, 17Th September, 2026 Update On Analyst/Institutional Investor Meet (Group Meet) Scheduled To Be Held On Thursday, 17Th September, 2026 With reference to the subject cited",
     "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecba83bc-1e07-4560-a489-d5a0adb440b9.pdf",
     "events": []
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8989a9a1-a3fd-4801-bdf6-426f3ee38509-pdf": {
+    "announced_at": "2026-09-17",
+    "company": "BMW Ventures",
+    "company_url": "https://www.screener.in/company/BMWVENTLTD/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 15m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Analyst/Investor Meet on September 18,2026 at 3.00 P.M BMW Ventures",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8989a9a1-a3fd-4801-bdf6-426f3ee38509.pdf",
+    "events": [
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Mavira AMC",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Systematix AIF and PMS",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Mission Street",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Clover Capital",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Centra Insights LLP",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Purpleone Vertex Ventures LLP",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "CD Capital",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "Damani Family Office",
+        "venue": null
+      },
+      {
+        "event_date": "2026-09-18",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": "SP Family Office",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-69df8459-1e7c-4408-bf10-ab558adf1d04-pdf": {
+    "announced_at": "2026-09-17",
+    "company": "Menon Bearings",
+    "company_url": "https://www.screener.in/company/MENONBE/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 29m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Plant Visit and Management Meet intimation",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69df8459-1e7c-4408-bf10-ab558adf1d04.pdf",
+    "events": [
+      {
+        "event_date": "2026-09-26",
+        "event_time": null,
+        "event_type": "Plant Visit",
+        "mode": "In-person",
+        "counterparty": "Kaptify",
+        "venue": "Kolhapur"
+      }
+    ]
   }
 }
