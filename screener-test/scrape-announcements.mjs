@@ -130,6 +130,29 @@ function resolveWhen(r, today) {
   return parseWhen(r.timeGuess, today) || parseWhen(r.rowText, today) || null;
 }
 
+// The Screener announcements feed lazy-loads more rows as you scroll (grouped by
+// day). Scroll to the bottom repeatedly until we've loaded past the 15-day window
+// or the list stops growing — so we capture EVERY filing in the window, not just
+// the first screen. Returns { rows, reached } where reached = we scrolled past the window.
+async function loadFeed(page, today) {
+  let rows = [], last = -1, stagnant = 0, reached = false;
+  for (let i = 0; i < 100; i++) {
+    rows = await extractRows(page);
+    let oldest = today;
+    for (const r of rows) { const d = resolveWhen(r, today); if (d && d < oldest) oldest = d; }
+    if (rows.length && ymdDiffDays(today, oldest) > BACKFILL_DAYS) { reached = true; break; }
+    if (rows.length === last) { if (++stagnant >= 5) break; } else { stagnant = 0; }
+    last = rows.length;
+    await page.evaluate(() => {
+      const els = document.querySelectorAll('a[href*="/company/"]');
+      if (els.length) els[els.length - 1].scrollIntoView({ block: "end" });
+      window.scrollTo(0, document.body.scrollHeight);
+    }).catch(() => {});
+    await sleep(1000);
+  }
+  return { rows, reached };
+}
+
 export async function main() {
   const today = istToday();
   const base = process.env.SCREENER_FILTER_URL || `${ORIGIN}/announcements/`;
@@ -145,20 +168,18 @@ export async function main() {
   try {
     await login(page);
     await fs.mkdir(OUT, { recursive: true });
-    let prevKeys = "";
+    let prevTotal = 0;
     for (let p = 1; p <= MAX_PAGES; p++) {
-      await page.goto(pageUrl(base, p), { waitUntil: "domcontentloaded", timeout: 60000 });
+      const url = p === 1 ? base : pageUrl(base, p);
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
       await page.waitForSelector('a[href*="/company/"]', { timeout: 15000 }).catch(() => {});
       await sleep(800);
-      const raw = await extractRows(page);
+      const { rows: raw, reached } = await loadFeed(page, today); // scroll to load the whole window
       if (process.env.DEBUG) {
         await fs.writeFile(path.join(OUT, `debug-page-${p}.html`), await page.content());
-        console.log(`  [debug] page ${p}: ${raw.length} pdf-rows -> output/debug-page-${p}.html`);
+        console.log(`  [debug] page ${p}: ${raw.length} rows after scroll (reached=${reached})`);
       }
       if (!raw.length) { console.log(`  page ${p}: 0 rows -> stop`); break; }
-      const keys = raw.map((r) => r.pdf_url).join("|");
-      if (keys && keys === prevKeys) { console.log(`  page ${p}: repeated page -> stop`); break; }
-      prevKeys = keys;
 
       let inWindow = 0, keptThisPage = 0;
       for (const r of raw) {
@@ -181,7 +202,10 @@ export async function main() {
         });
         keptThisPage++;
       }
-      console.log(`  page ${p}: ${raw.length} rows, ${inWindow} in-window, +${keptThisPage} kept (total ${kept.size})`);
+      console.log(`  page ${p}: ${raw.length} rows loaded, ${inWindow} in-window, +${keptThisPage} new (total ${kept.size})`);
+      if (reached) { console.log(`  reached the ${BACKFILL_DAYS}-day window boundary -> stop`); break; }
+      if (kept.size === prevTotal) { console.log(`  page ${p}: no new rows -> stop`); break; }
+      prevTotal = kept.size;
       if (inWindow === 0) { console.log(`  page ${p}: nothing inside ${BACKFILL_DAYS}d window -> stop`); break; }
       await sleep(600);
     }
