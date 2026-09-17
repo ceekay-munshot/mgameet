@@ -2,10 +2,9 @@
 //
 // Reads:  public/data/_raw-events.json, public/data/company-meta.json
 // Writes: public/data/events.json, public/data/metadata.json
-//   Keeps only events with today <= event_date <= today + HORIZON_DAYS (default 60),
-//   attaches company sector/industry/sub_industry/ticker, dedupes + sorts by date.
-//
-// Env: HORIZON_DAYS (default 60).
+//   Keeps every event dated today or later (no upper limit — a meeting far in the
+//   future stays on the list until its date passes; past ones drop off), attaches
+//   company sector/industry/sub_industry/ticker, dedupes + sorts by date.
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { pad, slugify, istToday, addDays, ymdDiffDays, readJson, writeJson } from "./helpers.mjs";
@@ -37,7 +36,6 @@ function normalizeDate(s) {
 
 export async function main() {
   const today = istToday();
-  const HORIZON = parseInt(process.env.HORIZON_DAYS || "60", 10) || 60;
   const store = await readJson(path.join(DATA, "_raw-events.json"), {});
   const meta = await readJson(path.join(DATA, "company-meta.json"), {});
   const prior = await readJson(path.join(DATA, "events.json"), { events: [] });
@@ -51,8 +49,7 @@ export async function main() {
     for (const ev of entry.events) {
       const event_date = normalizeDate(ev.event_date);
       if (!event_date) continue; // meeting date is king — no date, no row
-      const dd = ymdDiffDays(event_date, today);
-      if (dd < 0 || dd > HORIZON) continue; // forward-looking, within horizon
+      if (ymdDiffDays(event_date, today) < 0) continue; // keep today + all future; drop only the past
       const event_type = cleanType(ev.event_type);
       const counterparty = ev.counterparty ? String(ev.counterparty).trim() : null;
       const id = slugify(`${entry.company || ""}|${event_date}|${event_type}|${counterparty || ""}`);
@@ -85,7 +82,6 @@ export async function main() {
   await writeJson(path.join(DATA, "events.json"), {
     generated_at,
     backfill_days: BACKFILL_DAYS,
-    horizon_days: HORIZON,
     count: events.length,
     events,
   });

@@ -10,9 +10,9 @@
   const charts = {}; let chartsBuilt = false;
 
   const state = {
-    type: "", sector: "", industry: "", subIndustry: "", mode: "",
+    type: "", sector: "", industry: "", mode: "",
     preset: "all", from: "", to: "", search: "",
-    view: "table", tableLimit: 25,
+    expanded: new Set(),
   };
 
   /* ---------------- boot ---------------- */
@@ -77,13 +77,6 @@
     const inSec = (e) => !state.sector || e.sector === state.sector;
     fill("#f-industry", U.uniqSort(ev.filter(inSec).map((e) => e.industry)), "All industries");
     if (!$("#f-industry").value) state.industry = "";
-    cascadeSub();
-  }
-  function cascadeSub() {
-    const ev = DATA.events;
-    const ok = (e) => (!state.sector || e.sector === state.sector) && (!state.industry || e.industry === state.industry);
-    fill("#f-subindustry", U.uniqSort(ev.filter(ok).map((e) => e.sub_industry)), "All sub-industries");
-    if (!$("#f-subindustry").value) state.subIndustry = "";
   }
 
   function getFiltered() {
@@ -92,7 +85,6 @@
       if (state.type && e.event_type !== state.type) return false;
       if (state.sector && e.sector !== state.sector) return false;
       if (state.industry && e.industry !== state.industry) return false;
-      if (state.subIndustry && e.sub_industry !== state.subIndustry) return false;
       if (state.mode && e.mode !== state.mode) return false;
       if (state.from && e.event_date < state.from) return false;
       if (state.to && e.event_date > state.to) return false;
@@ -115,16 +107,68 @@
     $("#f-from").value = state.from; $("#f-to").value = state.to; $("#f-preset").value = p;
   }
 
-  /* ---------------- render: Upcoming ---------------- */
-  function renderUpcoming() {
+  /* ---------------- render: Upcoming (grouped by company, expandable) ---------------- */
+  function currentGroups() {
     const rows = getFiltered();
-    $("#shownCount").textContent = `${rows.length} of ${DATA.events.length} shown`;
+    const map = new Map();
+    rows.forEach((e) => { const k = e.company || "—"; if (!map.has(k)) map.set(k, []); map.get(k).push(e); });
+    const groups = [...map.entries()].map(([company, evs]) => {
+      evs.sort((a, b) => (a.event_date < b.event_date ? -1 : a.event_date > b.event_date ? 1 : 0));
+      return { company, evs, min: evs[0].event_date, sector: evs[0].sector };
+    }).sort((a, b) => (a.min < b.min ? -1 : a.min > b.min ? 1 : a.company.localeCompare(b.company)));
+    return { rows, groups };
+  }
+
+  function renderUpcoming() {
+    const { rows, groups } = currentGroups();
+    $("#shownCount").textContent = `${rows.length} of ${DATA.events.length} shown · ${groups.length} compan${groups.length === 1 ? "y" : "ies"}`;
+    const allOpen = groups.length > 0 && groups.every((g) => state.expanded.has(g.company));
+    const tgl = $("#toggleAll");
+    if (tgl) tgl.querySelector("span").textContent = allOpen ? "Collapse all" : "Expand all";
     const body = $("#upcomingBody");
     if (!rows.length) { body.innerHTML = emptyState("No meetings match — try clearing filters."); U.icons(); return; }
-    body.innerHTML = state.view === "table" ? renderTable(rows) : renderTimeline(rows);
-    const more = $("#showMoreBtn");
-    if (more) more.addEventListener("click", () => { state.tableLimit += 25; renderUpcoming(); });
+    body.innerHTML = renderGrouped(groups);
     U.icons();
+  }
+
+  function groupSubRows(evs) {
+    return evs.map((e) => {
+      const today = U.diffDays(e.event_date, TODAY) === 0;
+      const cp = e.counterparty ? U.clean(e.counterparty) : "";
+      const vn = e.venue ? U.clean(e.venue) : "";
+      return `<tr${today ? ' class="today-row"' : ""}>
+        <td>${U.typePill(e.event_type)}</td>
+        <td>${whenCell(e)}</td>
+        <td class="num text-[.78rem] text-slate-500">${e.event_time ? U.esc(U.fmtTime(e.event_time)) : '<span class="text-slate-300">—</span>'}</td>
+        <td>${U.modePill(e.mode)}</td>
+        <td class="cell-cp text-slate-700">${cp ? `<span class="trunc" title="${U.esc(cp)}">${U.esc(cp)}</span>` : '<span class="text-slate-300">—</span>'}</td>
+        <td class="cell-venue text-slate-500">${vn ? `<span class="trunc" title="${U.esc(vn)}">${U.esc(vn)}</span>` : '<span class="text-slate-300">—</span>'}</td>
+        <td class="text-center">${srcLink(e)}</td></tr>`;
+    }).join("");
+  }
+
+  function renderGrouped(groups) {
+    const cards = groups.map((g) => {
+      const isOpen = state.expanded.has(g.company);
+      const anyToday = g.evs.some((e) => U.diffDays(e.event_date, TODAY) === 0);
+      const n = g.evs.length;
+      const header = `<button type="button" class="grp-head w-full flex items-center gap-3 px-3 sm:px-4 py-3 text-left" data-company="${U.esc(g.company)}" aria-expanded="${isOpen}">
+        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 shrink-0 transition-transform${isOpen ? " rotate-90" : ""}"></i>
+        <div class="min-w-0 flex-1">
+          <div class="flex items-center gap-2"><span class="font-semibold text-slate-800 trunc" title="${U.esc(g.company)}">${U.esc(g.company)}</span>${anyToday ? '<span class="today-badge">Today</span>' : ""}</div>
+          <div class="mt-1">${U.sectorPill(g.sector)}</div>
+        </div>
+        <div class="text-right shrink-0">
+          <div><span class="num text-base font-bold" style="color:#6366F1">${n}</span> <span class="text-[.68rem] font-semibold text-slate-400">meeting${n > 1 ? "s" : ""}</span></div>
+          <div class="text-[.68rem] mt-0.5"><span class="font-semibold" style="color:${anyToday ? "#EC4899" : "#6366F1"}">${U.esc(U.friendlyWhen(g.min, TODAY))}</span> <span class="num text-slate-400">· ${U.dayMonth(g.min)}</span></div>
+        </div>
+      </button>`;
+      const bodyRows = isOpen ? `<div class="border-t border-slate-100"><div class="hscroll"><table class="mtable min-w-[720px]">
+        <thead><tr><th>Type</th><th>When</th><th>Time</th><th>Mode</th><th>Meeting with</th><th>Venue</th><th class="text-center">Source</th></tr></thead>
+        <tbody>${groupSubRows(g.evs)}</tbody></table></div></div>` : "";
+      return `<div class="card overflow-hidden${anyToday ? " tl-today" : ""}">${header}${bodyRows}</div>`;
+    }).join("");
+    return `<div class="grid grid-cols-1 gap-2.5">${cards}</div>`;
   }
 
   function whenCell(e) {
@@ -139,58 +183,6 @@
     return `<a href="${U.esc(e.pdf_url)}" target="_blank" rel="noopener" class="src-btn" title="Open exchange PDF"><i data-lucide="file-text"></i></a>`;
   }
   const dash = (v) => (v && String(v).trim() ? U.esc(U.clean(v)) : `<span class="text-slate-300">—</span>`);
-
-  function renderTable(rows) {
-    const total = rows.length;
-    const shown = rows.slice(0, state.tableLimit);
-    const trs = shown.map((e) => {
-      const today = U.diffDays(e.event_date, TODAY) === 0;
-      const comp = e.company || "—";
-      const cp = e.counterparty ? U.clean(e.counterparty) : "";
-      const vn = e.venue ? U.clean(e.venue) : "";
-      return `<tr${today ? ' class="today-row"' : ""}>
-      <td class="cell-company"><div class="font-semibold text-slate-800 trunc" title="${U.esc(comp)}">${U.esc(comp)}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></td>
-      <td>${U.typePill(e.event_type)}</td>
-      <td>${whenCell(e)}</td>
-      <td class="num text-[.78rem] text-slate-500">${e.event_time ? U.esc(U.fmtTime(e.event_time)) : '<span class="text-slate-300">—</span>'}</td>
-      <td>${U.modePill(e.mode)}</td>
-      <td class="cell-cp text-slate-700">${cp ? `<span class="trunc" title="${U.esc(cp)}">${U.esc(cp)}</span>` : '<span class="text-slate-300">—</span>'}</td>
-      <td class="cell-venue text-slate-500">${vn ? `<span class="trunc" title="${U.esc(vn)}">${U.esc(vn)}</span>` : '<span class="text-slate-300">—</span>'}</td>
-      <td class="text-center">${srcLink(e)}</td>
-    </tr>`;
-    }).join("");
-    const moreBtn = total > state.tableLimit
-      ? `<div class="text-center mt-3"><button id="showMoreBtn" class="chip bg-white border border-slate-200 text-slate-600 hover:border-violet-300 mx-auto">Show ${Math.min(25, total - state.tableLimit)} more · ${total - state.tableLimit} hidden <i data-lucide="chevron-down" class="w-4 h-4"></i></button></div>`
-      : "";
-    return `<div class="card overflow-hidden"><div class="hscroll"><table class="mtable min-w-[860px]">
-      <thead><tr><th>Company</th><th>Type</th><th>When</th><th>Time</th><th>Mode</th><th>Meeting with</th><th>Venue</th><th class="text-center">Source</th></tr></thead>
-      <tbody>${trs}</tbody></table></div></div>${moreBtn}`;
-  }
-
-  function renderTimeline(rows) {
-    const groups = {};
-    rows.forEach((e) => { (groups[e.event_date] = groups[e.event_date] || []).push(e); });
-    const dates = Object.keys(groups).sort();
-    return dates.map((d) => {
-      const rel = U.friendlyWhen(d, TODAY), n = groups[d].length;
-      const isToday = U.diffDays(d, TODAY) === 0;
-      const hot = U.diffDays(d, TODAY) <= 1;
-      const head = `<div class="flex items-center gap-2 mb-2 mt-1">
-        <span class="chip text-white text-xs" style="background-image:linear-gradient(100deg,${hot ? "#EC4899,#A855F7" : "#6366F1,#8B5CF6"})">${U.esc(rel)} · ${U.dayMonth(d)}</span>
-        <span class="text-xs font-semibold text-slate-400">${n} meeting${n > 1 ? "s" : ""}</span>
-        <div class="h-px flex-1 bg-slate-200/70"></div></div>`;
-      const cards = groups[d].map((e) => `<div class="card card-hover p-3.5${isToday ? " tl-today" : ""}">
-        <div class="flex items-start justify-between gap-2">
-          <div class="min-w-0"><div class="font-semibold text-slate-800 truncate" title="${U.esc(e.company || "—")}">${U.esc(e.company || "—")}</div><div class="mt-1">${U.sectorPill(e.sector)}</div></div>
-          ${srcLink(e)}
-        </div>
-        <div class="flex flex-wrap items-center gap-1.5 mt-2.5">${U.typePill(e.event_type)}${U.modePill(e.mode)}${e.event_time ? `<span class="pill bg-slate-100 text-slate-500"><i data-lucide="clock"></i><span class="num">${U.esc(U.fmtTime(e.event_time))}</span></span>` : ""}</div>
-        ${e.counterparty ? `<div class="text-[.8rem] text-slate-600 mt-2 flex items-start gap-1.5"><i data-lucide="handshake" class="w-3.5 h-3.5 mt-0.5 text-slate-400"></i><span>${U.esc(U.clean(e.counterparty))}</span></div>` : ""}
-        ${e.venue ? `<div class="text-[.78rem] text-slate-400 mt-1 flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i>${U.esc(U.clean(e.venue))}</div>` : ""}
-      </div>`).join("");
-      return `<div class="mb-4">${head}<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">${cards}</div></div>`;
-    }).join("");
-  }
 
   function emptyState(msg) {
     return `<div class="card p-12 text-center"><div class="mx-auto mb-3 grid place-items-center w-14 h-14 rounded-2xl bg-violet-50 text-violet-400"><i data-lucide="calendar-x" class="w-7 h-7"></i></div>
@@ -345,33 +337,40 @@
 
   function wire() {
     const rerender = U.debounce(renderUpcoming, 60);
-    $("#f-search").addEventListener("input", U.debounce((e) => { state.search = e.target.value; state.tableLimit = 25; renderUpcoming(); }, 200));
-    $("#f-type").addEventListener("change", (e) => { state.type = e.target.value; state.tableLimit = 25; rerender(); });
-    $("#f-sector").addEventListener("change", (e) => { state.sector = e.target.value; state.industry = ""; state.subIndustry = ""; cascadeIndustry(); state.tableLimit = 25; rerender(); });
-    $("#f-industry").addEventListener("change", (e) => { state.industry = e.target.value; state.subIndustry = ""; cascadeSub(); state.tableLimit = 25; rerender(); });
-    $("#f-subindustry").addEventListener("change", (e) => { state.subIndustry = e.target.value; state.tableLimit = 25; rerender(); });
-    $("#f-mode").addEventListener("change", (e) => { state.mode = e.target.value; state.tableLimit = 25; rerender(); });
-    $("#f-preset").addEventListener("change", (e) => { setPreset(e.target.value); state.tableLimit = 25; rerender(); });
-    $("#f-from").addEventListener("change", (e) => { state.from = e.target.value; state.preset = "custom"; $("#f-preset").value = "custom"; state.tableLimit = 25; rerender(); });
-    $("#f-to").addEventListener("change", (e) => { state.to = e.target.value; state.preset = "custom"; $("#f-preset").value = "custom"; state.tableLimit = 25; rerender(); });
+    $("#f-search").addEventListener("input", U.debounce((e) => { state.search = e.target.value; renderUpcoming(); }, 200));
+    $("#f-type").addEventListener("change", (e) => { state.type = e.target.value; rerender(); });
+    $("#f-sector").addEventListener("change", (e) => { state.sector = e.target.value; state.industry = ""; cascadeIndustry(); rerender(); });
+    $("#f-industry").addEventListener("change", (e) => { state.industry = e.target.value; rerender(); });
+    $("#f-mode").addEventListener("change", (e) => { state.mode = e.target.value; rerender(); });
+    $("#f-preset").addEventListener("change", (e) => { setPreset(e.target.value); rerender(); });
+    $("#f-from").addEventListener("change", (e) => { state.from = e.target.value; state.preset = "custom"; $("#f-preset").value = "custom"; rerender(); });
+    $("#f-to").addEventListener("change", (e) => { state.to = e.target.value; state.preset = "custom"; $("#f-preset").value = "custom"; rerender(); });
     $("#clearBtn").addEventListener("click", () => {
-      Object.assign(state, { type: "", sector: "", industry: "", subIndustry: "", mode: "", preset: "all", from: "", to: "", search: "", tableLimit: 25 });
+      Object.assign(state, { type: "", sector: "", industry: "", mode: "", preset: "all", from: "", to: "", search: "" });
+      state.expanded.clear();
       $("#f-search").value = ""; ["#f-type", "#f-sector", "#f-mode"].forEach((s) => ($(s).value = ""));
       $("#f-from").value = ""; $("#f-to").value = ""; $("#f-preset").value = "all";
       populateFacets(); renderUpcoming();
     });
-    $("#viewTable").addEventListener("click", () => setView("table"));
-    $("#viewTimeline").addEventListener("click", () => setView("timeline"));
+    // Expand / collapse all company groups
+    $("#toggleAll").addEventListener("click", () => {
+      const { groups } = currentGroups();
+      const allOpen = groups.length > 0 && groups.every((g) => state.expanded.has(g.company));
+      if (allOpen) state.expanded.clear();
+      else groups.forEach((g) => state.expanded.add(g.company));
+      renderUpcoming();
+    });
+    // Click a company header to expand/collapse its meetings
+    $("#upcomingBody").addEventListener("click", (e) => {
+      const head = e.target.closest(".grp-head"); if (!head) return;
+      const c = head.dataset.company;
+      if (state.expanded.has(c)) state.expanded.delete(c); else state.expanded.add(c);
+      renderUpcoming();
+    });
     $("#exportBtn").addEventListener("click", exportExcel);
     $("#retryBtn").addEventListener("click", boot);
     $$("[role=tab]").forEach((b) => b.addEventListener("click", () => switchTab(b.dataset.tab)));
     window.addEventListener("resize", resizeCharts);
-  }
-  function setView(v) {
-    state.view = v;
-    $("#viewTable").setAttribute("aria-pressed", String(v === "table"));
-    $("#viewTimeline").setAttribute("aria-pressed", String(v === "timeline"));
-    state.tableLimit = 25; renderUpcoming();
   }
 
   document.addEventListener("DOMContentLoaded", boot);
