@@ -61,6 +61,8 @@
  .today-badge{display:inline-flex;align-items:center;gap:.2rem;padding:.05rem .38rem;border-radius:9999px;font-size:.58rem;font-weight:700;background:#EC4899;color:#fff;text-transform:uppercase;letter-spacing:.03em;line-height:1.4;}
  .tl-today{box-shadow:inset 4px 0 0 #EC4899;}
  .chart-empty{height:100%;display:grid;place-items:center;color:#94a3b8;font-size:.85rem;text-align:center;}
+ .grp-head{background:transparent;cursor:pointer;transition:background .12s;border-radius:1.5rem;}
+ .grp-head:hover{background:#faf8ff;}
 </style>
 </head>
 <body>
@@ -141,7 +143,6 @@
         <select id="f-type" class="ctrl"><option value="">All types</option></select>
         <select id="f-sector" class="ctrl"><option value="">All sectors</option></select>
         <select id="f-industry" class="ctrl"><option value="">All industries</option></select>
-        <select id="f-subindustry" class="ctrl"><option value="">All sub-industries</option></select>
         <select id="f-mode" class="ctrl"><option value="">Any mode</option></select>
         <select id="f-preset" class="ctrl">
           <option value="all">Any date</option>
@@ -162,10 +163,7 @@
           <span id="shownCount" class="text-sm font-semibold text-slate-500">— of — shown</span>
           <button id="clearBtn" class="chip bg-slate-100 text-slate-500 hover:bg-slate-200 text-xs"><i data-lucide="x" class="w-3.5 h-3.5"></i>Clear</button>
         </div>
-        <div class="seg" role="group" aria-label="View">
-          <button id="viewTable" class="seg-btn" aria-pressed="true"><i data-lucide="table-2" class="w-4 h-4"></i>Table</button>
-          <button id="viewTimeline" class="seg-btn" aria-pressed="false"><i data-lucide="calendar-clock" class="w-4 h-4"></i>Timeline</button>
-        </div>
+        <button id="toggleAll" class="chip bg-white border border-slate-200 text-slate-600 hover:border-violet-300 text-xs"><i data-lucide="chevrons-up-down" class="w-3.5 h-3.5"></i><span>Expand all</span></button>
       </div>
     </div>
     <div id="upcomingBody"></div>
