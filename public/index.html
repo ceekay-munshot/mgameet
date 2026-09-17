@@ -5,14 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Investor Meet Tracker</title>
 <meta name="description" content="Upcoming analyst & investor meetings for Indian listed companies — who is meeting whom, and when." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E" />
 
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- Libraries + fonts are vendored under ./vendor (committed) so the dashboard
+     renders in any fresh browser, independent of CDN availability. -->
+<script src="./vendor/tailwind.js"></script>
 <script>tailwind.config={theme:{extend:{fontFamily:{display:['"Space Grotesk"','sans-serif'],sans:['"Inter"','sans-serif'],mono:['"JetBrains Mono"','monospace']}}}};</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/lucide@latest"></script>
-<script src="https://unpkg.com/echarts@5/dist/echarts.min.js"></script>
-<script src="https://unpkg.com/exceljs@4.4.0/dist/exceljs.min.js"></script>
+<link rel="stylesheet" href="./vendor/fonts.css">
+<script src="./vendor/lucide.min.js"></script>
+<script src="./vendor/echarts.min.js"></script>
+<script src="./vendor/exceljs.min.js"></script>
 <style>
  html,body{background:#FBFAFF;} body{font-family:"Inter",system-ui,sans-serif;color:#1e293b;min-height:100vh;background-image:radial-gradient(40rem 40rem at 8% -8%,rgba(139,92,246,.16),transparent 60%),radial-gradient(38rem 38rem at 105% 4%,rgba(236,72,153,.12),transparent 58%),radial-gradient(42rem 42rem at 60% 120%,rgba(59,130,246,.12),transparent 60%);background-attachment:fixed;}
  .font-display{font-family:"Space Grotesk",sans-serif;} .font-mono{font-family:"JetBrains Mono",monospace;}
@@ -49,6 +51,16 @@
  .hscroll{overflow:auto;} .hscroll::-webkit-scrollbar{height:9px;width:9px;} .hscroll::-webkit-scrollbar-thumb{background:#dcd8ef;border-radius:9999px;} .hscroll::-webkit-scrollbar-track{background:transparent;}
  .kpi-ico{width:42px;height:42px;border-radius:.9rem;display:grid;place-items:center;flex:none;}
  .kpi-ico i,.kpi-ico svg{width:21px;height:21px;}
+ /* --- Prompt 3 polish: consistent numerics, truncation, today highlight --- */
+ .num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;}
+ .trunc{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+ .mtable td .trunc{display:block;}
+ td.cell-company{max-width:210px;} td.cell-cp{max-width:250px;} td.cell-venue{max-width:150px;}
+ tr.today-row td{background:linear-gradient(90deg,rgba(236,72,153,.07),transparent 45%);}
+ tr.today-row td:first-child{box-shadow:inset 3px 0 0 #EC4899;}
+ .today-badge{display:inline-flex;align-items:center;gap:.2rem;padding:.05rem .38rem;border-radius:9999px;font-size:.58rem;font-weight:700;background:#EC4899;color:#fff;text-transform:uppercase;letter-spacing:.03em;line-height:1.4;}
+ .tl-today{box-shadow:inset 4px 0 0 #EC4899;}
+ .chart-empty{height:100%;display:grid;place-items:center;color:#94a3b8;font-size:.85rem;text-align:center;}
 </style>
 </head>
 <body>
@@ -89,23 +101,23 @@
   <div id="kpiStrip" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-5">
     <div class="card p-3.5 flex items-center gap-3">
       <div class="kpi-ico" style="background:#eef2ff;color:#6366F1"><i data-lucide="calendar-days"></i></div>
-      <div><div id="kpi-upcoming" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Upcoming</div></div>
+      <div><div id="kpi-upcoming" class="num text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Upcoming</div></div>
     </div>
     <div class="card p-3.5 flex items-center gap-3">
       <div class="kpi-ico" style="background:#fce7f3;color:#EC4899"><i data-lucide="sun"></i></div>
-      <div><div id="kpi-today" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Today</div></div>
+      <div><div id="kpi-today" class="num text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Today</div></div>
     </div>
     <div class="card p-3.5 flex items-center gap-3">
       <div class="kpi-ico" style="background:#dbeafe;color:#3B82F6"><i data-lucide="calendar-range"></i></div>
-      <div><div id="kpi-week" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">This week</div></div>
+      <div><div id="kpi-week" class="num text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">This week</div></div>
     </div>
     <div class="card p-3.5 flex items-center gap-3">
       <div class="kpi-ico" style="background:#d1fae5;color:#10B981"><i data-lucide="building-2"></i></div>
-      <div><div id="kpi-companies" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Companies</div></div>
+      <div><div id="kpi-companies" class="num text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Companies</div></div>
     </div>
     <div class="card p-3.5 flex items-center gap-3">
       <div class="kpi-ico" style="background:#fef3c7;color:#F59E0B"><i data-lucide="presentation"></i></div>
-      <div><div id="kpi-confs" class="font-display text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Conferences</div></div>
+      <div><div id="kpi-confs" class="num text-2xl font-bold text-slate-800 leading-none">0</div><div class="text-[.72rem] font-semibold text-slate-400 mt-1">Conferences</div></div>
     </div>
   </div>
 
@@ -201,6 +213,7 @@
 </div>
 
 <script src="./js/ui.js"></script>
+<script src="./js/xlsx-export.js"></script>
 <script src="./js/app.js"></script>
 </body>
 </html>

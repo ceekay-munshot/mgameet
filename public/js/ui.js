@@ -86,7 +86,7 @@
   // ---- pills ----
   function typePill(type) {
     const c = typeColor(type), ic = TYPE_ICONS[type] || TYPE_ICONS.Other;
-    return `<span class="pill" style="background:${rgba(c, 0.13)};color:${darken(c, 0.28)}"><i data-lucide="${ic}"></i>${esc(type || "Other")}</span>`;
+    return `<span class="pill" style="background:${rgba(c, 0.14)};color:${darken(c, 0.36)}"><i data-lucide="${ic}"></i>${esc(type || "Other")}</span>`;
   }
   function modePill(mode) {
     const m = MODE_STYLE[mode]; if (!m) return `<span class="text-slate-300">—</span>`;
@@ -130,11 +130,13 @@
   function icons() { try { window.lucide && lucide.createIcons(); } catch (e) {} }
   const uniqSort = (arr) => [...new Set(arr.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b)));
 
-  window.U = {
+  const U = {
     TYPE_COLORS, TYPE_ICONS, TYPE_ORDER, MODE_STYLE, typeColor,
     hexToRgb, rgba, darken, argbTint, darkHex, sectorHue, sectorDot, sectorPill,
     esc, clean, typePill, modePill,
     istToday, addDays, diffDays, dateLabel, dayMonth, friendlyWhen, fmtTime, updatedLabel,
     countUp, debounce, icons, uniqSort,
   };
+  if (typeof window !== "undefined") window.U = U;
+  if (typeof module !== "undefined" && module.exports) module.exports = U;
 })();
