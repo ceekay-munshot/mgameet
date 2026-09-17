@@ -73,12 +73,6 @@ function parseWhen(text, today) {
   return null;
 }
 
-function pageUrl(base, p) {
-  const u = new URL(base);
-  u.searchParams.set("p", String(p));
-  return u.toString();
-}
-
 function cleanHeading(rowText, company) {
   let h = rowText || "";
   if (company) h = h.split(company).join(" ");
@@ -87,16 +81,32 @@ function cleanHeading(rowText, company) {
   return h.replace(/\s{2,}/g, " ").trim() || rowText;
 }
 
-// Pull candidate rows out of the DOM. We anchor on the source PDF link (each row
-// has exactly one BSE/NSE link) and climb to the container that also holds the
-// /company/ link — robust to Screener markup changes.
+// Pull candidate rows out of the DOM AND attach each row's day-group date.
+//
+// The feed is a flat, reverse-chronological list broken up by absolute
+// day-group headers ("Today" / "Yesterday" / "Sep 15, 2026"); the rows under a
+// header have NO date of their own. So we:
+//   1. anchor on each row's source PDF link and climb to the container that also
+//      holds the /company/ link (robust to Screener markup changes),
+//   2. find the smallest element that contains every row (the feed list) — this
+//      excludes stray dates elsewhere on the page (filter metadata, footer),
+//   3. walk header + row elements in document order, carrying the current
+//      header down onto every row that follows it, as `headerText`.
+// A row's date comes ONLY from its header — never from the row's own body text,
+// which often mentions unrelated old dates (year-ended, AGM, etc.).
 async function extractRows(page) {
-  return await page.$$eval("a", (anchors) => {
-    const isPdf = (h) => /bseindia\.com|nseindia\.com/i.test(h || "");
+  return await page.evaluate(() => {
     const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
-    const seen = new Set();
-    const rows = [];
-    for (const a of anchors) {
+    const isPdf = (h) => /bseindia\.com|nseindia\.com/i.test(h || "");
+    // A day-group header: "Today" / "Yesterday" / "Mon, Sep 15, 2026" / "15 Sep 2026".
+    const isHdr = (t) =>
+      /^(today|yesterday)$/i.test(t) ||
+      /^(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\s*)?(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s+20\d\d$/i.test(t) ||
+      /^\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+20\d\d$/i.test(t);
+
+    // 1) rows
+    const rows = [], containers = [], seen = new Set();
+    for (const a of document.querySelectorAll("a")) {
       if (!isPdf(a.href)) continue;
       let el = a, container = null;
       for (let i = 0; i < 8 && el; i++) {
@@ -104,29 +114,57 @@ async function extractRows(page) {
         if (el && el.querySelector && el.querySelector('a[href*="/company/"]')) { container = el; break; }
       }
       if (!container) container = a.closest("li, tr, div") || a.parentElement || a;
-      const companyA = container.querySelector('a[href*="/company/"]');
       const rowText = clean(container.innerText || container.textContent);
       const key = a.href + "|" + rowText.slice(0, 60);
       if (seen.has(key)) continue;
       seen.add(key);
-      let timeGuess = "";
-      const timeEl = container.querySelector('time, .ink-600, .sub, .smaller, [class*="time"], [class*="ago"]');
-      if (timeEl) timeGuess = clean(timeEl.innerText || timeEl.textContent);
+      const companyA = container.querySelector('a[href*="/company/"]');
+      container.setAttribute("data-mtrow", String(rows.length));
+      containers.push(container);
       rows.push({
+        _c: container,
         company: companyA ? clean(companyA.innerText || companyA.textContent) : "",
         company_url: companyA ? companyA.href : "",
         pdf_url: a.href,
         headingGuess: clean(a.innerText || a.textContent),
-        timeGuess,
         rowText,
+        headerText: "",
       });
     }
-    return rows;
+    if (!rows.length) return [];
+
+    // 2) feed list = smallest element containing every row
+    let root = containers[0];
+    for (let k = 1; k < containers.length; k++) {
+      while (root && !root.contains(containers[k])) root = root.parentElement;
+      if (!root) { root = document.body; break; }
+    }
+
+    // 3) headers inside the feed list, not inside any row
+    const headers = [];
+    for (const el of root.querySelectorAll("*")) {
+      if (el.querySelector("a")) continue;        // headers are plain text, no links
+      if (el.closest("[data-mtrow]")) continue;   // not part of a row
+      const t = clean(el.textContent);
+      if (t && t.length <= 24 && isHdr(t)) headers.push({ node: el, t });
+    }
+
+    // 4) order headers + rows together, carry the current header onto each row
+    const marks = headers.map((h) => ({ node: h.node, t: h.t }))
+      .concat(rows.map((r) => ({ node: r._c, r })));
+    marks.sort((a, b) =>
+      a.node === b.node ? 0 : (a.node.compareDocumentPosition(b.node) & Node.DOCUMENT_POSITION_FOLLOWING) ? -1 : 1);
+    let cur = "";
+    for (const m of marks) { if (m.r) m.r.headerText = cur; else cur = m.t; }
+
+    return rows.map(({ _c, ...r }) => r); // drop DOM refs before crossing back
   });
 }
 
+// A row's date is its day-group header only (authoritative). Body text is never
+// used — it routinely mentions unrelated old dates that would corrupt the window.
 function resolveWhen(r, today) {
-  return parseWhen(r.timeGuess, today) || parseWhen(r.rowText, today) || null;
+  return parseWhen(r.headerText, today);
 }
 
 // The Screener announcements feed lazy-loads more rows as you scroll (grouped by
@@ -149,48 +187,33 @@ async function clickShowMore(page) {
 // The feed is grouped by day with ABSOLUTE date headers ("Sep 15, 2026" / "Today"
 // / "Yesterday") and paginates via a "Show More" button that appends a small batch.
 // Return the parseable date-header texts so we know how far back we've loaded.
-async function feedHeaders(page) {
-  return page.evaluate(() => {
-    const re = /^(?:today|yesterday|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s+20\d\d)$/i;
-    const out = [];
-    for (const el of document.querySelectorAll("body *")) {
-      if (el.querySelector("a")) continue; // headers aren't links / containers of links
-      const own = [...el.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(" ").replace(/\s+/g, " ").trim();
-      if (own && own.length <= 20 && re.test(own)) out.push(own);
-    }
-    return [...new Set(out)];
-  }).catch(() => []);
-}
-
 // Click "Show More" repeatedly, ACCUMULATING rows (so a transient re-render never
-// drops what we've seen), until a day-header older than the 15-day window is on
-// screen (we've loaded the whole window), the button is gone, or growth stalls.
+// drops what we've seen), until the oldest DAY-GROUP date on screen is clearly
+// past the 15-day window (+5d margin, so we never stop short), the button is
+// gone, or growth stalls. Over-loading a little is safe — the window filter in
+// main() trims the extra; stopping short would miss filings.
 async function loadFeed(page, today) {
   const acc = new Map(); // pdf_url -> row
   const domCount = () => page.evaluate(() => document.querySelectorAll('a[href*="/company/"]').length).catch(() => 0);
   const grab = async () => { for (const r of await extractRows(page)) if (r.pdf_url) acc.set(r.pdf_url, r); };
-  const oldestAge = async () => {
-    let o = -1;
-    for (const h of await feedHeaders(page)) { const d = parseWhen(h, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } }
-    for (const r of acc.values()) { const d = resolveWhen(r, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } }
-    return o;
-  };
+  const dated = () => [...acc.values()].map((r) => resolveWhen(r, today)).filter(Boolean);
+  const oldestAge = () => dated().reduce((o, d) => Math.max(o, ymdDiffDays(today, d)), -1);
 
   await grab();
   let clicks = 0, stagnant = 0;
-  for (let i = 0; i < 50; i++) {
-    if (await oldestAge() > BACKFILL_DAYS) break;   // a day-group older than 15d is visible -> window fully loaded
-    if (acc.size > 600) break;                       // safety cap
+  for (let i = 0; i < 60; i++) {
+    if (oldestAge() > BACKFILL_DAYS + 5) break;      // oldest day-group is well past the window -> done
+    if (acc.size > 1000) break;                       // hard safety cap
     const before = await domCount();
-    if (!(await clickShowMore(page))) break;         // button truly gone -> whole feed loaded
+    if (!(await clickShowMore(page))) break;          // button truly gone -> whole feed loaded
     clicks++;
-    for (let w = 0; w < 24; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
+    for (let w = 0; w < 30; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
     const prev = acc.size;
     await grab();
     if (acc.size <= prev) { if (++stagnant >= 3) break; } else { stagnant = 0; }
   }
-  const age = await oldestAge();
-  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s); oldest ≈${age}d back`);
+  const age = oldestAge();
+  console.log(`  [feed] loaded ${acc.size} rows (${dated().length} dated) via ${clicks} "Show More" click(s); oldest day-group ≈${age}d back`);
   return { rows: [...acc.values()], reached: age > BACKFILL_DAYS };
 }
 
