@@ -174,5 +174,325 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/POWERICA/consolidated/": {
+    "company": "Powerica Ltd",
+    "ticker": "POWERICA",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAHAJSOLAR/consolidated/": {
+    "company": "Sahaj Solar",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICICIAMC/": {
+    "company": "ICICI AMC",
+    "ticker": "ICICIAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GARFIBRES/consolidated/": {
+    "company": "Garware Tech.",
+    "ticker": "GARFIBRES",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/COLPAL/": {
+    "company": "Colgate-Palmoliv",
+    "ticker": "COLPAL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GULPOLY/": {
+    "company": "Gulshan Polyols",
+    "ticker": "GULPOLY",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PUNJABCHEM/consolidated/": {
+    "company": "Punjab Chemicals",
+    "ticker": "PUNJABCHEM",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOLBIO/consolidated/": {
+    "company": "Molbio Diagnosti",
+    "ticker": "MOLBIO",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEMPSENS/consolidated/": {
+    "company": "Tempsens Instruments",
+    "ticker": "TEMPSENS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544310/": {
+    "company": "Yash Highvoltage",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VISHNU/consolidated/": {
+    "company": "Vishnu Chemicals",
+    "ticker": "VISHNU",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HCG/consolidated/": {
+    "company": "Health.Global",
+    "ticker": "HCG",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATAELXSI/": {
+    "company": "Tata Elxsi",
+    "ticker": "TATAELXSI",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BSE/consolidated/": {
+    "company": "BSE",
+    "ticker": "BSE",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Exchange and Data Platform",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544529/": {
+    "company": "Aptus Pharma",
+    "ticker": null,
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRIVISCL/consolidated/": {
+    "company": "Privi Speci.",
+    "ticker": "PRIVISCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IDEAFORGE/consolidated/": {
+    "company": "Ideaforge Tech",
+    "ticker": "IDEAFORGE",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/THOMASCOOK/consolidated/": {
+    "company": "Thomas Cook (I)",
+    "ticker": "THOMASCOOK",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TIPSMUSIC/": {
+    "company": "Tips Music",
+    "ticker": "TIPSMUSIC",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GALAPREC/consolidated/": {
+    "company": "Gala Precis. Eng",
+    "ticker": "GALAPREC",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IIFL/consolidated/": {
+    "company": "IIFL Finance",
+    "ticker": "IIFL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MEDANTA/consolidated/": {
+    "company": "Global Health",
+    "ticker": "MEDANTA",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GREAVESCOT/consolidated/": {
+    "company": "Greaves Cotton",
+    "ticker": "GREAVESCOT",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIXON/consolidated/": {
+    "company": "Dixon Technolog.",
+    "ticker": "DIXON",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/COHANCE/consolidated/": {
+    "company": "Cohance Life",
+    "ticker": "COHANCE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/M&MFIN/consolidated/": {
+    "company": "M & M Fin. Serv.",
+    "ticker": "M&MFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FUSION/": {
+    "company": "Fusion Finance",
+    "ticker": "FUSION",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Microfinance Institutions",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAHASRA/consolidated/": {
+    "company": "Sahasra Electro.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJFINANCE/consolidated/": {
+    "company": "Bajaj Finance",
+    "ticker": "BAJFINANCE",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRINCEPIPE/": {
+    "company": "Prince Pipes",
+    "ticker": "PRINCEPIPE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NIITLTD/consolidated/": {
+    "company": "NIIT",
+    "ticker": "NIITLTD",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "Education",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARROWGREEN/consolidated/": {
+    "company": "Arrow Greentech",
+    "ticker": "ARROWGREEN",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RKFORGE/consolidated/": {
+    "company": "Ramkrishna Forg.",
+    "ticker": "RKFORGE",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/USHAMART/consolidated/": {
+    "company": "Usha Martin",
+    "ticker": "USHAMART",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VINCOFE/consolidated/": {
+    "company": "Vintage Coffee",
+    "ticker": "VINCOFE",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Tea & Coffee",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/REFEX/consolidated/": {
+    "company": "Refex Industries",
+    "ticker": "REFEX",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIENTCEM/": {
+    "company": "Orient Cement",
+    "ticker": "ORIENTCEM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOUTHBANK/": {
+    "company": "South Ind.Bank",
+    "ticker": "SOUTHBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RATEGAIN/consolidated/": {
+    "company": "Rategain Travel",
+    "ticker": "RATEGAIN",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RBLBANK/": {
+    "company": "RBL Bank",
+    "ticker": "RBLBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
   }
 }
