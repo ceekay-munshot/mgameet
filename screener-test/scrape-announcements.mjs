@@ -134,37 +134,45 @@ function resolveWhen(r, today) {
 // day). Scroll to the bottom repeatedly until we've loaded past the 15-day window
 // or the list stops growing — so we capture EVERY filing in the window, not just
 // the first screen. Returns { rows, reached } where reached = we scrolled past the window.
-async function loadFeed(page, today) {
-  let rows = [], last = -1, stagnant = 0, reached = false;
-  for (let i = 0; i < 60; i++) {
-    rows = await extractRows(page);
-    // Diagnostic probe (first 2 iterations): reveal how this feed loads more.
-    if (i < 2) {
-      const diag = await page.evaluate(() => {
-        const A = [...document.querySelectorAll("a")];
-        const pag = [...new Set(A.filter((a) => /[?&](p|page)=/i.test(a.href || "")).map((a) => (a.getAttribute("href") || "").slice(0, 70)))].slice(0, 8);
-        const more = [...new Set([...document.querySelectorAll("a,button")].filter((x) => /load more|show more|view more|\bnext\b|older/i.test(x.textContent || "")).map((x) => x.tagName + ":" + (x.textContent || "").replace(/\s+/g, " ").trim().slice(0, 24)))].slice(0, 8);
-        return { sh: document.body.scrollHeight, companyLinks: document.querySelectorAll('a[href*="/company/"]').length, pdfLinks: A.filter((a) => /bseindia\.com|nseindia\.com/i.test(a.href || "")).length, pag, more };
-      }).catch(() => ({}));
-      console.log(`  [feed] iter ${i}: rows=${rows.length} sh=${diag.sh} companyLinks=${diag.companyLinks} pdfLinks=${diag.pdfLinks} pag=${JSON.stringify(diag.pag)} more=${JSON.stringify(diag.more)}`);
+// Click the feed's "Show More" control (button or link) if present. Returns true if clicked.
+async function clickShowMore(page) {
+  const loc = page.locator("button, a").filter({ hasText: /^\s*(show|load|view)\s+more\s*$/i }).first();
+  try {
+    if (await loc.count()) {
+      await loc.scrollIntoViewIfNeeded({ timeout: 2000 }).catch(() => {});
+      await loc.click({ timeout: 3000 });
+      return true;
     }
-    let oldest = today;
-    for (const r of rows) { const d = resolveWhen(r, today); if (d && d < oldest) oldest = d; }
-    if (rows.length && ymdDiffDays(today, oldest) > BACKFILL_DAYS) { reached = true; break; }
-    if (rows.length === last) { if (++stagnant >= 4) break; } else { stagnant = 0; }
-    last = rows.length;
-    // Try several "load more" strategies: scroll to bottom, bring last row into
-    // view, and click any load-more/next control.
-    await page.evaluate(() => {
-      window.scrollTo(0, document.body.scrollHeight);
-      const els = document.querySelectorAll('a[href*="/company/"]');
-      if (els.length) els[els.length - 1].scrollIntoView({ block: "end" });
-      const btn = [...document.querySelectorAll("a,button")].find((x) => /load more|show more|view more|older/i.test(x.textContent || ""));
-      if (btn) btn.click();
-    }).catch(() => {});
-    await sleep(1200);
+  } catch {}
+  return false;
+}
+
+// The Screener filter feed paginates via a "Show More" button (AJAX-appends the
+// next chunk; no ?p= URLs). Click it repeatedly — waiting for the row count to
+// grow after each click and ACCUMULATING rows (so a transient re-render never
+// loses what we've seen) — until we've loaded past the 15-day window, the button
+// disappears, or growth stalls. Returns every filing in the window.
+async function loadFeed(page, today) {
+  const acc = new Map(); // pdf_url -> row (dedup + survives DOM re-renders)
+  const domCount = () => page.evaluate(() => document.querySelectorAll('a[href*="/company/"]').length).catch(() => 0);
+  const grab = async () => { for (const r of await extractRows(page)) if (r.pdf_url) acc.set(r.pdf_url, r); };
+  const oldestAge = () => { let o = today; for (const r of acc.values()) { const d = resolveWhen(r, today); if (d && d < o) o = d; } return acc.size ? ymdDiffDays(today, o) : 0; };
+
+  await grab();
+  let clicks = 0, stagnant = 0, reached = false;
+  for (let i = 0; i < 30; i++) {
+    if (oldestAge() > BACKFILL_DAYS) { reached = true; break; } // loaded past the window
+    const before = await domCount();
+    if (!(await clickShowMore(page))) break; // no "Show More" -> everything is loaded
+    clicks++;
+    for (let w = 0; w < 20; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
+    const prev = acc.size;
+    await grab();
+    if (acc.size <= prev) { if (++stagnant >= 2) break; } else { stagnant = 0; }
   }
-  return { rows, reached };
+  reached = reached || oldestAge() > BACKFILL_DAYS;
+  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s) (reached window: ${reached})`);
+  return { rows: [...acc.values()], reached };
 }
 
 export async function main() {
@@ -182,47 +190,32 @@ export async function main() {
   try {
     await login(page);
     await fs.mkdir(OUT, { recursive: true });
-    let prevTotal = 0;
-    for (let p = 1; p <= MAX_PAGES; p++) {
-      const url = p === 1 ? base : pageUrl(base, p);
-      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-      await page.waitForSelector('a[href*="/company/"]', { timeout: 15000 }).catch(() => {});
-      await sleep(800);
-      const { rows: raw, reached } = await loadFeed(page, today); // scroll to load the whole window
-      if (process.env.DEBUG) {
-        await fs.writeFile(path.join(OUT, `debug-page-${p}.html`), await page.content());
-        console.log(`  [debug] page ${p}: ${raw.length} rows after scroll (reached=${reached})`);
-      }
-      if (!raw.length) { console.log(`  page ${p}: 0 rows -> stop`); break; }
+    await page.goto(base, { waitUntil: "domcontentloaded", timeout: 60000 });
+    await page.waitForSelector('a[href*="/company/"]', { timeout: 15000 }).catch(() => {});
+    await sleep(800);
+    const { rows: raw, reached } = await loadFeed(page, today); // click "Show More" to load the whole window
+    if (process.env.DEBUG) { await fs.writeFile(path.join(OUT, "debug-feed.html"), await page.content()); }
 
-      let inWindow = 0, keptThisPage = 0;
-      for (const r of raw) {
-        const announced_at = resolveWhen(r, today) || today; // assume fresh if unparseable
-        const age = ymdDiffDays(today, announced_at);
-        const withinWindow = age >= 0 && age <= BACKFILL_DAYS;
-        if (withinWindow) inWindow++;
-        if (!withinWindow) continue;
-        if (!KEYWORDS.test(`${r.headingGuess} ${r.rowText}`)) continue;
-        const id = slugify(r.pdf_url);
-        if (kept.has(id)) continue;
-        const heading = r.headingGuess && r.headingGuess.length >= 8 ? r.headingGuess : cleanHeading(r.rowText, r.company);
-        kept.set(id, {
-          id,
-          company: r.company || null,
-          company_url: r.company_url || null,
-          heading,
-          announced_at,
-          pdf_url: r.pdf_url,
-        });
-        keptThisPage++;
-      }
-      console.log(`  page ${p}: ${raw.length} rows loaded, ${inWindow} in-window, +${keptThisPage} new (total ${kept.size})`);
-      if (reached) { console.log(`  reached the ${BACKFILL_DAYS}-day window boundary -> stop`); break; }
-      if (kept.size === prevTotal) { console.log(`  page ${p}: no new rows -> stop`); break; }
-      prevTotal = kept.size;
-      if (inWindow === 0) { console.log(`  page ${p}: nothing inside ${BACKFILL_DAYS}d window -> stop`); break; }
-      await sleep(600);
+    let inWindow = 0;
+    for (const r of raw) {
+      const announced_at = resolveWhen(r, today) || today; // assume fresh if unparseable
+      const age = ymdDiffDays(today, announced_at);
+      if (!(age >= 0 && age <= BACKFILL_DAYS)) continue;
+      inWindow++;
+      if (!KEYWORDS.test(`${r.headingGuess} ${r.rowText}`)) continue;
+      const id = slugify(r.pdf_url);
+      if (kept.has(id)) continue;
+      const heading = r.headingGuess && r.headingGuess.length >= 8 ? r.headingGuess : cleanHeading(r.rowText, r.company);
+      kept.set(id, {
+        id,
+        company: r.company || null,
+        company_url: r.company_url || null,
+        heading,
+        announced_at,
+        pdf_url: r.pdf_url,
+      });
     }
+    console.log(`  loaded ${raw.length} feed rows, ${inWindow} inside the ${BACKFILL_DAYS}-day window, kept ${kept.size} investor-engagement (reached=${reached})`);
   } finally {
     await context.close().catch(() => {});
     await browser.close().catch(() => {});
