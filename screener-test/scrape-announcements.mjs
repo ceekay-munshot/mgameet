@@ -156,22 +156,25 @@ async function loadFeed(page, today) {
   const acc = new Map(); // pdf_url -> row (dedup + survives DOM re-renders)
   const domCount = () => page.evaluate(() => document.querySelectorAll('a[href*="/company/"]').length).catch(() => 0);
   const grab = async () => { for (const r of await extractRows(page)) if (r.pdf_url) acc.set(r.pdf_url, r); };
-  const oldestAge = () => { let o = today; for (const r of acc.values()) { const d = resolveWhen(r, today); if (d && d < o) o = d; } return acc.size ? ymdDiffDays(today, o) : 0; };
+  // Oldest announcement age (days) among rows we can date. Used only to know when
+  // we've clearly loaded PAST the window — with a +10d margin so a single old row
+  // near the boundary can't stop us early and undercount.
+  const oldestAge = () => { let o = -1; for (const r of acc.values()) { const d = resolveWhen(r, today); if (d) { const a = ymdDiffDays(today, d); if (a > o) o = a; } } return o; };
 
   await grab();
-  let clicks = 0, stagnant = 0, reached = false;
-  for (let i = 0; i < 30; i++) {
-    if (oldestAge() > BACKFILL_DAYS) { reached = true; break; } // loaded past the window
+  let clicks = 0, stagnant = 0;
+  for (let i = 0; i < 25; i++) {
+    if (oldestAge() > BACKFILL_DAYS + 10) break; // loaded well past the 15-day window -> we have all of it
     const before = await domCount();
-    if (!(await clickShowMore(page))) break; // no "Show More" -> everything is loaded
+    if (!(await clickShowMore(page))) break; // no more "Show More" -> the whole feed is loaded
     clicks++;
     for (let w = 0; w < 20; w++) { await sleep(500); if ((await domCount()) > before) break; } // wait for AJAX growth
     const prev = acc.size;
     await grab();
     if (acc.size <= prev) { if (++stagnant >= 2) break; } else { stagnant = 0; }
   }
-  reached = reached || oldestAge() > BACKFILL_DAYS;
-  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s) (reached window: ${reached})`);
+  const reached = oldestAge() > BACKFILL_DAYS;
+  console.log(`  [feed] loaded ${acc.size} rows via ${clicks} "Show More" click(s); oldest≈${oldestAge()}d back, reached=${reached}`);
   return { rows: [...acc.values()], reached };
 }
 
