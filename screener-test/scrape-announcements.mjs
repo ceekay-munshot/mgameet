@@ -201,9 +201,9 @@ async function loadFeed(page, today) {
 
   await grab();
   let clicks = 0, stagnant = 0;
-  for (let i = 0; i < 60; i++) {
-    if (oldestAge() > BACKFILL_DAYS + 5) break;      // oldest day-group is well past the window -> done
-    if (acc.size > 1000) break;                       // hard safety cap
+  for (let i = 0; i < 120; i++) {
+    if (oldestAge() > BACKFILL_DAYS + 2) break;      // loaded a couple days past the window -> whole window is in
+    if (acc.size > 2500) break;                       // hard safety cap (well above a full 15-day feed)
     const before = await domCount();
     if (!(await clickShowMore(page))) break;          // button truly gone -> whole feed loaded
     clicks++;

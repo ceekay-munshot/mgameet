@@ -52,12 +52,18 @@ export async function main() {
   const today = istToday();
   const LIMIT = parseInt(process.env.LIMIT || "0", 10) || 0;
   const FORCE = !!process.env.FORCE;
+  // Wall-clock budget so a big backlog can never overrun the CI job timeout and
+  // lose the whole run's commit. The index is newest-first, so the freshest
+  // filings (the ones with upcoming meetings) are always processed first; any
+  // remainder is picked up incrementally on the next run.
+  const BUDGET_MS = (parseInt(process.env.EXTRACT_BUDGET_MIN || "", 10) || 25) * 60 * 1000;
+  const startedAt = Date.now();
 
   const idx = await readJson(path.join(OUT, "announcements-index.json"), []);
   const store = await readJson(path.join(DATA, "_raw-events.json"), {});
-  console.log(`extract-events: ${idx.length} announcements in index, ${Object.keys(store).length} already processed. LIMIT=${LIMIT || "all"} FORCE=${FORCE}`);
+  console.log(`extract-events: ${idx.length} announcements in index, ${Object.keys(store).length} already processed. LIMIT=${LIMIT || "all"} budget=${Math.round(BUDGET_MS / 60000)}m FORCE=${FORCE}`);
 
-  let processed = 0, totalEvents = 0, fetchFails = 0, skipped = 0;
+  let processed = 0, totalEvents = 0, fetchFails = 0, skipped = 0, budgetHit = false;
   const browser = await chromium.launch({ headless: !process.env.HEADFUL });
   const context = await browser.newContext({ userAgent: UA, acceptDownloads: true });
   const page = await context.newPage();
@@ -67,6 +73,11 @@ export async function main() {
     for (const a of idx) {
       if (!FORCE && store[a.id]) { skipped++; continue; }
       if (LIMIT && processed >= LIMIT) break;
+      if (Date.now() - startedAt > BUDGET_MS) {
+        budgetHit = true;
+        console.log(`  … ${Math.round(BUDGET_MS / 60000)}m time budget reached — committing ${processed} now; the rest continue next run`);
+        break;
+      }
 
       const buf = await fetchPdf(context, page, a.pdf_url, ensureNsePrimed);
       if (!buf) {
@@ -110,7 +121,8 @@ export async function main() {
   }
 
   await writeJson(path.join(DATA, "_raw-events.json"), store);
-  console.log(`extract-events: +${totalEvents} events from ${processed} PDFs (skipped ${skipped} processed, ${fetchFails} fetch fails)`);
+  const remaining = idx.filter((a) => !store[a.id]).length;
+  console.log(`extract-events: +${totalEvents} events from ${processed} PDFs (skipped ${skipped} processed, ${fetchFails} fetch fails)${budgetHit ? `; ${remaining} left for next run` : ""}`);
   return store;
 }
 
