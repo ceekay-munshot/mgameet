@@ -494,5 +494,325 @@
     "industry": "Banks",
     "sub_industry": "Private Sector Bank",
     "_tries": 1
+  },
+  "https://www.screener.in/company/544684/": {
+    "company": "Digilogic Systems",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIAMART/consolidated/": {
+    "company": "Indiamart Inter.",
+    "ticker": "INDIAMART",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Internet & Catalogue Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CUB/": {
+    "company": "City Union Bank",
+    "ticker": "CUB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDUSINDBK/consolidated/": {
+    "company": "IndusInd Bank",
+    "ticker": "INDUSINDBK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/531950/consolidated/": {
+    "company": "Vertex Secur.",
+    "ticker": "531950",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CGCL/consolidated/": {
+    "company": "Capri Global",
+    "ticker": "CGCL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABSLAMC/consolidated/": {
+    "company": "Aditya AMC",
+    "ticker": "ABSLAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MCX/consolidated/": {
+    "company": "Multi Comm. Exc.",
+    "ticker": "MCX",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Exchange and Data Platform",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KOTAKBANK/consolidated/": {
+    "company": "Kotak Mah. Bank",
+    "ticker": "KOTAKBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STYRENIX/consolidated/": {
+    "company": "Styrenix Perfor.",
+    "ticker": "STYRENIX",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JIOFIN/consolidated/": {
+    "company": "Jio Financial",
+    "ticker": "JIOFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Investment Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WONDERLA/": {
+    "company": "Wonderla Holiday",
+    "ticker": "WONDERLA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Amusement Parks/ Other Recreation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAMMAANCAP/consolidated/": {
+    "company": "Sammaan Capital",
+    "ticker": "SAMMAANCAP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TIMETECHNO/consolidated/": {
+    "company": "Time Technoplast",
+    "ticker": "TIMETECHNO",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AXISCADES/consolidated/": {
+    "company": "AXISCADES Tech.",
+    "ticker": "AXISCADES",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GPIL/consolidated/": {
+    "company": "Godawari Power",
+    "ticker": "GPIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AGI/": {
+    "company": "AGI Greenpac",
+    "ticker": "AGI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIRET/consolidated/": {
+    "company": "Brookfield India",
+    "ticker": "BIRET",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Real Estate Investment Trusts (REITs)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DOLLAR/": {
+    "company": "Dollar Industrie",
+    "ticker": "DOLLAR",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POWERINDIA/": {
+    "company": "Hitachi Energy",
+    "ticker": "POWERINDIA",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/YESBANK/consolidated/": {
+    "company": "Yes Bank",
+    "ticker": "YESBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASHOKLEY/consolidated/": {
+    "company": "Ashok Leyland",
+    "ticker": "ASHOKLEY",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Commercial Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DHABRIYA/consolidated/": {
+    "company": "Dhabriya Poly.",
+    "ticker": "DHABRIYA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PGIL/consolidated/": {
+    "company": "Pearl Global Ind",
+    "ticker": "PGIL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABCAPITAL/consolidated/": {
+    "company": "Aditya Birla Cap",
+    "ticker": "ABCAPITAL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Investment Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SJS/consolidated/": {
+    "company": "SJS Enterprises",
+    "ticker": "SJS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EPIGRAL/": {
+    "company": "Epigral",
+    "ticker": "EPIGRAL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AXISBANK/consolidated/": {
+    "company": "Axis Bank",
+    "ticker": "AXISBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDHOTEL/consolidated/": {
+    "company": "Indian Hotels Co",
+    "ticker": "INDHOTEL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SRGHFL/": {
+    "company": "SRG Housing",
+    "ticker": "SRGHFL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EVEREADY/consolidated/": {
+    "company": "Eveready Inds.",
+    "ticker": "EVEREADY",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LTF/consolidated/": {
+    "company": "L&T Finance Ltd",
+    "ticker": "LTF",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RELIANCE/consolidated/": {
+    "company": "Reliance Industries",
+    "ticker": "RELIANCE",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Refineries & Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLUESTARCO/consolidated/": {
+    "company": "Blue Star",
+    "ticker": "BLUESTARCO",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIKRAN/consolidated/": {
+    "company": "Vikran Engg.",
+    "ticker": "VIKRAN",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PHOENIXLTD/consolidated/": {
+    "company": "Phoenix Mills",
+    "ticker": "PHOENIXLTD",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HINDPETRO/consolidated/": {
+    "company": "H P C L",
+    "ticker": "HINDPETRO",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Refineries & Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WAAREERTL/": {
+    "company": "Waaree Renewab.",
+    "ticker": "WAAREERTL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AADHARHFC/consolidated/": {
+    "company": "Aadhar Hsg. Fin.",
+    "ticker": "AADHARHFC",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LT/consolidated/": {
+    "company": "Larsen & Toubro",
+    "ticker": "LT",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
   }
 }
