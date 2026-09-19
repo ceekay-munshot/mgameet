@@ -814,5 +814,325 @@
     "industry": "Construction",
     "sub_industry": "Civil Construction",
     "_tries": 1
+  },
+  "https://www.screener.in/company/ALLCARGO/consolidated/": {
+    "company": "Allcargo Logist.",
+    "ticker": "ALLCARGO",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLAYCRAFT/": {
+    "company": "Clay Craft India",
+    "ticker": "SME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Houseware",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TECHM/consolidated/": {
+    "company": "Tech Mahindra",
+    "ticker": "TECHM",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CMPDI/": {
+    "company": "Central Mine Pla",
+    "ticker": "CMPDI",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GULFOILLUB/": {
+    "company": "Gulf Oil Lubric.",
+    "ticker": "GULFOILLUB",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Lubricants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARADEEP/consolidated/": {
+    "company": "Paradeep Phosph.",
+    "ticker": "PARADEEP",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AMBUJACEM/consolidated/": {
+    "company": "Ambuja Cements",
+    "ticker": "AMBUJACEM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MGL/": {
+    "company": "Mahanagar Gas",
+    "ticker": "MGL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RRKABEL/consolidated/": {
+    "company": "R R Kabel",
+    "ticker": "RRKABEL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHRIRAMFIN/consolidated/": {
+    "company": "Shriram Finance",
+    "ticker": "SHRIRAMFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FINEORG/consolidated/": {
+    "company": "Fine Organic",
+    "ticker": "FINEORG",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACC/consolidated/": {
+    "company": "ACC",
+    "ticker": "ACC",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SWANDEF/consolidated/": {
+    "company": "Swan Defence",
+    "ticker": "SWANDEF",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Ship Building & Allied Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WAAREEENER/consolidated/": {
+    "company": "Waaree Energies",
+    "ticker": "WAAREEENER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UNIHEALTH/consolidated/": {
+    "company": "Unihealth Hosp",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SETL/consolidated/": {
+    "company": "Standard Engineering Technology",
+    "ticker": "SETL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATACOMM/consolidated/": {
+    "company": "Tata Comm",
+    "ticker": "TATACOMM",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Cellular & Fixed line services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INOXWIND/consolidated/": {
+    "company": "Inox Wind",
+    "ticker": "INOXWIND",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KFINTECH/consolidated/": {
+    "company": "KFin Technolog.",
+    "ticker": "KFINTECH",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Depositories, Clearing Houses and Other Intermediaries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FLAIR/consolidated/": {
+    "company": "Flair Writing",
+    "ticker": "FLAIR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": "Stationary",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SWSOLAR/consolidated/": {
+    "company": "Sterling & Wils.",
+    "ticker": "SWSOLAR",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FEDERALBNK/consolidated/": {
+    "company": "Federal Bank",
+    "ticker": "FEDERALBNK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AKUMS/consolidated/": {
+    "company": "Akums Drugs",
+    "ticker": "AKUMS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MHRIL/consolidated/": {
+    "company": "Mahindra Holiday",
+    "ticker": "MHRIL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AURIONPRO/consolidated/": {
+    "company": "Aurionpro Sol.",
+    "ticker": "AURIONPRO",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIAGLYCO/consolidated/": {
+    "company": "India Glycols",
+    "ticker": "INDIAGLYCO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GVT&D/": {
+    "company": "GE Vernova T&D",
+    "ticker": "GVT&D",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAMS/": {
+    "company": "Cams Services",
+    "ticker": "CAMS",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Depositories, Clearing Houses and Other Intermediaries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CARRARO/": {
+    "company": "Carraro India",
+    "ticker": "CARRARO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NEULANDLAB/consolidated/": {
+    "company": "Neuland Labs.",
+    "ticker": "NEULANDLAB",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARTIIND/consolidated/": {
+    "company": "Aarti Industries",
+    "ticker": "AARTIIND",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NUVOCO/consolidated/": {
+    "company": "Nuvoco Vistas",
+    "ticker": "NUVOCO",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHAKTIPUMP/consolidated/": {
+    "company": "Shakti Pumps",
+    "ticker": "SHAKTIPUMP",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DODLA/consolidated/": {
+    "company": "Dodla Dairy",
+    "ticker": "DODLA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZODIAC/": {
+    "company": "Zodiac Energy",
+    "ticker": "ZODIAC",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PIRAMALFIN/consolidated/": {
+    "company": "Piramal Finance.",
+    "ticker": "PIRAMALFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CEMPRO/consolidated/": {
+    "company": "Cemindia Project",
+    "ticker": "CEMPRO",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/URBANCO/consolidated/": {
+    "company": "Urban Company",
+    "ticker": "URBANCO",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUPREMEPWR/": {
+    "company": "Supreme Power",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEVIT/consolidated/": {
+    "company": "Dev Information",
+    "ticker": "DEVIT",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
   }
 }
