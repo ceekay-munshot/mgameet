@@ -1134,5 +1134,325 @@
     "industry": "IT - Services",
     "sub_industry": "IT Enabled Services",
     "_tries": 1
+  },
+  "https://www.screener.in/company/ENRIN/": {
+    "company": "Siemens Ener.Ind",
+    "ticker": "ENRIN",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAYMOND/consolidated/": {
+    "company": "Raymond",
+    "ticker": "RAYMOND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UTIAMC/consolidated/": {
+    "company": "UTI AMC",
+    "ticker": "UTIAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INTELLECT/consolidated/": {
+    "company": "Intellect Design",
+    "ticker": "INTELLECT",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIRLPNU/": {
+    "company": "Kirl.Pneumatic",
+    "ticker": "KIRLPNU",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HSCL/consolidated/": {
+    "company": "Himadri Special",
+    "ticker": "HSCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Carbon Black",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ROSSARI/consolidated/": {
+    "company": "Rossari Biotech",
+    "ticker": "ROSSARI",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NGLFINE/": {
+    "company": "NGL Fine Chem",
+    "ticker": "NGLFINE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAPILLARY/consolidated/": {
+    "company": "Capillary Tech.",
+    "ticker": "CAPILLARY",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TORNTPOWER/consolidated/": {
+    "company": "Torrent Power",
+    "ticker": "TORNTPOWER",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Integrated Power Utilities",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IRMENERGY/consolidated/": {
+    "company": "IRM Energy",
+    "ticker": "IRMENERGY",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IGCL/consolidated/": {
+    "company": "Indogulf Cropsci",
+    "ticker": "IGCL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEMBO/consolidated/": {
+    "company": "Tembo Global",
+    "ticker": "TEMBO",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FEDFINA/": {
+    "company": "Fedbank Financi.",
+    "ticker": "FEDFINA",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIRLOSENG/consolidated/": {
+    "company": "Kirloskar Oil",
+    "ticker": "KIRLOSENG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BPCL/consolidated/": {
+    "company": "B P C L",
+    "ticker": "BPCL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Refineries & Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IGPL/consolidated/": {
+    "company": "I G Petrochems",
+    "ticker": "IGPL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANANDRATHI/": {
+    "company": "Anand Rathi Wea.",
+    "ticker": "ANANDRATHI",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Financial Products Distributor",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RADICO/consolidated/": {
+    "company": "Radico Khaitan",
+    "ticker": "RADICO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543616/consolidated/": {
+    "company": "Trident Lifeline",
+    "ticker": null,
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICRA/consolidated/": {
+    "company": "ICRA",
+    "ticker": "ICRA",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Ratings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MPHASIS/consolidated/": {
+    "company": "Mphasis",
+    "ticker": "MPHASIS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DCI/": {
+    "company": "DC Infotech",
+    "ticker": "DCI",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INOXINDIA/consolidated/": {
+    "company": "Inox India",
+    "ticker": "INOXINDIA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BRIGHOTEL/consolidated/": {
+    "company": "Brigade Hotel",
+    "ticker": "BRIGHOTEL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALUWIND/": {
+    "company": "Aluwind Infra",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AAKAAR/": {
+    "company": "Aakaar Medical",
+    "ticker": "SME",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/3BBLACKBIO/consolidated/": {
+    "company": "3B Blackbio",
+    "ticker": "532067",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CONCOR/consolidated/": {
+    "company": "Container Corpn.",
+    "ticker": "CONCOR",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IMFA/consolidated/": {
+    "company": "Indian Metals",
+    "ticker": "IMFA",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Ferro & Silica Manganese",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540401/consolidated/": {
+    "company": "Maximus Interna.",
+    "ticker": "540401",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Trading & Distributors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BBOX/consolidated/": {
+    "company": "Black Box",
+    "ticker": "BBOX",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CGPOWER/consolidated/": {
+    "company": "CG Power & Ind",
+    "ticker": "CGPOWER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LATENTVIEW/consolidated/": {
+    "company": "Latent View",
+    "ticker": "LATENTVIEW",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUDEEPPHRM/consolidated/": {
+    "company": "Sudeep Pharma",
+    "ticker": "SUDEEPPHRM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AETHER/consolidated/": {
+    "company": "Aether Industri.",
+    "ticker": "AETHER",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATACHEM/consolidated/": {
+    "company": "Tata Chemicals",
+    "ticker": "TATACHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIQUBE/": {
+    "company": "Indiqube Spaces",
+    "ticker": "INDIQUBE",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IKS/consolidated/": {
+    "company": "Inventurus Knowl",
+    "ticker": "IKS",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SBIN/consolidated/": {
+    "company": "SBI",
+    "ticker": "SBIN",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
   }
 }
