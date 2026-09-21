@@ -1454,5 +1454,325 @@
     "industry": "Banks",
     "sub_industry": "Public Sector Bank",
     "_tries": 1
+  },
+  "https://www.screener.in/company/SBICARD/": {
+    "company": "SBI Cards",
+    "ticker": "SBICARD",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATASTLPP/": {
+    "company": "Tata Steel PP",
+    "ticker": "TATASTLPP",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ECLERX/consolidated/": {
+    "company": "eClerx Services",
+    "ticker": "ECLERX",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UJJIVANSFB/": {
+    "company": "Ujjivan Small",
+    "ticker": "UJJIVANSFB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/METALIC/": {
+    "company": "Metalic Technoforge",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544794/": {
+    "company": "Horizon Reclaim",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSWCEMENT/consolidated/": {
+    "company": "JSW Cement",
+    "ticker": "JSWCEMENT",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INNOVACAP/consolidated/": {
+    "company": "Innova Captab",
+    "ticker": "INNOVACAP",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/M&M/consolidated/": {
+    "company": "M & M",
+    "ticker": "M&M",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Passenger Cars & Utility Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FORTIS/consolidated/": {
+    "company": "Fortis Health.",
+    "ticker": "FORTIS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLEANMAX/consolidated/": {
+    "company": "Clean Max Enviro",
+    "ticker": "CLEANMAX",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAYMONDLSL/consolidated/": {
+    "company": "Raymond Lifestyl",
+    "ticker": "RAYMONDLSL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EIEL/consolidated/": {
+    "company": "Enviro Infra",
+    "ticker": "EIEL",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Water Supply & Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544568/": {
+    "company": "DSM Fresh",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Meat Products including Poultry",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SANGHVIMOV/consolidated/": {
+    "company": "Sanghvi Movers",
+    "ticker": "SANGHVIMOV",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/501261/": {
+    "company": "Lords Mark Industries",
+    "ticker": "501261",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Consulting Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HERITGFOOD/consolidated/": {
+    "company": "Heritage Foods",
+    "ticker": "HERITGFOOD",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNBHOUSING/": {
+    "company": "PNB Housing",
+    "ticker": "PNBHOUSING",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZFCVINDIA/": {
+    "company": "ZF Commercial",
+    "ticker": "ZFCVINDIA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AFFLE/consolidated/": {
+    "company": "Affle 3i",
+    "ticker": "AFFLE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACMESOLAR/consolidated/": {
+    "company": "ACME Solar Hold.",
+    "ticker": "ACMESOLAR",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IXIGO/consolidated/": {
+    "company": "Le Travenues",
+    "ticker": "IXIGO",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANANTRAJ/consolidated/": {
+    "company": "Anant Raj",
+    "ticker": "ANANTRAJ",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BERGEPAINT/consolidated/": {
+    "company": "Berger Paints",
+    "ticker": "BERGEPAINT",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Paints",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PIDILITIND/consolidated/": {
+    "company": "Pidilite Inds.",
+    "ticker": "PIDILITIND",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LAURUSLABS/consolidated/": {
+    "company": "Laurus Labs",
+    "ticker": "LAURUSLABS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EICHERMOT/consolidated/": {
+    "company": "Eicher Motors",
+    "ticker": "EICHERMOT",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GOPAL/": {
+    "company": "Gopal Snacks",
+    "ticker": "GOPAL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JUBLFOOD/consolidated/": {
+    "company": "Jubilant Food.",
+    "ticker": "JUBLFOOD",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TARIL/consolidated/": {
+    "company": "T R I L",
+    "ticker": "TARIL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AEROFLEX/consolidated/": {
+    "company": "Aeroflex",
+    "ticker": "AEROFLEX",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BANKINDIA/consolidated/": {
+    "company": "Bank of India",
+    "ticker": "BANKINDIA",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORKLAINDIA/consolidated/": {
+    "company": "Orkla India",
+    "ticker": "ORKLAINDIA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PATANJALI/": {
+    "company": "Patanjali Foods",
+    "ticker": "PATANJALI",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Edible Oil",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PATELRMART/": {
+    "company": "Patel Retail",
+    "ticker": "PATELRMART",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Diversified Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LLOYDSME/consolidated/": {
+    "company": "Lloyds Metals",
+    "ticker": "LLOYDSME",
+    "sector": "Metals & Mining",
+    "industry": "Minerals & Mining",
+    "sub_industry": "Industrial Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FIVESTAR/": {
+    "company": "Five-Star Bus.Fi",
+    "ticker": "FIVESTAR",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRANSRAILL/consolidated/": {
+    "company": "Transrail Light",
+    "ticker": "TRANSRAILL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LTTS/consolidated/": {
+    "company": "L&T Technology",
+    "ticker": "LTTS",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JLHL/consolidated/": {
+    "company": "Jupiter Life Lin",
+    "ticker": "JLHL",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
   }
 }
