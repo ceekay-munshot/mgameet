@@ -1774,5 +1774,325 @@
     "industry": "Healthcare Services",
     "sub_industry": "Hospital",
     "_tries": 1
+  },
+  "https://www.screener.in/company/ESCORTS/consolidated/": {
+    "company": "Escorts Kubota",
+    "ticker": "ESCORTS",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Tractors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ENDURANCE/consolidated/": {
+    "company": "Endurance Tech.",
+    "ticker": "ENDURANCE",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IGL/consolidated/": {
+    "company": "Indraprastha Gas",
+    "ticker": "IGL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOLARINDS/consolidated/": {
+    "company": "Solar Industries",
+    "ticker": "SOLARINDS",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Explosives",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARVI/consolidated/": {
+    "company": "Aarvi Encon",
+    "ticker": "AARVI",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NOVARTIND/": {
+    "company": "Novartis India",
+    "ticker": "NOVARTIND",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HRHNEXT/": {
+    "company": "HRH Next",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AEGISLOG/consolidated/": {
+    "company": "Aegis Logistics",
+    "ticker": "AEGISLOG",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "Trading - Gas",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HAVELLS/consolidated/": {
+    "company": "Havells India",
+    "ticker": "HAVELLS",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AEGISVOPAK/consolidated/": {
+    "company": "Aegis Vopak Term",
+    "ticker": "AEGISVOPAK",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Storage & Transportation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VAIBHAVGBL/consolidated/": {
+    "company": "Vaibhav Global",
+    "ticker": "VAIBHAVGBL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAGILITY/consolidated/": {
+    "company": "Sagility",
+    "ticker": "SAGILITY",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSWDULUX/consolidated/": {
+    "company": "JSW Dulux",
+    "ticker": "JSWDULUX",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Paints",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKYWAYS/consolidated/": {
+    "company": "Skyways Air Ser.",
+    "ticker": "SKYWAYS",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VBL/consolidated/": {
+    "company": "Varun Beverages",
+    "ticker": "VBL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Other Beverages",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AMAGI/consolidated/": {
+    "company": "Amagi Media Labs",
+    "ticker": "AMAGI",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEXT/consolidated/": {
+    "company": "Hexaware Tech.",
+    "ticker": "HEXT",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CMSINFO/consolidated/": {
+    "company": "CMS Info Systems",
+    "ticker": "CMSINFO",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TMB/": {
+    "company": "T N Merc. Bank",
+    "ticker": "TMB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ATLANTAELE/consolidated/": {
+    "company": "Atlanta Electric",
+    "ticker": "ATLANTAELE",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GALAXYSURF/consolidated/": {
+    "company": "Galaxy Surfact.",
+    "ticker": "GALAXYSURF",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HYUNDAI/consolidated/": {
+    "company": "Hyundai Motor I",
+    "ticker": "HYUNDAI",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Passenger Cars & Utility Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544740/": {
+    "company": "TIPCO Engineering",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LLOYDSENGG/consolidated/": {
+    "company": "Lloyds Engineeri",
+    "ticker": "LLOYDSENGG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KEI/consolidated/": {
+    "company": "KEI Industries",
+    "ticker": "KEI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JINDALSTEL/consolidated/": {
+    "company": "Jindal Steel",
+    "ticker": "JINDALSTEL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAPITALSFB/": {
+    "company": "Capital Small",
+    "ticker": "CAPITALSFB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUZLON/consolidated/": {
+    "company": "Suzlon Energy",
+    "ticker": "SUZLON",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544773/": {
+    "company": "Merritronix",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIMS/consolidated/": {
+    "company": "Krishna Institu.",
+    "ticker": "KIMS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONEPOINT/consolidated/": {
+    "company": "One Point One",
+    "ticker": "ONEPOINT",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LOTUSDEV/consolidated/": {
+    "company": "Sri Lotus",
+    "ticker": "LOTUSDEV",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STARHEALTH/": {
+    "company": "Star Health Insu",
+    "ticker": "STARHEALTH",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "General Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CARERATING/consolidated/": {
+    "company": "CARE Ratings",
+    "ticker": "CARERATING",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Ratings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BECTORFOOD/": {
+    "company": "Mrs Bectors",
+    "ticker": "BECTORFOOD",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARKADE/consolidated/": {
+    "company": "Arkade",
+    "ticker": "ARKADE",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JYOTHYLAB/": {
+    "company": "Jyothy Labs",
+    "ticker": "JYOTHYLAB",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OLAELEC/consolidated/": {
+    "company": "Ola Electric",
+    "ticker": "OLAELEC",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544141/consolidated/": {
+    "company": "Pune e-Stock Broking",
+    "ticker": null,
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GENUSPOWER/consolidated/": {
+    "company": "Genus Power",
+    "ticker": "GENUSPOWER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
   }
 }
