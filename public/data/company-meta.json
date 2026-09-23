@@ -2094,5 +2094,325 @@
     "industry": "Electrical Equipment",
     "sub_industry": "Other Electrical Equipment",
     "_tries": 1
+  },
+  "https://www.screener.in/company/VSTL/": {
+    "company": "Vibhor Steel",
+    "ticker": "VSTL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JTLIND/consolidated/": {
+    "company": "JTL Industries",
+    "ticker": "JTLIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WOMANCART/consolidated/": {
+    "company": "Womancart",
+    "ticker": "SME",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AWHCL/consolidated/": {
+    "company": "Antony Waste han",
+    "ticker": "AWHCL",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/XTRANET/consolidated/": {
+    "company": "Xtranet Techno.",
+    "ticker": "XTRANET",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/THELEELA/consolidated/": {
+    "company": "Leela Palaces Hotels",
+    "ticker": "THELEELA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/METROBRAND/consolidated/": {
+    "company": "Metro Brands",
+    "ticker": "METROBRAND",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Footwear",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATASTEEL/consolidated/": {
+    "company": "Tata Steel",
+    "ticker": "TATASTEEL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HTEL/": {
+    "company": "Hy-Tech Engineer",
+    "ticker": "HTEL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHARTIHEXA/": {
+    "company": "Bharti Hexacom",
+    "ticker": "BHARTIHEXA",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Cellular & Fixed line services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SPECIALITY/": {
+    "company": "Speciality Rest.",
+    "ticker": "SPECIALITY",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DLF/consolidated/": {
+    "company": "DLF",
+    "ticker": "DLF",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHARTIARTL/consolidated/": {
+    "company": "Bharti Airtel",
+    "ticker": "BHARTIARTL",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Cellular & Fixed line services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SYMBIOTEC/consolidated/": {
+    "company": "Symbiotec Pharma",
+    "ticker": "SYMBIOTEC",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOTHERSON/consolidated/": {
+    "company": "Samvardh. Mothe.",
+    "ticker": "MOTHERSON",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JKIL/": {
+    "company": "J Kumar Infra",
+    "ticker": "JKIL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIKRAMSOLR/consolidated/": {
+    "company": "Vikram Solar",
+    "ticker": "VIKRAMSOLR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BANDHANBNK/": {
+    "company": "Bandhan Bank",
+    "ticker": "BANDHANBNK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VOLTAS/consolidated/": {
+    "company": "Voltas",
+    "ticker": "VOLTAS",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARUTI/consolidated/": {
+    "company": "Maruti Suzuki",
+    "ticker": "MARUTI",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Passenger Cars & Utility Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATVA/consolidated/": {
+    "company": "Tatva Chintan",
+    "ticker": "TATVA",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NEOGEN/consolidated/": {
+    "company": "Neogen Chemicals",
+    "ticker": "NEOGEN",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CINELINE/": {
+    "company": "Cineline India",
+    "ticker": "CINELINE",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Film Production, Distribution & Exhibition",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BASILIC/consolidated/": {
+    "company": "Basilic Fly Stud",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TI/consolidated/": {
+    "company": "Tilaknagar Inds.",
+    "ticker": "TI",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PROSTARM/": {
+    "company": "Prostarm Info",
+    "ticker": "PROSTARM",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BANSALWIRE/consolidated/": {
+    "company": "Bansal Wire Inds",
+    "ticker": "BANSALWIRE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUNLITE/": {
+    "company": "Sunlite Recycli.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INFOLLION/": {
+    "company": "Infollion Resea.",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JUNIPER/consolidated/": {
+    "company": "Juniper Hotels",
+    "ticker": "JUNIPER",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAMBHAJO/": {
+    "company": "Advit Jewels",
+    "ticker": "RAMBHAJO",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/REDINGTON/consolidated/": {
+    "company": "Redington",
+    "ticker": "REDINGTON",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Trading & Distributors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RPGLIFE/": {
+    "company": "RPG LifeScience.",
+    "ticker": "RPGLIFE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IOLCP/": {
+    "company": "IOL Chemicals",
+    "ticker": "IOLCP",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MASTEK/consolidated/": {
+    "company": "Mastek",
+    "ticker": "MASTEK",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EFCIL/consolidated/": {
+    "company": "EFC (I)",
+    "ticker": "EFCIL",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DENTA/consolidated/": {
+    "company": "Denta Water",
+    "ticker": "DENTA",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Water Supply & Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SEAMECLTD/consolidated/": {
+    "company": "SEAMEC Ltd",
+    "ticker": "SEAMECLTD",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Shipping",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ISGEC/consolidated/": {
+    "company": "ISGEC Heavy",
+    "ticker": "ISGEC",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAIL/consolidated/": {
+    "company": "S A I L",
+    "ticker": "SAIL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
   }
 }
