@@ -2414,5 +2414,325 @@
     "industry": "Ferrous Metals",
     "sub_industry": "Iron & Steel",
     "_tries": 1
+  },
+  "https://www.screener.in/company/UNIMECH/consolidated/": {
+    "company": "Unimech Aero.",
+    "ticker": "UNIMECH",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PACEDIGITK/consolidated/": {
+    "company": "Pace Digitek",
+    "ticker": "PACEDIGITK",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Infrastructure",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RALLIS/": {
+    "company": "Rallis India",
+    "ticker": "RALLIS",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/K2INFRA/consolidated/": {
+    "company": "K2 Infragen",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BRIGADE/consolidated/": {
+    "company": "Brigade Enterpr.",
+    "ticker": "BRIGADE",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FERMENTA/consolidated/": {
+    "company": "Fermenta Biotec.",
+    "ticker": "FERMENTA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEXRAIL/consolidated/": {
+    "company": "Texmaco Rail",
+    "ticker": "TEXRAIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Railway Wagons",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FISCHER/consolidated/": {
+    "company": "Fischer Medical",
+    "ticker": "FISCHER",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLS/consolidated/": {
+    "company": "BLS Internat.",
+    "ticker": "BLS",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544166/consolidated/": {
+    "company": "Emmforce Auto.",
+    "ticker": null,
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHALET/consolidated/": {
+    "company": "Chalet Hotels",
+    "ticker": "CHALET",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NIITMTS/consolidated/": {
+    "company": "NIIT Learning",
+    "ticker": "NIITMTS",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "Education",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANYAVAR/": {
+    "company": "Vedant Fashions",
+    "ticker": "MANYAVAR",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARVIND/consolidated/": {
+    "company": "Arvind Ltd",
+    "ticker": "ARVIND",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/COFORGE/consolidated/": {
+    "company": "Coforge",
+    "ticker": "COFORGE",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAUKRI/consolidated/": {
+    "company": "Info Edg.(India)",
+    "ticker": "NAUKRI",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Internet & Catalogue Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NATIONALUM/consolidated/": {
+    "company": "Natl. Aluminium",
+    "ticker": "NATIONALUM",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSL/consolidated/": {
+    "company": "Jindal Stain.",
+    "ticker": "JSL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GAIL/consolidated/": {
+    "company": "GAIL (India)",
+    "ticker": "GAIL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "Gas Transmission/Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAMBHV/": {
+    "company": "Sambhv Steel",
+    "ticker": "SAMBHV",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DABUR/consolidated/": {
+    "company": "Dabur India",
+    "ticker": "DABUR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAXHEALTH/consolidated/": {
+    "company": "Max Healthcare",
+    "ticker": "MAXHEALTH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEVYANI/consolidated/": {
+    "company": "Devyani Intl.",
+    "ticker": "DEVYANI",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADANIPOWER/consolidated/": {
+    "company": "Adani Power",
+    "ticker": "ADANIPOWER",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Integrated Power Utilities",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAKAR/": {
+    "company": "Sakar Healthcare",
+    "ticker": "SAKAR",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PAISALO/consolidated/": {
+    "company": "Paisalo Digital",
+    "ticker": "PAISALO",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544844/": {
+    "company": "Poojaa Precision Engg.",
+    "ticker": null,
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/E2ERAIL/consolidated/": {
+    "company": "E to E Transportation",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UFBL/consolidated/": {
+    "company": "United Foodbrands",
+    "ticker": "UFBL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SYNGENE/consolidated/": {
+    "company": "Syngene Intl.",
+    "ticker": "SYNGENE",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Research, Analytics & Technology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MUKKA/consolidated/": {
+    "company": "Mukka Proteins",
+    "ticker": "MUKKA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Animal Feed",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HUBTOWN/consolidated/": {
+    "company": "Hubtown",
+    "ticker": "HUBTOWN",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IPHL/consolidated/": {
+    "company": "Indian Phosphate",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRSMJOHNSN/consolidated/": {
+    "company": "Prism Johnson",
+    "ticker": "PRSMJOHNSN",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ROLEXRINGS/": {
+    "company": "Rolex Rings",
+    "ticker": "ROLEXRINGS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HINDALCO/consolidated/": {
+    "company": "Hindalco Inds.",
+    "ticker": "HINDALCO",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544826/": {
+    "company": "Millworks Technologies",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ETERNAL/consolidated/": {
+    "company": "Eternal",
+    "ticker": "ETERNAL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATATECH/consolidated/": {
+    "company": "Tata Technolog.",
+    "ticker": "TATATECH",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HFCL/consolidated/": {
+    "company": "HFCL",
+    "ticker": "HFCL",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Infrastructure",
+    "_tries": 1
   }
 }
