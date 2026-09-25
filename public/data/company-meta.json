@@ -2734,5 +2734,325 @@
     "industry": "Telecom - Services",
     "sub_industry": "Telecom - Infrastructure",
     "_tries": 1
+  },
+  "https://www.screener.in/company/CANARYS/consolidated/": {
+    "company": "Canarys Automa.",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUNDARMFIN/consolidated/": {
+    "company": "Sundaram Finance",
+    "ticker": "SUNDARMFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KTKBANK/": {
+    "company": "Karnataka Bank",
+    "ticker": "KTKBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHANKESH/": {
+    "company": "Shankesh Jewellers",
+    "ticker": "SHANKESH",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CIEINDIA/consolidated/": {
+    "company": "CIE Automotive",
+    "ticker": "CIEINDIA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AWL/consolidated/": {
+    "company": "AWL Agri Busine.",
+    "ticker": "AWL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Edible Oil",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WEALTH/consolidated/": {
+    "company": "Wealth First Por",
+    "ticker": "WEALTH",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IKIO/consolidated/": {
+    "company": "IKIO Tech",
+    "ticker": "IKIO",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARATHON/consolidated/": {
+    "company": "Marathon Nextgen",
+    "ticker": "MARATHON",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICICIPRULI/consolidated/": {
+    "company": "ICICI Pru Life",
+    "ticker": "ICICIPRULI",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544610/": {
+    "company": "Workmates Core2",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CROMPTON/": {
+    "company": "Crompton Gr. Con",
+    "ticker": "CROMPTON",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GREENPLY/consolidated/": {
+    "company": "Greenply Industr",
+    "ticker": "GREENPLY",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MSUMI/": {
+    "company": "Motherson Wiring",
+    "ticker": "MSUMI",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GUJALKALI/consolidated/": {
+    "company": "Gujarat Alkalies",
+    "ticker": "GUJALKALI",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ETHOSLTD/consolidated/": {
+    "company": "Ethos",
+    "ticker": "ETHOSLTD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHANDAN/consolidated/": {
+    "company": "Chandan Healthca",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUPRIYA/": {
+    "company": "Supriya Lifesci.",
+    "ticker": "SUPRIYA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CASTROLIND/": {
+    "company": "Castrol India",
+    "ticker": "CASTROLIND",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Lubricants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SFL/consolidated/": {
+    "company": "Sheela Foam",
+    "ticker": "SFL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AUROPHARMA/consolidated/": {
+    "company": "Aurobindo Pharma",
+    "ticker": "AUROPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPITTECH/consolidated/": {
+    "company": "KPIT Technologi.",
+    "ticker": "KPITTECH",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KLBRENG-B/consolidated/": {
+    "company": "Kilburn Engg.",
+    "ticker": "KLBRENG-B",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HOMEFIRST/": {
+    "company": "Home First Finan",
+    "ticker": "HOMEFIRST",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRANULES/consolidated/": {
+    "company": "Granules India",
+    "ticker": "GRANULES",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAM-INDIA/consolidated/": {
+    "company": "Nippon Life Ind.",
+    "ticker": "NAM-INDIA",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EUROPRATIK/consolidated/": {
+    "company": "Euro Pratik Sale",
+    "ticker": "EUROPRATIK",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JNKINDIA/consolidated/": {
+    "company": "JNK",
+    "ticker": "JNKINDIA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANKIND/consolidated/": {
+    "company": "Mankind Pharma",
+    "ticker": "MANKIND",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAINBOW/consolidated/": {
+    "company": "Rainbow Child.",
+    "ticker": "RAINBOW",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALIVUS/": {
+    "company": "Alivus Life",
+    "ticker": "ALIVUS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRAVITA/consolidated/": {
+    "company": "Gravita India",
+    "ticker": "GRAVITA",
+    "sector": "Metals & Mining",
+    "industry": "Minerals & Mining",
+    "sub_industry": "Industrial Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATAPOWER/consolidated/": {
+    "company": "Tata Power Co.",
+    "ticker": "TATAPOWER",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Integrated Power Utilities",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HONASA/consolidated/": {
+    "company": "Honasa Consumer",
+    "ticker": "HONASA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZYDUSLIFE/consolidated/": {
+    "company": "Zydus Lifesci.",
+    "ticker": "ZYDUSLIFE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LTFOODS/consolidated/": {
+    "company": "L T Foods",
+    "ticker": "LTFOODS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOMANYCERA/consolidated/": {
+    "company": "Somany Ceramics",
+    "ticker": "SOMANYCERA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Ceramics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SANATHAN/consolidated/": {
+    "company": "Sanathan Textile",
+    "ticker": "SANATHAN",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIGRID/consolidated/": {
+    "company": "IndiGrid Trust",
+    "ticker": "INDIGRID",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power - Transmission",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUPRAJIT/consolidated/": {
+    "company": "Suprajit Engg.",
+    "ticker": "SUPRAJIT",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
