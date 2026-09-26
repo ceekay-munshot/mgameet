@@ -3054,5 +3054,325 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/PVSL/consolidated/": {
+    "company": "Popular Vehicles",
+    "ticker": "PVSL",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Auto Dealer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIGMAADV/consolidated/": {
+    "company": "Sigma Advanced System",
+    "ticker": "SIGMAADV",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CESC/consolidated/": {
+    "company": "CESC",
+    "ticker": "CESC",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Integrated Power Utilities",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEG/consolidated/": {
+    "company": "HEG",
+    "ticker": null,
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MEESHO/consolidated/": {
+    "company": "Meesho",
+    "ticker": "MEESHO",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TORNTPHARM/consolidated/": {
+    "company": "Torrent Pharma.",
+    "ticker": "TORNTPHARM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARHAM/consolidated/": {
+    "company": "Arham Tech",
+    "ticker": "SME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABDL/consolidated/": {
+    "company": "Allied Blenders",
+    "ticker": "ABDL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJEL/consolidated/": {
+    "company": "Bajel Projects",
+    "ticker": "BAJEL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BRITANNIA/consolidated/": {
+    "company": "Britannia Inds.",
+    "ticker": "BRITANNIA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VOLERCAR/": {
+    "company": "Voler Car",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Road Transport",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DENEERS/consolidated/": {
+    "company": "De Neers Tools",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMUDHRA/consolidated/": {
+    "company": "eMudhra",
+    "ticker": "EMUDHRA",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JNPR/consolidated/": {
+    "company": "Juniper Green",
+    "ticker": "JNPR",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KARNIKA/consolidated/": {
+    "company": "Karnika Industri",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHEMCON/": {
+    "company": "Chemcon Special.",
+    "ticker": "CHEMCON",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GSPCROP/consolidated/": {
+    "company": "GSP Crop Science",
+    "ticker": "GSPCROP",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PWL/consolidated/": {
+    "company": "Physicswallah",
+    "ticker": "PWL",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "E-Learning",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIMPLEXCAS/": {
+    "company": "Simplex Castings",
+    "ticker": "513472",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RNFI/consolidated/": {
+    "company": "RNFI Services",
+    "ticker": "SME",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADANIENSOL/consolidated/": {
+    "company": "Adani Energy Sol",
+    "ticker": "ADANIENSOL",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Distribution",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PCBL/consolidated/": {
+    "company": "PCBL Chemical",
+    "ticker": "PCBL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Carbon Black",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AAVAS/": {
+    "company": "AAVAS Financiers",
+    "ticker": "AAVAS",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POLYMED/consolidated/": {
+    "company": "Poly Medicure",
+    "ticker": "POLYMED",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APLLTD/consolidated/": {
+    "company": "Alembic Pharma",
+    "ticker": "APLLTD",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADVAIT/consolidated/": {
+    "company": "Advait Energy",
+    "ticker": "ADVAIT",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/COSMOFIRST/consolidated/": {
+    "company": "Cosmo First",
+    "ticker": "COSMOFIRST",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KAYNES/consolidated/": {
+    "company": "Kaynes Tech",
+    "ticker": "KAYNES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NORTHARC/consolidated/": {
+    "company": "Northern Arc",
+    "ticker": "NORTHARC",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PIIND/consolidated/": {
+    "company": "P I Industries",
+    "ticker": "PIIND",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LICI/consolidated/": {
+    "company": "Life Insurance",
+    "ticker": "LICI",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NETWEB/": {
+    "company": "Netweb Technol.",
+    "ticker": "NETWEB",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DYCL/": {
+    "company": "Dynamic Cables",
+    "ticker": "DYCL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LASERPOWER/consolidated/": {
+    "company": "Laser Power",
+    "ticker": "LASERPOWER",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SSEGL/": {
+    "company": "Sathlokhar Sys.",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STEELXIND/": {
+    "company": "Steel Exchange",
+    "ticker": "STEELXIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GVPIL/consolidated/": {
+    "company": "GE Power",
+    "ticker": "GVPIL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AFCONS/consolidated/": {
+    "company": "Afcons Infrastr.",
+    "ticker": "AFCONS",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544670/": {
+    "company": "Bai-Kakaji Poly.",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plastic Products - Consumer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARMANFIN/consolidated/": {
+    "company": "Arman Financial",
+    "ticker": "ARMANFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
   }
 }
