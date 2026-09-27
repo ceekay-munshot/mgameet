@@ -3374,5 +3374,325 @@
     "industry": "Finance",
     "sub_industry": "Non Banking Financial Company (NBFC)",
     "_tries": 1
+  },
+  "https://www.screener.in/company/DANISH/": {
+    "company": "Danish Power",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544831/": {
+    "company": "Meenakshi (I)",
+    "ticker": "544831",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VMM/consolidated/": {
+    "company": "Vishal Mega Mart",
+    "ticker": "VMM",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Diversified Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANINDS/consolidated/": {
+    "company": "Man Industries",
+    "ticker": "MANINDS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIASHLTR/": {
+    "company": "INDIA SHELTE FIN",
+    "ticker": "INDIASHLTR",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANESHIN/consolidated/": {
+    "company": "Ganesh Infra.",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AJMERA/consolidated/": {
+    "company": "Ajmera Realty",
+    "ticker": "AJMERA",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARIS/consolidated/": {
+    "company": "Arisinfra Solu.",
+    "ticker": "ARIS",
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TIINDIA/consolidated/": {
+    "company": "Tube Investments",
+    "ticker": "TIINDIA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CORONA/": {
+    "company": "Corona Remedies",
+    "ticker": "CORONA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ATHERENERG/": {
+    "company": "Ather Energy",
+    "ticker": "ATHERENERG",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALLETEC/consolidated/": {
+    "company": "All E Tech",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WCIL/consolidated/": {
+    "company": "Western Carriers",
+    "ticker": "WCIL",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CMRGREEN/consolidated/": {
+    "company": "CMR Green Tech.",
+    "ticker": "CMRGREEN",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAPMYINDIA/consolidated/": {
+    "company": "C.E. Info System",
+    "ticker": "MAPMYINDIA",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIRLANU/consolidated/": {
+    "company": "BirlaNu Ltd",
+    "ticker": "BIRLANU",
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544710/": {
+    "company": "Accord Transformer",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544681/": {
+    "company": "Indo SMC",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLAND/consolidated/": {
+    "company": "Gland Pharma",
+    "ticker": "GLAND",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DRREDDY/consolidated/": {
+    "company": "Dr Reddy's Labs",
+    "ticker": "DRREDDY",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544524/": {
+    "company": "JD Cables",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADANIGREEN/consolidated/": {
+    "company": "Adani Green",
+    "ticker": "ADANIGREEN",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TALBROAUTO/consolidated/": {
+    "company": "Talbros Auto.",
+    "ticker": "TALBROAUTO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BORORENEW/": {
+    "company": "Borosil Renew.",
+    "ticker": "BORORENEW",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Glass - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LGEINDIA/": {
+    "company": "LG Electronics",
+    "ticker": "LGEINDIA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PPLPHARMA/consolidated/": {
+    "company": "Piramal Pharma",
+    "ticker": "PPLPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MUTHOOTMF/": {
+    "company": "Muthoot Microfin",
+    "ticker": "MUTHOOTMF",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Microfinance Institutions",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIS/consolidated/": {
+    "company": "SIS",
+    "ticker": "SIS",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LENSKART/consolidated/": {
+    "company": "Lenskart Solut.",
+    "ticker": "LENSKART",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544354/": {
+    "company": "Solarium Green",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNGJL/consolidated/": {
+    "company": "P N Gadgil Jewe.",
+    "ticker": "PNGJL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STUDDS/consolidated/": {
+    "company": "Studds Accessor.",
+    "ticker": "STUDDS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAMOEWASTE/consolidated/": {
+    "company": "Namo eWaste",
+    "ticker": "SME",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KSHINTL/": {
+    "company": "KSH Internationa",
+    "ticker": "KSHINTL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VGINFOTECH/": {
+    "company": "Virtual Galaxy",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/J&KBANK/consolidated/": {
+    "company": "J & K Bank",
+    "ticker": "J&KBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STEELCAS/": {
+    "company": "Steelcast",
+    "ticker": "STEELCAS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADISOFT/consolidated/": {
+    "company": "Adisoft Technol.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GENXAI/consolidated/": {
+    "company": "GenXAI Analytics",
+    "ticker": "SME",
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AIAENG/consolidated/": {
+    "company": "AIA Engineering",
+    "ticker": "AIAENG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
   }
 }
