@@ -3685,7 +3685,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 1
+    "_tries": 2
   },
   "https://www.screener.in/company/AIAENG/consolidated/": {
     "company": "AIA Engineering",
@@ -3693,6 +3693,318 @@
     "sector": "Capital Goods",
     "industry": "Industrial Products",
     "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASKAUTOLTD/consolidated/": {
+    "company": "ASK Automotive",
+    "ticker": "ASKAUTOLTD",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOTILALOFS/consolidated/": {
+    "company": "Motil.Oswal.Fin.",
+    "ticker": "MOTILALOFS",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UNOMINDA/consolidated/": {
+    "company": "Uno Minda",
+    "ticker": "UNOMINDA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARKHOSPS/consolidated/": {
+    "company": "Park Medi World",
+    "ticker": "PARKHOSPS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHRIRAMPPS/consolidated/": {
+    "company": "Shriram Properti",
+    "ticker": "SHRIRAMPPS",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PGEL/consolidated/": {
+    "company": "PG Electroplast",
+    "ticker": "PGEL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BCONCEPTS/consolidated/": {
+    "company": "Brand Concepts",
+    "ticker": "BCONCEPTS",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMMIL/consolidated/": {
+    "company": "Energy-Mission",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544335/": {
+    "company": "B.R.Goyal Infra.",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MBEL/consolidated/": {
+    "company": "M & B Engineer.",
+    "ticker": "MBEL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SANSERA/": {
+    "company": "Sansera Enginee.",
+    "ticker": "SANSERA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/541083/": {
+    "company": "Inflame Applian.",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Houseware",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GOCOLORS/": {
+    "company": "Go Fashion (I)",
+    "ticker": "GOCOLORS",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544544/consolidated/": {
+    "company": "Telge Projects",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544863/": {
+    "company": "LAPL Automotive",
+    "ticker": null,
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MONEYBOXX/": {
+    "company": "Moneyboxx Fin.",
+    "ticker": "MONEYBOXX",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FOODSIN/consolidated/": {
+    "company": "Foods & Inns",
+    "ticker": "FOODSIN",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MODINATUR/consolidated/": {
+    "company": "Modi Naturals",
+    "ticker": "MODINATUR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRAPHITE/consolidated/": {
+    "company": "Graphite India",
+    "ticker": "GRAPHITE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Electrodes & Refractories",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEEDEV/consolidated/": {
+    "company": "DEE Development",
+    "ticker": "DEEDEV",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVPINFRA/": {
+    "company": "AVP Infracon",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEGAM/consolidated/": {
+    "company": "HEG Advanced Materials",
+    "ticker": "HEGAM",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Electrodes & Refractories",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KISSHT/consolidated/": {
+    "company": "Onemi Technology",
+    "ticker": "KISSHT",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GABRIEL/consolidated/": {
+    "company": "Gabriel India",
+    "ticker": "GABRIEL",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MTARTECH/": {
+    "company": "MTAR Technologie",
+    "ticker": "MTARTECH",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHAILY/": {
+    "company": "Shaily Engineer.",
+    "ticker": "SHAILY",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plastic Products - Consumer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ISIBARS/": {
+    "company": "India Homes",
+    "ticker": "513361",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CENTUM/consolidated/": {
+    "company": "Centum Electron",
+    "ticker": "CENTUM",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ITCHOTELS/consolidated/": {
+    "company": "ITC Hotels",
+    "ticker": "ITCHOTELS",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CURRENT/consolidated/": {
+    "company": "Current Infra.",
+    "ticker": "SME",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PROFX/": {
+    "company": "Pro FX",
+    "ticker": "SME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLUEWATER/": {
+    "company": "Blue Water",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NXST/consolidated/": {
+    "company": "Nexus Select",
+    "ticker": "NXST",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Real Estate Investment Trusts (REITs)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AUBANK/": {
+    "company": "AU Small Finance",
+    "ticker": "AUBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TENNIND/consolidated/": {
+    "company": "Tenneco Clean",
+    "ticker": "TENNIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRISHPP/": {
+    "company": "Krishival Foods PP",
+    "ticker": "KRISHPP",
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMBDL/consolidated/": {
+    "company": "Embassy Develop",
+    "ticker": "EMBDL",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AIMTRON/consolidated/": {
+    "company": "Aimtron",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MILKYMIST/": {
+    "company": "Milky Mist Dairy",
+    "ticker": "MILKYMIST",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
     "_tries": 1
   }
 }
