@@ -3685,7 +3685,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 2
+    "_tries": 3
   },
   "https://www.screener.in/company/AIAENG/consolidated/": {
     "company": "AIA Engineering",
@@ -3981,7 +3981,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 1
+    "_tries": 2
   },
   "https://www.screener.in/company/EMBDL/consolidated/": {
     "company": "Embassy Develop",
@@ -4005,6 +4005,310 @@
     "sector": "Fast Moving Consumer Goods",
     "industry": "Food Products",
     "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STANLEY/consolidated/": {
+    "company": "Stanley Lifesty.",
+    "ticker": "STANLEY",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544657/": {
+    "company": "Pajson Agro",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NOCIL/consolidated/": {
+    "company": "NOCIL",
+    "ticker": "NOCIL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MADHUSUDAN/": {
+    "company": "Madhusudan Masa",
+    "ticker": "SME",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CRIZAC/consolidated/": {
+    "company": "Crizac",
+    "ticker": "CRIZAC",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Internet & Catalogue Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANAWIL/": {
+    "company": "Anawil Wire",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MBLINFRA/consolidated/": {
+    "company": "MBL Infrast",
+    "ticker": "MBLINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKP/consolidated/": {
+    "company": "SKP Bearing",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Abrasives & Bearings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPIGREEN/consolidated/": {
+    "company": "KPI Green Energy",
+    "ticker": "KPIGREEN",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MINDACORP/consolidated/": {
+    "company": "Minda Corp",
+    "ticker": "MINDACORP",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIRAIL/consolidated/": {
+    "company": "Oriental Rail",
+    "ticker": "ORIRAIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VILAS/": {
+    "company": "Vilas Transcore",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEROMOTOCO/consolidated/": {
+    "company": "Hero Motocorp",
+    "ticker": "HEROMOTOCO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAZDOCK/consolidated/": {
+    "company": "Mazagon Dock",
+    "ticker": "MAZDOCK",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Ship Building & Allied Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNB/consolidated/": {
+    "company": "Punjab Natl.Bank",
+    "ticker": "PNB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SATIN/consolidated/": {
+    "company": "Satin Creditcare",
+    "ticker": "SATIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Microfinance Institutions",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544441/": {
+    "company": "Meta Infotech",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOIL/": {
+    "company": "MOIL",
+    "ticker": "MOIL",
+    "sector": "Metals & Mining",
+    "industry": "Minerals & Mining",
+    "sub_industry": "Industrial Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JAINIK/": {
+    "company": "Jainik Power",
+    "ticker": "SME",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GPTINFRA/consolidated/": {
+    "company": "GPT Infraproject",
+    "ticker": "GPTINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GPTHEALTH/": {
+    "company": "GPT Healthcare",
+    "ticker": "GPTHEALTH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UDS/consolidated/": {
+    "company": "Updater Services",
+    "ticker": "UDS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAFATIND/consolidated/": {
+    "company": "Mafatlal Inds.",
+    "ticker": "MAFATIND",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUMEETINDS/consolidated/": {
+    "company": "Sumeet Industrie",
+    "ticker": "SUMEETINDS",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IRISDOREME/": {
+    "company": "Iris Clothings",
+    "ticker": "IRISDOREME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NEOCHEM/": {
+    "company": "Neochem Bio",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLENMARK/consolidated/": {
+    "company": "Glenmark Pharma.",
+    "ticker": "GLENMARK",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544340/": {
+    "company": "Rikhav Securitie",
+    "ticker": null,
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SPMLINFRA/consolidated/": {
+    "company": "SPML Infra",
+    "ticker": "SPMLINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CDSL/consolidated/": {
+    "company": "C D S L",
+    "ticker": "CDSL",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Depositories, Clearing Houses and Other Intermediaries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544504/": {
+    "company": "Goel Construct.",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CARTRADE/consolidated/": {
+    "company": "Cartrade Tech",
+    "ticker": "CARTRADE",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MEGATHERM/": {
+    "company": "Megatherm Indu.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJHFL/": {
+    "company": "Bajaj Housing",
+    "ticker": "BAJAJHFL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GCHOTELS/consolidated/": {
+    "company": "Grand Continent",
+    "ticker": "SME",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIVIANA/": {
+    "company": "Viviana Power",
+    "ticker": "VIVIANA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/542669/consolidated/": {
+    "company": "BMW Industries",
+    "ticker": "542669",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TARACHAND/": {
+    "company": "Tara Chand Infra",
+    "ticker": "TARACHAND",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
     "_tries": 1
   }
 }
