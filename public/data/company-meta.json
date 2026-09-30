@@ -3981,7 +3981,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 2
+    "_tries": 3
   },
   "https://www.screener.in/company/EMBDL/consolidated/": {
     "company": "Embassy Develop",
@@ -4309,6 +4309,318 @@
     "sector": "Services",
     "industry": "Commercial Services & Supplies",
     "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAHLOG/consolidated/": {
+    "company": "Mahindra Logis.",
+    "ticker": "MAHLOG",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIFFNKG/consolidated/": {
+    "company": "Diffusion Eng",
+    "ticker": "DIFFNKG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MBAPL/": {
+    "company": "M B Agro Prod.",
+    "ticker": "MBAPL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHAGCHEM/consolidated/": {
+    "company": "Bhagiradha Chem.",
+    "ticker": "BHAGCHEM",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LEMONTREE/consolidated/": {
+    "company": "Lemon Tree Hotel",
+    "ticker": "LEMONTREE",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/REGAAL/": {
+    "company": "Regaal Resources",
+    "ticker": "REGAAL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HOACFOODS/": {
+    "company": "Hoac Foods",
+    "ticker": "SME",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPEL/consolidated/": {
+    "company": "K.P. Energy",
+    "ticker": "KPEL",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544150/": {
+    "company": "KP Green Engg.",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ESDS/consolidated/": {
+    "company": "ESDS Software",
+    "ticker": "ESDS",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SCHAEFFLER/": {
+    "company": "Schaeffler India",
+    "ticker": "SCHAEFFLER",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RVNL/consolidated/": {
+    "company": "Rail Vikas",
+    "ticker": "RVNL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NRL/consolidated/": {
+    "company": "Nupur Recyclers",
+    "ticker": "NRL",
+    "sector": "Metals & Mining",
+    "industry": "Metals & Minerals Trading",
+    "sub_industry": "Trading - Metals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSLL/": {
+    "company": "Jeena Sikho",
+    "ticker": "JSLL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Wellness",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/504903/": {
+    "company": "Rathi Steel",
+    "ticker": "504903",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SLONE/": {
+    "company": "Slone Infosys.",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRISHANA/": {
+    "company": "Krishana Phosch.",
+    "ticker": "KRISHANA",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHADORA/": {
+    "company": "Bhadora Indust.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544541/": {
+    "company": "Systematic Inds.",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARTIPHARM/consolidated/": {
+    "company": "Aarti Pharma",
+    "ticker": "AARTIPHARM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CPL/consolidated/": {
+    "company": "Captain Polyplas",
+    "ticker": "CPL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAHETI/": {
+    "company": "Baheti Recycling",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PVRINOX/consolidated/": {
+    "company": "PVR Inox",
+    "ticker": "PVRINOX",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Film Production, Distribution & Exhibition",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CRAMC/": {
+    "company": "Canara Robeco",
+    "ticker": "CRAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CENTRALBK/consolidated/": {
+    "company": "Central Bank",
+    "ticker": "CENTRALBK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANAKCOAT/consolidated/": {
+    "company": "Manaksia Coated",
+    "ticker": "MANAKCOAT",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PATELENG/consolidated/": {
+    "company": "Patel Engineerin",
+    "ticker": "PATELENG",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CARYSIL/consolidated/": {
+    "company": "Carysil",
+    "ticker": "CARYSIL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MYMUDRA/": {
+    "company": "My Mudra Fin.",
+    "ticker": "SME",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544669/": {
+    "company": "Admach Systems",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544698/": {
+    "company": "PAN HR Solution",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASTRAMICRO/consolidated/": {
+    "company": "Astra Microwave",
+    "ticker": "ASTRAMICRO",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544741/": {
+    "company": "Highness Microelectronics",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOL/consolidated/": {
+    "company": "Meghmani Organi.",
+    "ticker": "MOL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GOKULAGRO/consolidated/": {
+    "company": "Gokul Agro",
+    "ticker": "GOKULAGRO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Edible Oil",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544460/": {
+    "company": "Patel Chem",
+    "ticker": null,
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRBL/consolidated/": {
+    "company": "KRBL",
+    "ticker": "KRBL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DPEL/consolidated/": {
+    "company": "Divine Power",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HINDZINC/": {
+    "company": "Hindustan Zinc",
+    "ticker": "HINDZINC",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Zinc",
     "_tries": 1
   }
 }
