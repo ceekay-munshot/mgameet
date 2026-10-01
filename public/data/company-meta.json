@@ -4622,5 +4622,325 @@
     "industry": "Non - Ferrous Metals",
     "sub_industry": "Zinc",
     "_tries": 1
+  },
+  "https://www.screener.in/company/LRRPL/": {
+    "company": "Lead Reclaim",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARSSBL/": {
+    "company": "Anand Rathi Shar",
+    "ticker": "ARSSBL",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NEPHROPLUS/consolidated/": {
+    "company": "Nephrocare Health Services",
+    "ticker": "NEPHROPLUS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRISHIVAL/consolidated/": {
+    "company": "Krishival Foods",
+    "ticker": "KRISHIVAL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DUGLOBAL/consolidated/": {
+    "company": "DU Digital",
+    "ticker": "SME",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GHCLTEXTIL/": {
+    "company": "GHCL Textiles",
+    "ticker": "GHCLTEXTIL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SURAJEST/consolidated/": {
+    "company": "Suraj Estate",
+    "ticker": "SURAJEST",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544406/": {
+    "company": "Unified Data",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544511/": {
+    "company": "Karbonsteel Eng.",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARKHOTELS/consolidated/": {
+    "company": "Apeejay Surrend.",
+    "ticker": "PARKHOTELS",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WESTLIFE/consolidated/": {
+    "company": "Westlife Food",
+    "ticker": "WESTLIFE",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VISHNUINFR/consolidated/": {
+    "company": "Vishnusurya Pro.",
+    "ticker": "SME",
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PDSL/consolidated/": {
+    "company": "PDS",
+    "ticker": "PDSL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Trading - Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WELCORP/consolidated/": {
+    "company": "Welspun Corp",
+    "ticker": "WELCORP",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INSECTICID/consolidated/": {
+    "company": "Insecticid.India",
+    "ticker": "INSECTICID",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544458/consolidated/": {
+    "company": "Shree Refrigerat",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHILPAMED/consolidated/": {
+    "company": "Shilpa Medicare",
+    "ticker": "SHILPAMED",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHRIKANHA/": {
+    "company": "Shri Kanha Stain",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VINATIORGA/": {
+    "company": "Vinati Organics",
+    "ticker": "VINATIORGA",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SURYODAY/": {
+    "company": "Suryoday Small",
+    "ticker": "SURYODAY",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SSFL/": {
+    "company": "Srivari Spices &",
+    "ticker": "SME",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RHIM/consolidated/": {
+    "company": "RHI Magnesita",
+    "ticker": "RHIM",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Electrodes & Refractories",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544793/": {
+    "company": "Susan Electrical",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHOPERSTOP/consolidated/": {
+    "company": "Shoppers Stop",
+    "ticker": "SHOPERSTOP",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Diversified Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LODHA/consolidated/": {
+    "company": "Lodha Developers",
+    "ticker": "LODHA",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NDRAUTO/consolidated/": {
+    "company": "NDR Auto Compon.",
+    "ticker": "NDRAUTO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543709/": {
+    "company": "PNGS Gargi FJ",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543953/": {
+    "company": "Khazanchi Jewell",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SATTVAENGG/": {
+    "company": "Sattva Eng.",
+    "ticker": "SME",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Water Supply & Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PELATRO/consolidated/": {
+    "company": "Pelatro",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Web based media and service",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNGSREVA/": {
+    "company": "PNGS Reva Diamo.",
+    "ticker": "PNGSREVA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MIDHANI/": {
+    "company": "Mishra Dhatu Nig",
+    "ticker": "MIDHANI",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALLTIME/": {
+    "company": "All Time Plastic",
+    "ticker": "ALLTIME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Houseware",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACUTAAS/consolidated/": {
+    "company": "Acutaas Chemical",
+    "ticker": "ACUTAAS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544463/": {
+    "company": "Repono",
+    "ticker": null,
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Storage & Transportation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PSPPROJECT/consolidated/": {
+    "company": "PSP Projects",
+    "ticker": "PSPPROJECT",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MODIS/": {
+    "company": "Modi's Navnirman",
+    "ticker": "MODIS",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ENTERO/consolidated/": {
+    "company": "Entero Healthcar",
+    "ticker": "ENTERO",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Pharmacy Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DELAPLEX/consolidated/": {
+    "company": "Delaplex",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MCLOUD/consolidated/": {
+    "company": "Magellanic Cloud",
+    "ticker": "MCLOUD",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
   }
 }
