@@ -4942,5 +4942,325 @@
     "industry": "IT - Software",
     "sub_industry": "Computers - Software & Consulting",
     "_tries": 1
+  },
+  "https://www.screener.in/company/544498/consolidated/": {
+    "company": "Oval Projects",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARIHANTSUP/consolidated/": {
+    "company": "Arihant Super.",
+    "ticker": "ARIHANTSUP",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SMCGLOBAL/consolidated/": {
+    "company": "SMC Global Sec.",
+    "ticker": "SMCGLOBAL",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARAGMILK/consolidated/": {
+    "company": "Parag Milk Foods",
+    "ticker": "PARAGMILK",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHOICEIN/consolidated/": {
+    "company": "Choice Intl.",
+    "ticker": "CHOICEIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOBIKWIK/consolidated/": {
+    "company": "One Mobikwik",
+    "ticker": "MOBIKWIK",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/YATHARTH/consolidated/": {
+    "company": "Yatharth Hospit.",
+    "ticker": "YATHARTH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIAMONDYD/": {
+    "company": "Prataap Snacks",
+    "ticker": "DIAMONDYD",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANDHAR/consolidated/": {
+    "company": "Gandhar Oil Ref.",
+    "ticker": "GANDHAR",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Lubricants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LAXMIDENTL/consolidated/": {
+    "company": "Laxmi Dental",
+    "ticker": "LAXMIDENTL",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDOBORAX/consolidated/": {
+    "company": "Indo Borax & Ch.",
+    "ticker": "INDOBORAX",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NELCAST/consolidated/": {
+    "company": "Nelcast",
+    "ticker": "NELCAST",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OMPOWER/": {
+    "company": "Om Power Transmission",
+    "ticker": "OMPOWER",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544877/": {
+    "company": "Technocrats Plasma",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544453/": {
+    "company": "Monarch Surve.",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Consulting Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GODAVARIB/consolidated/": {
+    "company": "Godavari Bioref.",
+    "ticker": "GODAVARIB",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Diversified FMCG",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WELSPUNLIV/consolidated/": {
+    "company": "Welspun Living",
+    "ticker": "WELSPUNLIV",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADSL/consolidated/": {
+    "company": "Allied Digital",
+    "ticker": "ADSL",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UTLSOLAR/": {
+    "company": "Fujiyama Power",
+    "ticker": "UTLSOLAR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UGROCAP/": {
+    "company": "Ugro Capital",
+    "ticker": "UGROCAP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CEIGALL/consolidated/": {
+    "company": "Ceigall India",
+    "ticker": "CEIGALL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/504028/": {
+    "company": "GEE",
+    "ticker": "504028",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/538540/": {
+    "company": "Raama Finance",
+    "ticker": null,
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIENTTECH/": {
+    "company": "Orient Tech.",
+    "ticker": null,
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMIL/consolidated/": {
+    "company": "Electronics Mart",
+    "ticker": "EMIL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Diversified Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KEC/consolidated/": {
+    "company": "KEC International",
+    "ticker": "KEC",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544859/": {
+    "company": "G V Electricals",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FABTECH/consolidated/": {
+    "company": "Fabtech Tech.",
+    "ticker": "FABTECH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Research, Analytics & Technology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AEROPLANE/consolidated/": {
+    "company": "A C J K Exports",
+    "ticker": "AEROPLANE",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDSWFTLAB/consolidated/": {
+    "company": "Ind-Swift Labs.",
+    "ticker": "INDSWFTLAB",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICIL/consolidated/": {
+    "company": "Indo Count Inds.",
+    "ticker": "ICIL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANESHCP/": {
+    "company": "Ganesh Consumer",
+    "ticker": "GANESHCP",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELECTCAST/consolidated/": {
+    "company": "Electrost.Cast.",
+    "ticker": "ELECTCAST",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SADHAV/": {
+    "company": "Sadhav Shipping",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Shipping",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544467/consolidated/": {
+    "company": "N S D L",
+    "ticker": "544467",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Depositories, Clearing Houses and Other Intermediaries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IMAGICAA/consolidated/": {
+    "company": "Imagica. Enter.",
+    "ticker": "IMAGICAA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Amusement Parks/ Other Recreation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARINE/consolidated/": {
+    "company": "Marine Electric.",
+    "ticker": "MARINE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLOBUSSPR/consolidated/": {
+    "company": "Globus Spirits",
+    "ticker": "GLOBUSSPR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASTRAL/consolidated/": {
+    "company": "Astral",
+    "ticker": "ASTRAL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONWARDTEC/consolidated/": {
+    "company": "Onward Technolog",
+    "ticker": "ONWARDTEC",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
   }
 }
