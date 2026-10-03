@@ -5121,19 +5121,19 @@
   },
   "https://www.screener.in/company/538540/": {
     "company": "Raama Finance",
-    "ticker": null,
-    "sector": null,
-    "industry": null,
-    "sub_industry": null,
-    "_tries": 1
+    "ticker": "538540",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 2
   },
   "https://www.screener.in/company/ORIENTTECH/": {
     "company": "Orient Tech.",
-    "ticker": null,
-    "sector": null,
-    "industry": null,
-    "sub_industry": null,
-    "_tries": 1
+    "ticker": "ORIENTTECH",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 2
   },
   "https://www.screener.in/company/EMIL/consolidated/": {
     "company": "Electronics Mart",
@@ -5258,6 +5258,310 @@
   "https://www.screener.in/company/ONWARDTEC/consolidated/": {
     "company": "Onward Technolog",
     "ticker": "ONWARDTEC",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DHARMAJ/": {
+    "company": "Dharmaj Crop",
+    "ticker": "DHARMAJ",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KALYANKJIL/consolidated/": {
+    "company": "Kalyan Jewellers",
+    "ticker": "KALYANKJIL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PERNIASPOP/consolidated/": {
+    "company": "Purple Style",
+    "ticker": "PERNIASPOP",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SSFLPP/": {
+    "company": "Spandana Spho.PP",
+    "ticker": "SSFLPP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Microfinance Institutions",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHADOWFAX/": {
+    "company": "Shadowfax Technologies",
+    "ticker": "SHADOWFAX",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544388/consolidated/": {
+    "company": "Identixweb",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAJRILTD/": {
+    "company": "Raj Rayon Inds.",
+    "ticker": "RAJRILTD",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHERA/consolidated/": {
+    "company": "Shera Energy",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APS/": {
+    "company": "Australian Prem",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LANDMARK/consolidated/": {
+    "company": "Landmark Cars",
+    "ticker": "LANDMARK",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Auto Dealer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FCL/consolidated/": {
+    "company": "Fineotex Chem",
+    "ticker": "FCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544656/": {
+    "company": "HRS Aluglaze",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544755/": {
+    "company": "Recode Studios",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVIENCE/consolidated/": {
+    "company": "Avience Biomedi.",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544370/": {
+    "company": "Nukleus Office",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OSWALPUMPS/consolidated/": {
+    "company": "Oswal Pumps",
+    "ticker": "OSWALPUMPS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BRAHMINFRA/consolidated/": {
+    "company": "Brahmaputra Inf.",
+    "ticker": "BRAHMINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HARIOMPIPE/": {
+    "company": "Hariom Pipe",
+    "ticker": "HARIOMPIPE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALKEM/consolidated/": {
+    "company": "Alkem Lab",
+    "ticker": "ALKEM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540404/consolidated/": {
+    "company": "Prime Fresh",
+    "ticker": "540404",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RPPL/": {
+    "company": "Rajshree Polypac",
+    "ticker": "RPPL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRIORITY/": {
+    "company": "Priority Jewels",
+    "ticker": "PRIORITY",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INFLUX/": {
+    "company": "Influx Health.",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JWL/consolidated/": {
+    "company": "Jupiter Wagons",
+    "ticker": "JWL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Railway Wagons",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544695/": {
+    "company": "Msafe Equipments",
+    "ticker": null,
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEVX/consolidated/": {
+    "company": "Dev Accele.",
+    "ticker": "DEVX",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KALAMANDIR/": {
+    "company": "Sai Silks",
+    "ticker": "KALAMANDIR",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLSE/consolidated/": {
+    "company": "BLS E-Services",
+    "ticker": "BLSE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LOKESHMACH/": {
+    "company": "Lokesh Mach.",
+    "ticker": "LOKESHMACH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544616/consolidated/": {
+    "company": "Gallard Steel",
+    "ticker": null,
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CPEDU/": {
+    "company": "Career Point Edu",
+    "ticker": "CPEDU",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "Education",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/539682/consolidated/": {
+    "company": "Mobavenue AI Tech",
+    "ticker": "539682",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HARSHA/consolidated/": {
+    "company": "Harsha Engg Intl",
+    "ticker": "HARSHA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DPABHUSHAN/": {
+    "company": "D.P. Abhushan",
+    "ticker": "DPABHUSHAN",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRASOLCHEM/": {
+    "company": "Prasol Chemicals",
+    "ticker": "PRASOLCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUDARSCHEM/consolidated/": {
+    "company": "Sudarshan Chem.",
+    "ticker": "SUDARSCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RITES/consolidated/": {
+    "company": "Rites",
+    "ticker": "RITES",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EXCELSOFT/consolidated/": {
+    "company": "Excelsoft Tech.",
+    "ticker": "EXCELSOFT",
     "sector": "Information Technology",
     "industry": "IT - Services",
     "sub_industry": "IT Enabled Services",
