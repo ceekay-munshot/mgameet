@@ -5566,5 +5566,325 @@
     "industry": "IT - Services",
     "sub_industry": "IT Enabled Services",
     "_tries": 1
+  },
+  "https://www.screener.in/company/SUNTECK/consolidated/": {
+    "company": "Sunteck Realty",
+    "ticker": "SUNTECK",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAMHI/consolidated/": {
+    "company": "Samhi Hotels",
+    "ticker": "SAMHI",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NPST/consolidated/": {
+    "company": "Network People",
+    "ticker": "NPST",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KHERIAAUTO/": {
+    "company": "Kheria Autocomp",
+    "ticker": "SME",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASHUTOSH/": {
+    "company": "Ashutosh Fibre",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAHABANK/consolidated/": {
+    "company": "Bank of Maha",
+    "ticker": "MAHABANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AJAXENGG/": {
+    "company": "Ajax Engineering",
+    "ticker": "AJAXENGG",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Construction Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TARSONS/consolidated/": {
+    "company": "Tarsons Products",
+    "ticker": "TARSONS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IRCON/consolidated/": {
+    "company": "Ircon Intl.",
+    "ticker": "IRCON",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PLATIND/consolidated/": {
+    "company": "Platinum Industr",
+    "ticker": "PLATIND",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544668/": {
+    "company": "Nanta Tech",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FOSECOIND/consolidated/": {
+    "company": "Foseco India",
+    "ticker": "FOSECOIND",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SILKFLEX/": {
+    "company": "Silkflex Polymer",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRN/consolidated/": {
+    "company": "KRN Heat Exchan",
+    "ticker": "KRN",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIENTBELL/": {
+    "company": "Orient Bell",
+    "ticker": "ORIENTBELL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Ceramics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAXESTATES/consolidated/": {
+    "company": "Max Estates",
+    "ticker": "MAXESTATES",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPIL/consolidated/": {
+    "company": "Kalpataru Proj.",
+    "ticker": "KPIL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544746/": {
+    "company": "Safety Controls",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NIVABUPA/": {
+    "company": "Niva Bupa Health",
+    "ticker": "NIVABUPA",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "General Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RELTD/consolidated/": {
+    "company": "Ravindra Energy",
+    "ticker": "RELTD",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SCPL/": {
+    "company": "Sheetal Cool",
+    "ticker": "SCPL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLOTTIS/": {
+    "company": "Glottis",
+    "ticker": "GLOTTIS",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAFEENTP/consolidated/": {
+    "company": "Safe Enterprises",
+    "ticker": "SME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLSEL/": {
+    "company": "Chamanlal Setia",
+    "ticker": "CLSEL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TDPOWERSYS/consolidated/": {
+    "company": "TD Power Systems",
+    "ticker": "TDPOWERSYS",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRWRHITECH/consolidated/": {
+    "company": "Garware Hi Tech",
+    "ticker": "GRWRHITECH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHAREINDIA/consolidated/": {
+    "company": "Share India Sec.",
+    "ticker": "SHAREINDIA",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UNIECOM/consolidated/": {
+    "company": "Unicommerce",
+    "ticker": "UNIECOM",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUPREMEENG/": {
+    "company": "Supreme Engg.",
+    "ticker": "SUPREMEENG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RSL/": {
+    "company": "Rajputana Stain.",
+    "ticker": "RSL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544796/": {
+    "company": "Liotech Ind.",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARACABLES/consolidated/": {
+    "company": "Paramount Comm.",
+    "ticker": "PARACABLES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASIANENE/consolidated/": {
+    "company": "Asian Energy",
+    "ticker": "ASIANENE",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Equipment & Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544895/": {
+    "company": "Kwick Forensic",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SCANSTL/": {
+    "company": "Scan Steels",
+    "ticker": "SCANSTL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STERTOOLS/consolidated/": {
+    "company": "Sterling Tools",
+    "ticker": "STERTOOLS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IDFCFIRSTB/": {
+    "company": "IDFC First Bank",
+    "ticker": "IDFCFIRSTB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/537326/": {
+    "company": "Chemtech Indust.",
+    "ticker": "537326",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JAIBALAJI/": {
+    "company": "Jai Balaji Inds.",
+    "ticker": "JAIBALAJI",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KARURVYSYA/": {
+    "company": "Karur Vysya Bank",
+    "ticker": "KARURVYSYA",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
   }
 }
