@@ -5886,5 +5886,325 @@
     "industry": "Banks",
     "sub_industry": "Private Sector Bank",
     "_tries": 1
+  },
+  "https://www.screener.in/company/STLTECH/consolidated/": {
+    "company": "Sterlite Tech.",
+    "ticker": "STLTECH",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Equipment & Accessories",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/531279/": {
+    "company": "Trishakti Indus",
+    "ticker": "531279",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAHSEAMLES/consolidated/": {
+    "company": "Mah. Seamless",
+    "ticker": "MAHSEAMLES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CONFIPET/consolidated/": {
+    "company": "Confidence Petro",
+    "ticker": "CONFIPET",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKYGOLD/consolidated/": {
+    "company": "Sky Gold & Diam.",
+    "ticker": "SKYGOLD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJCON/consolidated/": {
+    "company": "Bajaj Consumer",
+    "ticker": "BAJAJCON",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOLEX/": {
+    "company": "Solex Energy",
+    "ticker": "SOLEX",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PFOCUS/consolidated/": {
+    "company": "Prime Focus",
+    "ticker": "PFOCUS",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MVELECTRO/": {
+    "company": "MV Electrosystems",
+    "ticker": "MVELECTRO",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GKENERGY/": {
+    "company": "GK Energy",
+    "ticker": "GKENERGY",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POWERMECH/consolidated/": {
+    "company": "Power Mech Proj.",
+    "ticker": "POWERMECH",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RBZJEWEL/": {
+    "company": "RBZ Jewellers Lt",
+    "ticker": "RBZJEWEL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVONMORE/consolidated/": {
+    "company": "Avonmore Capital",
+    "ticker": "AVONMORE",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALMONDZ/consolidated/": {
+    "company": "Almondz Global",
+    "ticker": "ALMONDZ",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UFLEX/consolidated/": {
+    "company": "Uflex",
+    "ticker": "UFLEX",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PANACHE/": {
+    "company": "Panache Digilife",
+    "ticker": "PANACHE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IEX/": {
+    "company": "Indian Energy Ex",
+    "ticker": "IEX",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Exchange and Data Platform",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELDEHSG/consolidated/": {
+    "company": "Eldeco Housing",
+    "ticker": "ELDEHSG",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544667/": {
+    "company": "Dachepalli Pub.",
+    "ticker": null,
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Printing & Publication",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HGS/consolidated/": {
+    "company": "Hinduja Global",
+    "ticker": "HGS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASHOKA/consolidated/": {
+    "company": "Ashoka Buildcon",
+    "ticker": "ASHOKA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544224/": {
+    "company": "Afcom Holdings",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FRACTAL/consolidated/": {
+    "company": "Fractal Analyt.",
+    "ticker": "FRACTAL",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HILINFRA/consolidated/": {
+    "company": "Highway Infra",
+    "ticker": "HILINFRA",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Road AssetsToll, Annuity, Hybrid-Annuity",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEEPINDS/consolidated/": {
+    "company": "Deep Industries",
+    "ticker": "DEEPINDS",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Equipment & Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543928/consolidated/": {
+    "company": "Cosmic CRF",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VMART/": {
+    "company": "V-Mart Retail",
+    "ticker": "VMART",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Diversified Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544751/": {
+    "company": "Mehul Telecom",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544542/": {
+    "company": "Justo Realfin",
+    "ticker": null,
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Real Estate related services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACE/consolidated/": {
+    "company": "Action Const.Eq.",
+    "ticker": "ACE",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Construction Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARTIDRUGS/consolidated/": {
+    "company": "Aarti Drugs",
+    "ticker": "AARTIDRUGS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544296/consolidated/": {
+    "company": "Nisus Finance",
+    "ticker": null,
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLUSPRING/consolidated/": {
+    "company": "Bluspring Enter.",
+    "ticker": "BLUSPRING",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANLON/": {
+    "company": "Anlon Tech",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KNACK/": {
+    "company": "Knack Packaging",
+    "ticker": "KNACK",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MMP/consolidated/": {
+    "company": "MMP Industries",
+    "ticker": "MMP",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RPEL/consolidated/": {
+    "company": "Raghav Product.",
+    "ticker": "RPEL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Electrodes & Refractories",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALLDIGI/consolidated/": {
+    "company": "Alldigi Tech",
+    "ticker": "ALLDIGI",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EDELWEISS/consolidated/": {
+    "company": "Edelweiss.Fin.",
+    "ticker": "EDELWEISS",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SARDAEN/consolidated/": {
+    "company": "Sarda Energy",
+    "ticker": "SARDAEN",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
   }
 }
