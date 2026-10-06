@@ -6206,5 +6206,325 @@
     "industry": "Ferrous Metals",
     "sub_industry": "Iron & Steel",
     "_tries": 1
+  },
+  "https://www.screener.in/company/STALLION/": {
+    "company": "Stallion India",
+    "ticker": "STALLION",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Industrial Gases",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WOL3D/": {
+    "company": "WOL 3D India",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIANB/consolidated/": {
+    "company": "Indian Bank",
+    "ticker": "INDIANB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GMMPFAUDLR/consolidated/": {
+    "company": "GMM Pfaudler",
+    "ticker": "GMMPFAUDLR",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HDBFS/": {
+    "company": "HDB FINANC SER",
+    "ticker": "HDBFS",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUBAHOTELS/consolidated/": {
+    "company": "Suba Hotels",
+    "ticker": "SME",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RIR/consolidated/": {
+    "company": "RIR Power Electr",
+    "ticker": "RIR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARTISURF/consolidated/": {
+    "company": "Aarti Surfactant",
+    "ticker": "AARTISURF",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MONOLITH/consolidated/": {
+    "company": "Monolithisch Ind",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Electrodes & Refractories",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAXVOLT/": {
+    "company": "Maxvolt Energy",
+    "ticker": "SME",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MPIMANIPAL/": {
+    "company": "Manipal Payment",
+    "ticker": "MPIMANIPAL",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARE&M/": {
+    "company": "Amara Raja Ener.",
+    "ticker": "ARE&M",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VALIANTORG/consolidated/": {
+    "company": "Valiant Organics",
+    "ticker": "VALIANTORG",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HDFCAMC/": {
+    "company": "HDFC AMC",
+    "ticker": "HDFCAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KANOHAR/": {
+    "company": "Kanohar Elect.",
+    "ticker": "KANOHAR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDGN/consolidated/": {
+    "company": "Indegene",
+    "ticker": "INDGN",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Research, Analytics & Technology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARCIL/consolidated/": {
+    "company": "A R C I",
+    "ticker": "ARCIL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAVINFLUOR/consolidated/": {
+    "company": "Navin Fluo.Intl.",
+    "ticker": "NAVINFLUOR",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAMPUS/": {
+    "company": "Campus Activewe.",
+    "ticker": "CAMPUS",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Footwear",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CEATLTD/consolidated/": {
+    "company": "CEAT",
+    "ticker": "CEATLTD",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Tyres & Rubber Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIVGIITTS/": {
+    "company": "Divgi Torq",
+    "ticker": "DIVGIITTS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANORAMA/": {
+    "company": "Manorama Indust.",
+    "ticker": "MANORAMA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STEAMHOUSE/": {
+    "company": "Steamhouse India",
+    "ticker": "STEAMHOUSE",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Industrial Gases",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POONAWALLA/consolidated/": {
+    "company": "Poonawalla Fin",
+    "ticker": "POONAWALLA",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VOEPL/": {
+    "company": "Virtuoso Optoel.",
+    "ticker": "VOEPL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Diversified consumer products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANESHBE/consolidated/": {
+    "company": "Ganesh Benzopl.",
+    "ticker": "GANESHBE",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Storage & Transportation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TCS/consolidated/": {
+    "company": "TCS",
+    "ticker": "TCS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KARAMTARA/consolidated/": {
+    "company": "Karamtara Engg.",
+    "ticker": "KARAMTARA",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544444/consolidated/": {
+    "company": "GLEN Industries",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLASSWALL/consolidated/": {
+    "company": "Glass Wall Syst.",
+    "ticker": "GLASSWALL",
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIACEM/consolidated/": {
+    "company": "India Cements",
+    "ticker": "INDIACEM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAIPARENT/consolidated/": {
+    "company": "Sai Parenteral's",
+    "ticker": "SAIPARENT",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ULTRACEMCO/consolidated/": {
+    "company": "UltraTech Cem.",
+    "ticker": "ULTRACEMCO",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WPIL/consolidated/": {
+    "company": "WPIL",
+    "ticker": "WPIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHREECEM/consolidated/": {
+    "company": "Shree Cement",
+    "ticker": "SHREECEM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CORDELIA/consolidated/": {
+    "company": "Waterways Leisur",
+    "ticker": "CORDELIA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TANFACIND/": {
+    "company": "Tanfac Inds.",
+    "ticker": "506854",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADANIPORTS/consolidated/": {
+    "company": "Adani Ports",
+    "ticker": "ADANIPORTS",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Port & Port services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TMCV/consolidated/": {
+    "company": "Tata Motors",
+    "ticker": "TMCV",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Commercial Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PROV/consolidated/": {
+    "company": "Proventus Agro.",
+    "ticker": "SME",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
   }
 }
