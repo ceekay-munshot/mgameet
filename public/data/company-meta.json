@@ -6526,5 +6526,93 @@
     "industry": "Food Products",
     "sub_industry": "Other Food Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/COCKERILL/consolidated/": {
+    "company": "John Cockerill",
+    "ticker": "COCKERILL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LMW/consolidated/": {
+    "company": "LMW",
+    "ticker": "LMW",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAFARI/consolidated/": {
+    "company": "Safari Inds.",
+    "ticker": "SAFARI",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plastic Products - Consumer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADANIENT/consolidated/": {
+    "company": "Adani Enterp.",
+    "ticker": "ADANIENT",
+    "sector": "Metals & Mining",
+    "industry": "Metals & Minerals Trading",
+    "sub_industry": "Trading - Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AKANKSHA/consolidated/": {
+    "company": "Akanksha Power",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SMARTWORKS/consolidated/": {
+    "company": "Smartworks Cowor",
+    "ticker": "SMARTWORKS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASIANPAINT/consolidated/": {
+    "company": "Asian Paints",
+    "ticker": "ASIANPAINT",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Paints",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICICIGI/": {
+    "company": "ICICI Lombard",
+    "ticker": "ICICIGI",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "General Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CANHLIFE/": {
+    "company": "Canara HSBC",
+    "ticker": "CANHLIFE",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SPEB/": {
+    "company": "SPEB Adhesives",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KROSS/": {
+    "company": "Kross Ltd",
+    "ticker": "KROSS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
