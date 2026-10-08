@@ -6614,5 +6614,85 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/MANBA/": {
+    "company": "Manba Finance",
+    "ticker": "MANBA",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/360ONE/consolidated/": {
+    "company": "360 ONE",
+    "ticker": "542772",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMMVEE/consolidated/": {
+    "company": "Emmvee Photovol.",
+    "ticker": "EMMVEE",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SWIGGY/consolidated/": {
+    "company": "Swiggy",
+    "ticker": "SWIGGY",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JGCHEM/consolidated/": {
+    "company": "J.G.Chemicals",
+    "ticker": "JGCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLASSWALL/": {
+    "company": "Glass Wall Syst.",
+    "ticker": "GLASSWALL",
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GODREJCP/consolidated/": {
+    "company": "Godrej Consumer",
+    "ticker": "GODREJCP",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CANFINHOME/": {
+    "company": "Can Fin Homes",
+    "ticker": "CANFINHOME",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GROWW/consolidated/": {
+    "company": "Billionbrains",
+    "ticker": "GROWW",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WIPRO/consolidated/": {
+    "company": "Wipro",
+    "ticker": "WIPRO",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
   }
 }
