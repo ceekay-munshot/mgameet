@@ -6694,5 +6694,61 @@
     "industry": "IT - Software",
     "sub_industry": "Computers - Software & Consulting",
     "_tries": 1
+  },
+  "https://www.screener.in/company/DBCORP/consolidated/": {
+    "company": "D B Corp",
+    "ticker": "DBCORP",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Print Media",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SGFIN/": {
+    "company": "SG Finserve",
+    "ticker": "SGFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IRFC/": {
+    "company": "I R F C",
+    "ticker": "IRFC",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Financial Institution",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JKCEMENT/consolidated/": {
+    "company": "J K Cements",
+    "ticker": "JKCEMENT",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544937/consolidated/": {
+    "company": "NSE",
+    "ticker": "544937",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Exchange and Data Platform",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJ-AUTO/consolidated/": {
+    "company": "Bajaj Auto",
+    "ticker": "BAJAJ-AUTO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GTPL/consolidated/": {
+    "company": "GTPL Hathway",
+    "ticker": "GTPL",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "TV Broadcasting & Software Production",
+    "_tries": 1
   }
 }
