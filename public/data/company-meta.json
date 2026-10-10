@@ -6750,5 +6750,45 @@
     "industry": "Entertainment",
     "sub_industry": "TV Broadcasting & Software Production",
     "_tries": 1
+  },
+  "https://www.screener.in/company/CYIENTDLM/consolidated/": {
+    "company": "Cyient DLM",
+    "ticker": "CYIENTDLM",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSWSTEEL/consolidated/": {
+    "company": "JSW Steel",
+    "ticker": "JSWSTEEL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AURUM/consolidated/": {
+    "company": "Aurum Proptech",
+    "ticker": "AURUM",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CANBK/consolidated/": {
+    "company": "Canara Bank",
+    "ticker": "CANBK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELECON/consolidated/": {
+    "company": "Elecon Engg.Co",
+    "ticker": "ELECON",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
   }
 }
