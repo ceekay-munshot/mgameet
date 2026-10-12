@@ -6790,5 +6790,37 @@
     "industry": "Electrical Equipment",
     "sub_industry": "Heavy Electrical Equipment",
     "_tries": 1
+  },
+  "https://www.screener.in/company/CCL/consolidated/": {
+    "company": "CCL Products",
+    "ticker": "CCL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Tea & Coffee",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIENTELEC/": {
+    "company": "Orient Electric",
+    "ticker": "ORIENTELEC",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AYE/": {
+    "company": "Aye Finance",
+    "ticker": "AYE",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POLYCAB/consolidated/": {
+    "company": "Polycab India",
+    "ticker": "POLYCAB",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
   }
 }
