@@ -6822,5 +6822,85 @@
     "industry": "Industrial Products",
     "sub_industry": "Cables - Electricals",
     "_tries": 1
+  },
+  "https://www.screener.in/company/TCI/consolidated/": {
+    "company": "Transport Corp.",
+    "ticker": "TCI",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOBHA/consolidated/": {
+    "company": "Sobha",
+    "ticker": "SOBHA",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/5PAISA/consolidated/": {
+    "company": "5paisa Capital",
+    "ticker": "540776",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/E2E/": {
+    "company": "E2E Networks",
+    "ticker": "E2E",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UCOBANK/": {
+    "company": "UCO Bank",
+    "ticker": "UCOBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OBEROIRLTY/consolidated/": {
+    "company": "Oberoi Realty",
+    "ticker": "OBEROIRLTY",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UNITDSPR/consolidated/": {
+    "company": "United Spirits",
+    "ticker": "UNITDSPR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VISAKAIND/": {
+    "company": "Visaka Industrie",
+    "ticker": "VISAKAIND",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJELEC/consolidated/": {
+    "company": "Bajaj Electrical",
+    "ticker": "BAJAJELEC",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FAIRCHEMOR/": {
+    "company": "Fairchem Organic",
+    "ticker": "FAIRCHEMOR",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
   }
 }
