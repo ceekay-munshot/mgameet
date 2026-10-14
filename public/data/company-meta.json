@@ -6902,5 +6902,101 @@
     "industry": "Chemicals & Petrochemicals",
     "sub_industry": "Specialty Chemicals",
     "_tries": 1
+  },
+  "https://www.screener.in/company/EQUITASBNK/": {
+    "company": "Equitas Sma. Fin",
+    "ticker": "EQUITASBNK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APTUS/consolidated/": {
+    "company": "Aptus Value Hou.",
+    "ticker": "APTUS",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UBL/consolidated/": {
+    "company": "United Breweries",
+    "ticker": "UBL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CRAFTSMAN/consolidated/": {
+    "company": "Craftsman Auto",
+    "ticker": "CRAFTSMAN",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KSOLVES/": {
+    "company": "Ksolves India",
+    "ticker": "KSOLVES",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VGUARD/consolidated/": {
+    "company": "V-Guard Industri",
+    "ticker": "VGUARD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CSBBANK/": {
+    "company": "CSB Bank",
+    "ticker": "CSBBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICICIPRULI/": {
+    "company": "ICICI Pru Life",
+    "ticker": "ICICIPRULI",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CIPLA/consolidated/": {
+    "company": "Cipla",
+    "ticker": "CIPLA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOLARAPP1/": {
+    "company": "Solara Active PP",
+    "ticker": "SOLARAPP1",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ATGL/": {
+    "company": "Adani Total Gas",
+    "ticker": "ATGL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HDFCBANK/consolidated/": {
+    "company": "HDFC Bank",
+    "ticker": "HDFCBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
   }
 }
