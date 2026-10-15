@@ -6998,5 +6998,141 @@
     "industry": "Banks",
     "sub_industry": "Private Sector Bank",
     "_tries": 1
+  },
+  "https://www.screener.in/company/MARICO/consolidated/": {
+    "company": "Marico",
+    "ticker": "MARICO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Edible Oil",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GALLANTT/consolidated/": {
+    "company": "Gallantt Ispat L",
+    "ticker": "GALLANTT",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PSB/": {
+    "company": "Pun. & Sind Bank",
+    "ticker": "PSB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEAMLEASE/consolidated/": {
+    "company": "Team Lease Serv.",
+    "ticker": "TEAMLEASE",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SEJALLTD/consolidated/": {
+    "company": "Sejal Glass",
+    "ticker": "SEJALLTD",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Glass - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PAYTM/consolidated/": {
+    "company": "One 97",
+    "ticker": "PAYTM",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMCURE/consolidated/": {
+    "company": "Emcure Pharma",
+    "ticker": "EMCURE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JINDALSAW/consolidated/": {
+    "company": "Jindal Saw",
+    "ticker": "JINDALSAW",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LTM/consolidated/": {
+    "company": "LTM",
+    "ticker": "LTM",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JUBLINGREA/consolidated/": {
+    "company": "Jubilant Ingrev.",
+    "ticker": "JUBLINGREA",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZENSARTECH/consolidated/": {
+    "company": "Zensar Tech.",
+    "ticker": "ZENSARTECH",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PFS/consolidated/": {
+    "company": "PTC India Fin",
+    "ticker": "PFS",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GODREJPROP/consolidated/": {
+    "company": "Godrej Propert.",
+    "ticker": "GODREJPROP",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJHCARE/": {
+    "company": "Bajaj Healthcare",
+    "ticker": "BAJAJHCARE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RUSTOMJEE/consolidated/": {
+    "company": "Keystone Realtor",
+    "ticker": "RUSTOMJEE",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PTCIL/consolidated/": {
+    "company": "PTC Industries",
+    "ticker": "PTCIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUBEXLTD/consolidated/": {
+    "company": "Subex",
+    "ticker": "SUBEXLTD",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
   }
 }
