@@ -7134,5 +7134,93 @@
     "industry": "IT - Software",
     "sub_industry": "Software Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/SHRIPISTON/consolidated/": {
+    "company": "SPR Auto Technologies",
+    "ticker": "SHRIPISTON",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAHLIFE/consolidated/": {
+    "company": "Mahindra Life.",
+    "ticker": "MAHLIFE",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUNPHARMA/consolidated/": {
+    "company": "Sun Pharma.Inds.",
+    "ticker": "SUNPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APOLLOHOSP/consolidated/": {
+    "company": "Apollo Hospitals",
+    "ticker": "APOLLOHOSP",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TTKPRESTIG/consolidated/": {
+    "company": "TTK Prestige",
+    "ticker": "TTKPRESTIG",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AARON/": {
+    "company": "Aaron Industries",
+    "ticker": "AARON",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHOLAHLDNG/consolidated/": {
+    "company": "Chola Financial",
+    "ticker": "CHOLAHLDNG",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Investment Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AJANTPHARM/consolidated/": {
+    "company": "Ajanta Pharma",
+    "ticker": "AJANTPHARM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IGIL/consolidated/": {
+    "company": "International Gemological Instit",
+    "ticker": "IGIL",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKMEGGPROD/consolidated/": {
+    "company": "SKM Egg Prod.",
+    "ticker": "SKMEGGPROD",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Meat Products including Poultry",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLUESTONE/consolidated/": {
+    "company": "Bluestone Jewel",
+    "ticker": "BLUESTONE",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
   }
 }
