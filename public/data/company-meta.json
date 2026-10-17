@@ -7222,5 +7222,149 @@
     "industry": "Consumer Durables",
     "sub_industry": "Gems, Jewellery And Watches",
     "_tries": 1
+  },
+  "https://www.screener.in/company/BETA/consolidated/": {
+    "company": "Beta Drugs Ltd",
+    "ticker": "BETA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDUSTOWER/consolidated/": {
+    "company": "Indus Towers",
+    "ticker": "INDUSTOWER",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Infrastructure",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAJRATAN/consolidated/": {
+    "company": "Rajratan Global",
+    "ticker": "RAJRATAN",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PITTIENG/consolidated/": {
+    "company": "Pitti Engg.",
+    "ticker": "PITTIENG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAVKARCORP/": {
+    "company": "Navkar Corporat.",
+    "ticker": "NAVKARCORP",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SRF/consolidated/": {
+    "company": "SRF",
+    "ticker": "SRF",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540786/consolidated/": {
+    "company": "Sharika Enterpr.",
+    "ticker": "540786",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Trading & Distributors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSFB/": {
+    "company": "Jana Small Finan",
+    "ticker": "JSFB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SBIFUNDS/consolidated/": {
+    "company": "SBI Funds Mgt.",
+    "ticker": "SBIFUNDS",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CMRSL/consolidated/": {
+    "company": "Cyber Media Res.",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Advertising & Media Agencies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSWINFRA/consolidated/": {
+    "company": "JSW Infrast",
+    "ticker": "JSWINFRA",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Port & Port services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GHCL/consolidated/": {
+    "company": "GHCL",
+    "ticker": "GHCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KANPRPLA/": {
+    "company": "Kanpur Plastipa.",
+    "ticker": "KANPRPLA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WEWORK/": {
+    "company": "Wework India",
+    "ticker": "WEWORK",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHK/consolidated/": {
+    "company": "S H Kelkar & Co.",
+    "ticker": "SHK",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAPPHIRE/consolidated/": {
+    "company": "Sapphire Foods",
+    "ticker": "SAPPHIRE",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ROUTE/consolidated/": {
+    "company": "Route Mobile",
+    "ticker": "ROUTE",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Other Telecom Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SSWL/": {
+    "company": "Steel Str. Wheel",
+    "ticker": "SSWL",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
