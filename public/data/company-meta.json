@@ -7366,5 +7366,53 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/KSCL/consolidated/": {
+    "company": "Kaveri Seed Co.",
+    "ticker": "KSCL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GNFC/consolidated/": {
+    "company": "G N F C",
+    "ticker": "GNFC",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEJASNET/consolidated/": {
+    "company": "Tejas Networks",
+    "ticker": "TEJASNET",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Equipment & Accessories",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MEDPLUS/consolidated/": {
+    "company": "Medplus Health",
+    "ticker": "MEDPLUS",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Pharmacy Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CENTENKA/": {
+    "company": "Century Enka",
+    "ticker": "CENTENKA",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRUALT/consolidated/": {
+    "company": "TruAlt Bioenergy",
+    "ticker": "TRUALT",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
   }
 }
