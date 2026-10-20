@@ -7414,5 +7414,253 @@
     "industry": "Agricultural Food & other Products",
     "sub_industry": "Other Agricultural Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/VARMORA/consolidated/": {
+    "company": "Varmora Granito",
+    "ticker": "VARMORA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Ceramics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LEAPIND/consolidated/": {
+    "company": "Leap India",
+    "ticker": "LEAPIND",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544567/consolidated/": {
+    "company": "Infinity Infoway",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DCBBANK/": {
+    "company": "DCB Bank",
+    "ticker": "DCBBANK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Private Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADOR/": {
+    "company": "Ador Welding",
+    "ticker": "ADOR",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544023/": {
+    "company": "Kalyani Cast-Tec",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WELSPLSOL/": {
+    "company": "Welspun Special.",
+    "ticker": "WELSPLSOL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATACONSUM/consolidated/": {
+    "company": "Tata Consumer",
+    "ticker": "TATACONSUM",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Tea & Coffee",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRIVENIPT/consolidated/": {
+    "company": "Triveni Power Transmission",
+    "ticker": "TRIVENIPT",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power - Transmission",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FSL/consolidated/": {
+    "company": "Firstsour.Solu.",
+    "ticker": "FSL",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TATACAP/consolidated/": {
+    "company": "Tata Capital",
+    "ticker": "TATACAP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ERIS/consolidated/": {
+    "company": "ERIS Lifescience",
+    "ticker": "ERIS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SSRETAIL/": {
+    "company": "SS Retail",
+    "ticker": "SSRETAIL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZYDUSWELL/consolidated/": {
+    "company": "Zydus Wellness",
+    "ticker": "ZYDUSWELL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DALBHARAT/consolidated/": {
+    "company": "Dalmia BharatLtd",
+    "ticker": "DALBHARAT",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PINELABS/consolidated/": {
+    "company": "Pine Labs",
+    "ticker": "PINELABS",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SPLPETRO/": {
+    "company": "Supreme Petroch.",
+    "ticker": "SPLPETRO",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Petrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUPREMEIND/consolidated/": {
+    "company": "Supreme Inds.",
+    "ticker": "SUPREMEIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAILIFE/consolidated/": {
+    "company": "Sai Life",
+    "ticker": "SAILIFE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PERMAGN/consolidated/": {
+    "company": "Permanent Magnet",
+    "ticker": "PERMAGN",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LUPIN/consolidated/": {
+    "company": "Lupin",
+    "ticker": "LUPIN",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEEPA/": {
+    "company": "Deepa Jewellers",
+    "ticker": "DEEPA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BAJAJFINSV/consolidated/": {
+    "company": "Bajaj Finserv",
+    "ticker": "BAJAJFINSV",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NIRLON/": {
+    "company": "Nirlon",
+    "ticker": "NIRLON",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NEWGEN/consolidated/": {
+    "company": "Newgen Software",
+    "ticker": "NEWGEN",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUMICHEM/": {
+    "company": "Sumitomo Chemi.",
+    "ticker": "SUMICHEM",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MFSL/consolidated/": {
+    "company": "Max Financial",
+    "ticker": "MFSL",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONMOBILE/consolidated/": {
+    "company": "OnMobile Global",
+    "ticker": "ONMOBILE",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Web based media and service",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KAJARIACER/consolidated/": {
+    "company": "Kajaria Ceramics",
+    "ticker": "KAJARIACER",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Ceramics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NIYATILEAS/": {
+    "company": "Veerhealth Care",
+    "ticker": "511523",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TINNARUBR/consolidated/": {
+    "company": "Tinna Rubber",
+    "ticker": "TINNARUBR",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
   }
 }
