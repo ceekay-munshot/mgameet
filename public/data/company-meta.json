@@ -7662,5 +7662,13 @@
     "industry": "Industrial Products",
     "sub_industry": "Rubber",
     "_tries": 1
+  },
+  "https://www.screener.in/company/511147/": {
+    "company": "WSFX Global",
+    "ticker": "511147",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
   }
 }
