@@ -7670,5 +7670,309 @@
     "industry": "Financial Technology (Fintech)",
     "sub_industry": null,
     "_tries": 1
+  },
+  "https://www.screener.in/company/ENGINERSIN/consolidated/": {
+    "company": "Engineers India",
+    "ticker": "ENGINERSIN",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNCINFRA/consolidated/": {
+    "company": "PNC Infratech",
+    "ticker": "PNCINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BALKRISIND/consolidated/": {
+    "company": "Balkrishna Inds",
+    "ticker": "BALKRISIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Tyres & Rubber Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BSOFT/consolidated/": {
+    "company": "Birlasoft Ltd",
+    "ticker": "BSOFT",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ESAFSFB/": {
+    "company": "ESAF Small Fin",
+    "ticker": "ESAFSFB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543931/consolidated/": {
+    "company": "Veefin Solutions",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FORCAS/": {
+    "company": "Forcas Studio",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RUNWALENTR/consolidated/": {
+    "company": "Runwal Enterpri.",
+    "ticker": "RUNWALENTR",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONESOURCE/consolidated/": {
+    "company": "OneSource Speci.",
+    "ticker": "ONESOURCE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SBFC/": {
+    "company": "SBFC Finance",
+    "ticker": "SBFC",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FINOPB/": {
+    "company": "Fino Payments",
+    "ticker": "FINOPB",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAYMONDREL/consolidated/": {
+    "company": "Raymond Realty",
+    "ticker": "RAYMONDREL",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WAAREERTL/consolidated/": {
+    "company": "Waaree Renewab.",
+    "ticker": "WAAREERTL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540175/": {
+    "company": "Regency Fincorp",
+    "ticker": "540175",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABREL/consolidated/": {
+    "company": "A B Real Estate",
+    "ticker": "ABREL",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AMBANIORGO/": {
+    "company": "Ambani Orgochem",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AEQUS/consolidated/": {
+    "company": "Aequs",
+    "ticker": "AEQUS",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIRLOSBROS/consolidated/": {
+    "company": "Kirl. Brothers",
+    "ticker": "KIRLOSBROS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDORAMA/consolidated/": {
+    "company": "Indo Rama Synth.",
+    "ticker": "INDORAMA",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SATKARTAR/": {
+    "company": "Sat Kartar Life",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SONAMLTD/": {
+    "company": "Sonam",
+    "ticker": "SONAMLTD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JAGSNPHARM/": {
+    "company": "Jagsonpal Pharma",
+    "ticker": "JAGSNPHARM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HORIZONIND/consolidated/": {
+    "company": "Horizon Industrial",
+    "ticker": "HORIZONIND",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JKTYRE/consolidated/": {
+    "company": "JK Tyre & Indust",
+    "ticker": "JKTYRE",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Tyres & Rubber Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HINDUNILVR/consolidated/": {
+    "company": "Hind. Unilever",
+    "ticker": "HINDUNILVR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Diversified FMCG",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BATAINDIA/consolidated/": {
+    "company": "Bata India",
+    "ticker": "BATAINDIA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Footwear",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APARINDS/consolidated/": {
+    "company": "Apar Inds.",
+    "ticker": "APARINDS",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIDHIING/": {
+    "company": "Vidhi Specialty",
+    "ticker": "VIDHIING",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TVSMOTOR/consolidated/": {
+    "company": "TVS Motor Co.",
+    "ticker": "TVSMOTOR",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "2/3 Wheelers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDOCO/consolidated/": {
+    "company": "Indoco Remedies",
+    "ticker": "INDOCO",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RADIOCITY/": {
+    "company": "Music Broadcast",
+    "ticker": "RADIOCITY",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APLAPOLLO/consolidated/": {
+    "company": "APL Apollo Tubes",
+    "ticker": "APLAPOLLO",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHEMBONDCH/consolidated/": {
+    "company": "Chembond Chemic.",
+    "ticker": "CHEMBONDCH",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LUMAXTECH/consolidated/": {
+    "company": "Lumax Auto Tech.",
+    "ticker": "LUMAXTECH",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LUMAXIND/consolidated/": {
+    "company": "Lumax Industries",
+    "ticker": "LUMAXIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASHIANA/consolidated/": {
+    "company": "Ashiana Housing",
+    "ticker": "ASHIANA",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SGMART/consolidated/": {
+    "company": "SG Mart",
+    "ticker": "SGMART",
+    "sector": "Metals & Mining",
+    "industry": "Metals & Minerals Trading",
+    "sub_industry": "Trading - Metals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GEOJITFSL/consolidated/": {
+    "company": "Geojit Fin. Ser.",
+    "ticker": "GEOJITFSL",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
   }
 }
