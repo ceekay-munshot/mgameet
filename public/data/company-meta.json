@@ -7974,5 +7974,261 @@
     "industry": "Capital Markets",
     "sub_industry": "Stockbroking & Allied",
     "_tries": 1
+  },
+  "https://www.screener.in/company/SGIL/": {
+    "company": "Synergy Green",
+    "ticker": "SGIL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CONTROLPR/consolidated/": {
+    "company": "Control Print",
+    "ticker": "CONTROLPR",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VEDPOWER/consolidated/": {
+    "company": "Vedanta Power",
+    "ticker": "VEDPOWER",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VOGL/consolidated/": {
+    "company": "Vedanta Oil and Gas",
+    "ticker": "VOGL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SBILIFE/": {
+    "company": "SBI Life Insuran",
+    "ticker": "SBILIFE",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PITTIENG/": {
+    "company": "Pitti Engg.",
+    "ticker": "PITTIENG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIGO/consolidated/": {
+    "company": "Interglobe Aviat",
+    "ticker": "INDIGO",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Airline",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CREDENT/consolidated/": {
+    "company": "Credent Connect N Care",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIYSIL/consolidated/": {
+    "company": "Siyaram Silk",
+    "ticker": "SIYSIL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACEVECTOR/consolidated/": {
+    "company": "AceVector",
+    "ticker": "ACEVECTOR",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHOLAFIN/consolidated/": {
+    "company": "Cholaman.Inv.&Fn",
+    "ticker": "CHOLAFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANTELOPUS/": {
+    "company": "Antelopus Selan",
+    "ticker": "ANTELOPUS",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIGOPNTS/": {
+    "company": "Indigo Paints",
+    "ticker": "INDIGOPNTS",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Paints",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SENORES/consolidated/": {
+    "company": "Senores Pharma.",
+    "ticker": "SENORES",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SNOWMAN/": {
+    "company": "Snowman Logistic",
+    "ticker": "SNOWMAN",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRICOLLTD/consolidated/": {
+    "company": "Pricol Ltd",
+    "ticker": "PRICOLLTD",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GSFC/consolidated/": {
+    "company": "G S F C",
+    "ticker": "GSFC",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VAML/consolidated/": {
+    "company": "Vedanta Aluminium Metal",
+    "ticker": "VAML",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GATEWAY/consolidated/": {
+    "company": "Gateway Distri",
+    "ticker": "GATEWAY",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VISL/consolidated/": {
+    "company": "Vedanta Iron & Steel",
+    "ticker": "VISL",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Iron & Steel",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VSSL/": {
+    "company": "Vardhman Special",
+    "ticker": "VSSL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/THYROCARE/consolidated/": {
+    "company": "Thyrocare Tech.",
+    "ticker": "THYROCARE",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLEAN/consolidated/": {
+    "company": "Clean Science",
+    "ticker": "CLEAN",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NUCLEUS/consolidated/": {
+    "company": "Nucleus Soft.",
+    "ticker": "NUCLEUS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VEDL/consolidated/": {
+    "company": "Vedanta",
+    "ticker": "VEDL",
+    "sector": "Metals & Mining",
+    "industry": "Diversified Metals",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QUICKHEAL/consolidated/": {
+    "company": "Quick Heal Tech",
+    "ticker": "QUICKHEAL",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIGITIDE/consolidated/": {
+    "company": "Digitide Solutio",
+    "ticker": "DIGITIDE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAZARA/consolidated/": {
+    "company": "Nazara Technolo.",
+    "ticker": "NAZARA",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Digital Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DCMSHRIRAM/consolidated/": {
+    "company": "DCM Shriram",
+    "ticker": "DCMSHRIRAM",
+    "sector": "Diversified",
+    "industry": "Diversified",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/YASHO/": {
+    "company": "Yasho Industries",
+    "ticker": "YASHO",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADROITIND/consolidated/": {
+    "company": "Adroit Industries",
+    "ticker": "ADROITIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSWENERGY/consolidated/": {
+    "company": "JSW Energy",
+    "ticker": "JSWENERGY",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
   }
 }
