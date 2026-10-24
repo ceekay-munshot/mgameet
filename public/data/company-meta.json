@@ -8230,5 +8230,173 @@
     "industry": "Power",
     "sub_industry": "Power Generation",
     "_tries": 1
+  },
+  "https://www.screener.in/company/BPLPHARMA/consolidated/": {
+    "company": "Bharat Parenter.",
+    "ticker": "BPLPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KSOLVES/consolidated/": {
+    "company": "Ksolves India",
+    "ticker": "KSOLVES",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STAR/consolidated/": {
+    "company": "Strides Pharma",
+    "ticker": "STAR",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TITAN/consolidated/": {
+    "company": "Titan Company",
+    "ticker": "TITAN",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RSWM/consolidated/": {
+    "company": "RSWM Ltd",
+    "ticker": "RSWM",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANESHHOU/consolidated/": {
+    "company": "Ganesh Housing",
+    "ticker": "GANESHHOU",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JKLAKSHMI/consolidated/": {
+    "company": "JK Lakshmi Cem.",
+    "ticker": "JKLAKSHMI",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZOTA/consolidated/": {
+    "company": "Zota Health Care",
+    "ticker": "ZOTA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AGARWALEYE/consolidated/": {
+    "company": "Dr Agarwal's Hea",
+    "ticker": "AGARWALEYE",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MONTECARLO/": {
+    "company": "Monte Carlo Fas.",
+    "ticker": "MONTECARLO",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUBROS/consolidated/": {
+    "company": "Subros",
+    "ticker": "SUBROS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KUANTUM/": {
+    "company": "Kuantum Papers",
+    "ticker": "KUANTUM",
+    "sector": "Forest Materials",
+    "industry": "Paper, Forest & Jute Products",
+    "sub_industry": "Paper & Paper Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAGCEM/consolidated/": {
+    "company": "Sagar Cements",
+    "ticker": "SAGCEM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RUSHIL/": {
+    "company": "Rushil Decor",
+    "ticker": "RUSHIL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LXCHEM/consolidated/": {
+    "company": "Laxmi Organic",
+    "ticker": "LXCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHILCTECH/": {
+    "company": "Shilchar Tech.",
+    "ticker": "SHILCTECH",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHALBY/consolidated/": {
+    "company": "Shalby",
+    "ticker": "SHALBY",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TIMKEN/": {
+    "company": "Timken India",
+    "ticker": "TIMKEN",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Abrasives & Bearings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DELHIVERY/consolidated/": {
+    "company": "Delhivery",
+    "ticker": "DELHIVERY",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KALPATARU/consolidated/": {
+    "company": "Kalpat.",
+    "ticker": "KALPATARU",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRAJIND/consolidated/": {
+    "company": "Praj Industries",
+    "ticker": "PRAJIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
   }
 }
