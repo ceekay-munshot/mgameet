@@ -8398,5 +8398,61 @@
     "industry": "Industrial Manufacturing",
     "sub_industry": "Industrial Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/BLACKBUCK/consolidated/": {
+    "company": "Blackbuck",
+    "ticker": "BLACKBUCK",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Transport Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIVIDEL/": {
+    "company": "Vivid Electromech",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HAPPYFORGE/consolidated/": {
+    "company": "Happy Forgings",
+    "ticker": "HAPPYFORGE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CSLFINANCE/": {
+    "company": "CSL Finance",
+    "ticker": "CSLFINANCE",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRUDENT/consolidated/": {
+    "company": "Prudent Corp.",
+    "ticker": "PRUDENT",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Financial Products Distributor",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAJPUTANA/consolidated/": {
+    "company": "Rajputana Bio.",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Petrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUNDRMFAST/consolidated/": {
+    "company": "Sundram Fasten.",
+    "ticker": "SUNDRMFAST",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
