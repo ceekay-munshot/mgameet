@@ -8454,5 +8454,29 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/20MICRONS/consolidated/": {
+    "company": "20 Microns",
+    "ticker": "533022",
+    "sector": "Metals & Mining",
+    "industry": "Minerals & Mining",
+    "sub_industry": "Industrial Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FIDEL/consolidated/": {
+    "company": "Fidel Softech",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VARROC/consolidated/": {
+    "company": "Varroc Engineer",
+    "ticker": "VARROC",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
