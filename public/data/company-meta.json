@@ -8478,5 +8478,325 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/RECLTD/consolidated/": {
+    "company": "REC Ltd",
+    "ticker": "RECLTD",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Financial Institution",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRPLTD/consolidated/": {
+    "company": "GRP",
+    "ticker": "GRPLTD",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DCW/": {
+    "company": "DCW",
+    "ticker": "DCW",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Petrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NH/consolidated/": {
+    "company": "Narayana Hrudaya",
+    "ticker": "NH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AHCL/consolidated/": {
+    "company": "Anlon Healthcare",
+    "ticker": "AHCL",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIOCON/consolidated/": {
+    "company": "Biocon",
+    "ticker": "BIOCON",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NYKAA/consolidated/": {
+    "company": "FSN E-Commerce",
+    "ticker": "NYKAA",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/3IINFOLTD/consolidated/": {
+    "company": "3i Infotech",
+    "ticker": "532628",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OPTIMYSTIX/consolidated/": {
+    "company": "Optimystix Entertainment",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540175/consolidated/": {
+    "company": "Regency Fincorp",
+    "ticker": "540175",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DHANUKA/": {
+    "company": "Dhanuka Agritech",
+    "ticker": "DHANUKA",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HIKAL/consolidated/": {
+    "company": "Hikal",
+    "ticker": "HIKAL",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRAVEG/consolidated/": {
+    "company": "Praveg",
+    "ticker": "PRAVEG",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIMTALABS/": {
+    "company": "Vimta Labs",
+    "ticker": "VIMTALABS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Research, Analytics & Technology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CNL/consolidated/": {
+    "company": "Creative Newtech",
+    "ticker": "CNL",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Trading & Distributors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HUHTAMAKI/": {
+    "company": "Huhtamaki India",
+    "ticker": "HUHTAMAKI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SMT/consolidated/": {
+    "company": "Sahajanand Medi",
+    "ticker": "SMT",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADVENZYMES/consolidated/": {
+    "company": "Advanced Enzyme",
+    "ticker": "ADVENZYMES",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Biotechnology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GMRAIRPORT/consolidated/": {
+    "company": "GMR Airports",
+    "ticker": "GMRAIRPORT",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Airport & Airport services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QUALIANCE/": {
+    "company": "Qualiance International",
+    "ticker": "SME",
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RBA/consolidated/": {
+    "company": "Restaurant Brand",
+    "ticker": "RBA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HMAAGRO/consolidated/": {
+    "company": "HMA Agro Inds.",
+    "ticker": "HMAAGRO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Meat Products including Poultry",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EPACK/consolidated/": {
+    "company": "Epack Durable",
+    "ticker": "EPACK",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544531/": {
+    "company": "True Colors",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHEMAROO/consolidated/": {
+    "company": "Shemaroo Entert.",
+    "ticker": "SHEMAROO",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LCCPROJECT/": {
+    "company": "LCC Projects",
+    "ticker": "LCCPROJECT",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDOSTAR/consolidated/": {
+    "company": "Indostar Capital",
+    "ticker": "INDOSTAR",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKIPPER/": {
+    "company": "Skipper",
+    "ticker": "SKIPPER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IIFLCAPS/consolidated/": {
+    "company": "IIFL Capital",
+    "ticker": "IIFLCAPS",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FLUOROCHEM/consolidated/": {
+    "company": "Gujarat Fluoroch",
+    "ticker": "FLUOROCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RAILTEL/": {
+    "company": "Railtel Corpn.",
+    "ticker": "RAILTEL",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Other Telecom Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARKSANS/consolidated/": {
+    "company": "Marksans Pharma",
+    "ticker": "MARKSANS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UPL/consolidated/": {
+    "company": "UPL",
+    "ticker": "UPL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BOSCHLTD/consolidated/": {
+    "company": "Bosch",
+    "ticker": "BOSCHLTD",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BESTAGRO/consolidated/": {
+    "company": "Best Agrolife",
+    "ticker": "BESTAGRO",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVL/": {
+    "company": "Aditya Vision",
+    "ticker": "AVL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QUESS/consolidated/": {
+    "company": "Quess Corp",
+    "ticker": "QUESS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MODIS/consolidated/": {
+    "company": "Modi's Navnirman",
+    "ticker": "MODIS",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TCPLPACK/": {
+    "company": "TCPL Packaging",
+    "ticker": "TCPLPACK",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SASKEN/consolidated/": {
+    "company": "Sasken Technol.",
+    "ticker": "SASKEN",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
   }
 }
