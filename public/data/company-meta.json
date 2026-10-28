@@ -8637,7 +8637,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 1
+    "_tries": 2
   },
   "https://www.screener.in/company/RBA/consolidated/": {
     "company": "Restaurant Brand",
@@ -8797,6 +8797,318 @@
     "sector": "Information Technology",
     "industry": "IT - Services",
     "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KANSAINER/consolidated/": {
+    "company": "Kansai Nerolac",
+    "ticker": "KANSAINER",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Paints",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STOVEKRAFT/": {
+    "company": "Stove Kraft",
+    "ticker": "STOVEKRAFT",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KKCL/consolidated/": {
+    "company": "Kewal Kir.Cloth.",
+    "ticker": "KKCL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NITINSPIN/": {
+    "company": "Nitin Spinners",
+    "ticker": "NITINSPIN",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INFOBEAN/consolidated/": {
+    "company": "InfoBeans Tech.",
+    "ticker": "INFOBEAN",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARUSHIKA/": {
+    "company": "Marushika Tech.",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SYRMA/consolidated/": {
+    "company": "Syrma SGS Tech.",
+    "ticker": "SYRMA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELGNZ/consolidated/": {
+    "company": "Eleganz Interior",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMAMILTD/consolidated/": {
+    "company": "Emami",
+    "ticker": "EMAMILTD",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Personal Products",
+    "sub_industry": "Personal Care",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SPORTKING/": {
+    "company": "Sportking India",
+    "ticker": "SPORTKING",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EPACKPEB/consolidated/": {
+    "company": "EPack PrefabTech",
+    "ticker": "EPACKPEB",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HESTERBIO/consolidated/": {
+    "company": "Hester Bios",
+    "ticker": "HESTERBIO",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TBOTEK/consolidated/": {
+    "company": "TBO Tek",
+    "ticker": "TBOTEK",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OMNI/consolidated/": {
+    "company": "Omnitech Engg.",
+    "ticker": "OMNI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FINPIPE/consolidated/": {
+    "company": "Finolex Inds.",
+    "ticker": "FINPIPE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIGACHI/consolidated/": {
+    "company": "Sigachi Indust.",
+    "ticker": "SIGACHI",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IPCALAB/consolidated/": {
+    "company": "Ipca Labs.",
+    "ticker": "IPCALAB",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LICHSGFIN/consolidated/": {
+    "company": "LIC Housing Fin.",
+    "ticker": "LICHSGFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIJAYA/consolidated/": {
+    "company": "Vijaya Diagnost.",
+    "ticker": "VIJAYA",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZEEL/consolidated/": {
+    "company": "Zee Entertainmen",
+    "ticker": "ZEEL",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "TV Broadcasting & Software Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GUJTHEM/": {
+    "company": "Guj. Themis Bio.",
+    "ticker": "GUJTHEM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MEDIASSIST/consolidated/": {
+    "company": "Medi Assist Ser.",
+    "ticker": "MEDIASSIST",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Insurance Distributors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UTIAMC/": {
+    "company": "UTI AMC",
+    "ticker": "UTIAMC",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540078/": {
+    "company": "Mitsu Chem Plast",
+    "ticker": "540078",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABLBL/consolidated/": {
+    "company": "A B Lifestyle",
+    "ticker": "ABLBL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PANACHE/consolidated/": {
+    "company": "Panache Digilife",
+    "ticker": "PANACHE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BANSWRAS/consolidated/": {
+    "company": "Banswara Syntex",
+    "ticker": "BANSWRAS",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RIR/": {
+    "company": "RIR Power Electr",
+    "ticker": "RIR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TIMEX/": {
+    "company": "Timex Group",
+    "ticker": "TIMEX",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INTERARCH/": {
+    "company": "Interarch Build.",
+    "ticker": "INTERARCH",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PURVA/consolidated/": {
+    "company": "Puravankara",
+    "ticker": "PURVA",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544501/": {
+    "company": "Sugs Lloyd",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VENTIVE/consolidated/": {
+    "company": "Ventive Hospital",
+    "ticker": "VENTIVE",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GOODLUCK/consolidated/": {
+    "company": "Goodluck India",
+    "ticker": "GOODLUCK",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BOROLTD/consolidated/": {
+    "company": "Borosil",
+    "ticker": "BOROLTD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Houseware",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRIVENI/consolidated/": {
+    "company": "Triven.Engg.Ind.",
+    "ticker": "TRIVENI",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Sugar",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHARDACROP/consolidated/": {
+    "company": "Sharda Cropchem",
+    "ticker": "SHARDACROP",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PTC/consolidated/": {
+    "company": "PTC India",
+    "ticker": "PTC",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Trading",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GREENPANEL/": {
+    "company": "Greenpanel Inds.",
+    "ticker": "GREENPANEL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
     "_tries": 1
   }
 }
