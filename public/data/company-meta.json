@@ -8637,7 +8637,7 @@
     "sector": null,
     "industry": null,
     "sub_industry": null,
-    "_tries": 2
+    "_tries": 3
   },
   "https://www.screener.in/company/RBA/consolidated/": {
     "company": "Restaurant Brand",
@@ -9109,6 +9109,318 @@
     "sector": "Consumer Durables",
     "industry": "Consumer Durables",
     "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HAPPSTMNDS/consolidated/": {
+    "company": "Happiest Minds",
+    "ticker": "HAPPSTMNDS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CEWATER/consolidated/": {
+    "company": "Concord Enviro",
+    "ticker": "CEWATER",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IPL/consolidated/": {
+    "company": "India Pesticides",
+    "ticker": "IPL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LALPATHLAB/consolidated/": {
+    "company": "Dr Lal Pathlabs",
+    "ticker": "LALPATHLAB",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IOC/consolidated/": {
+    "company": "I O C L",
+    "ticker": "IOC",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Refineries & Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRSNAA/": {
+    "company": "Krsnaa Diagnost.",
+    "ticker": "KRSNAA",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BEL/consolidated/": {
+    "company": "Bharat Electron",
+    "ticker": "BEL",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIRLACORPN/consolidated/": {
+    "company": "Birla Corpn.",
+    "ticker": "BIRLACORPN",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZENTEC/consolidated/": {
+    "company": "Zen Technologies",
+    "ticker": "ZENTEC",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544248/": {
+    "company": "Mach Travel Solutions",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIKAJI/": {
+    "company": "Bikaji Foods",
+    "ticker": "BIKAJI",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRISHNADEF/": {
+    "company": "Krishna Defence",
+    "ticker": "KRISHNADEF",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BODALCHEM/consolidated/": {
+    "company": "Bodal Chemicals",
+    "ticker": "BODALCHEM",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GUJENERGY/consolidated/": {
+    "company": "Gujarat Energy",
+    "ticker": "GUJENERGY",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARTEMISMED/": {
+    "company": "Artemis Medicare",
+    "ticker": "ARTEMISMED",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAREGAMA/consolidated/": {
+    "company": "Saregama India",
+    "ticker": "SAREGAMA",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SRIVASAVI/": {
+    "company": "Srivasavi Adhes.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MATRIMONY/consolidated/": {
+    "company": "Matrimony.com",
+    "ticker": "MATRIMONY",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Internet & Catalogue Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BIGBLOC/consolidated/": {
+    "company": "BIGBLOC Const.",
+    "ticker": "BIGBLOC",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/XPROINDIA/consolidated/": {
+    "company": "XPRO India",
+    "ticker": "XPROINDIA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/538882/consolidated/": {
+    "company": "Emerald Finance",
+    "ticker": "538882",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HLEGLAS/consolidated/": {
+    "company": "HLE Glascoat",
+    "ticker": "HLEGLAS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544897/": {
+    "company": "Paluck Technol.",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PAKKA/consolidated/": {
+    "company": "Pakka",
+    "ticker": "PAKKA",
+    "sector": "Forest Materials",
+    "industry": "Paper, Forest & Jute Products",
+    "sub_industry": "Paper & Paper Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POWERGRID/consolidated/": {
+    "company": "Power Grid Corpn",
+    "ticker": "POWERGRID",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power - Transmission",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PNBHOUSING/consolidated/": {
+    "company": "PNB Housing",
+    "ticker": "PNBHOUSING",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EPL/consolidated/": {
+    "company": "EPL Ltd",
+    "ticker": "EPL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIRLFER/": {
+    "company": "Kirl. Ferrous",
+    "ticker": "KIRLFER",
+    "sector": "Metals & Mining",
+    "industry": "Ferrous Metals",
+    "sub_industry": "Pig Iron",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/METROPOLIS/consolidated/": {
+    "company": "Metropolis Healt",
+    "ticker": "METROPOLIS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PREMIERENE/consolidated/": {
+    "company": "Premier Energies",
+    "ticker": "PREMIERENE",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QPOWER/consolidated/": {
+    "company": "Quality Power El",
+    "ticker": "QPOWER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RATNAVEER/": {
+    "company": "Ratnaveer Precis",
+    "ticker": "RATNAVEER",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARVSMART/consolidated/": {
+    "company": "Arvind SmartSp.",
+    "ticker": "ARVSMART",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/REMUS/consolidated/": {
+    "company": "Remus Pharma.",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASTERDM/consolidated/": {
+    "company": "Aster DM Quality",
+    "ticker": "ASTERDM",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HCC/consolidated/": {
+    "company": "Hind.Construct.",
+    "ticker": "HCC",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544823/": {
+    "company": "Devson Catalyst",
+    "ticker": null,
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ACI/consolidated/": {
+    "company": "Archean Chemical",
+    "ticker": "ACI",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IONEXCHANG/consolidated/": {
+    "company": "ION Exchange",
+    "ticker": "IONEXCHANG",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Water Supply & Management",
     "_tries": 1
   }
 }
