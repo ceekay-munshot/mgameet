@@ -9422,5 +9422,325 @@
     "industry": "Other Utilities",
     "sub_industry": "Water Supply & Management",
     "_tries": 1
+  },
+  "https://www.screener.in/company/CARBORUNIV/consolidated/": {
+    "company": "Carborundum Uni.",
+    "ticker": "CARBORUNIV",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Abrasives & Bearings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NTPC/consolidated/": {
+    "company": "NTPC",
+    "ticker": "NTPC",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GKSL/consolidated/": {
+    "company": "Gujarat Kidney",
+    "ticker": "GKSL",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GSLSU/consolidated/": {
+    "company": "Global Surfaces",
+    "ticker": "GSLSU",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Granites & Marbles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOLDTKPAC/": {
+    "company": "Mold-Tek Pack.",
+    "ticker": "MOLDTKPAC",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CUMMINSIND/consolidated/": {
+    "company": "Cummins India",
+    "ticker": "CUMMINSIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VSTTILLERS/": {
+    "company": "VST Till. Tract.",
+    "ticker": "VSTTILLERS",
+    "sector": "Capital Goods",
+    "industry": "Agricultural, Commercial & Construction Vehicles",
+    "sub_industry": "Tractors",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GANECOS/consolidated/": {
+    "company": "Ganesha Ecosphe.",
+    "ticker": "GANECOS",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SEDEMAC/": {
+    "company": "Sedemac Mechatro",
+    "ticker": "SEDEMAC",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHYAMMETL/consolidated/": {
+    "company": "Shyam Metalics",
+    "ticker": "SHYAMMETL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DOMS/consolidated/": {
+    "company": "DOMS Industries",
+    "ticker": "DOMS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": "Stationary",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JISLJALEQS/consolidated/": {
+    "company": "Jain Irrigation",
+    "ticker": "JISLJALEQS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GODREJAGRO/consolidated/": {
+    "company": "Godrej Agrovet",
+    "ticker": "GODREJAGRO",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Animal Feed",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPRMILL/consolidated/": {
+    "company": "K P R Mill Ltd",
+    "ticker": "KPRMILL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLAXO/consolidated/": {
+    "company": "Glaxosmi. Pharma",
+    "ticker": "GLAXO",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELGIEQUIP/consolidated/": {
+    "company": "Elgi Equipments",
+    "ticker": "ELGIEQUIP",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HIGREEN/consolidated/": {
+    "company": "Hi-Green Carbon",
+    "ticker": "SME",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JASH/consolidated/": {
+    "company": "Jash Engineering",
+    "ticker": "JASH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DREAMFOLKS/consolidated/": {
+    "company": "Dreamfolks Servi",
+    "ticker": "DREAMFOLKS",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Airport & Airport services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JPL/consolidated/": {
+    "company": "Jio Platforms",
+    "ticker": "JPL",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Cellular & Fixed line services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VRLLOG/": {
+    "company": "VRL Logistics",
+    "ticker": "VRLLOG",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APOLLOTYRE/consolidated/": {
+    "company": "Apollo Tyres",
+    "ticker": "APOLLOTYRE",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Tyres & Rubber Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MUFTI/": {
+    "company": "Credo Brands",
+    "ticker": "MUFTI",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ATL/consolidated/": {
+    "company": "Allcargo Termi",
+    "ticker": "ATL",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Port & Port services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WINDLAS/": {
+    "company": "Windlas Biotech",
+    "ticker": "WINDLAS",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLEDUCATE/consolidated/": {
+    "company": "CL Educate",
+    "ticker": "CLEDUCATE",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "Education",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AMANTA/": {
+    "company": "Amanta Healthcar",
+    "ticker": "AMANTA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAYURUNIQ/consolidated/": {
+    "company": "Mayur Uniquoters",
+    "ticker": "MAYURUNIQ",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Leather And Leather Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VASCONEQ/consolidated/": {
+    "company": "Vascon Engineers",
+    "ticker": "VASCONEQ",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WHEELS/consolidated/": {
+    "company": "Wheels India",
+    "ticker": "WHEELS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HGINFRA/consolidated/": {
+    "company": "H.G. Infra Engg.",
+    "ticker": "HGINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHIPROCKET/consolidated/": {
+    "company": "Shiprocket",
+    "ticker": "SHIPROCKET",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRIVISCL/": {
+    "company": "Privi Speci.",
+    "ticker": "PRIVISCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544812/": {
+    "company": "Atharva Poly-Plast",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plastic Products - Consumer",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544291/": {
+    "company": "Rajesh Power",
+    "ticker": null,
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Multi Utilities",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JYOTICNC/consolidated/": {
+    "company": "Jyoti CNC Auto.",
+    "ticker": "JYOTICNC",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INDIGO/": {
+    "company": "Interglobe Aviat",
+    "ticker": "INDIGO",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Airline",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543787/": {
+    "company": "Macfos",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EBGNG/consolidated/": {
+    "company": "GNG Electronics",
+    "ticker": "EBGNG",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NRBBEARING/consolidated/": {
+    "company": "NRB Bearings",
+    "ticker": "NRBBEARING",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
