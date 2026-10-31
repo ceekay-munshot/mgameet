@@ -9742,5 +9742,325 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/MONEYVIEW/consolidated/": {
+    "company": "Moneyview",
+    "ticker": "MONEYVIEW",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EFFWA/": {
+    "company": "Effwa Infra",
+    "ticker": "SME",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RUPA/consolidated/": {
+    "company": "Rupa & Co",
+    "ticker": "RUPA",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAMLINFINE/consolidated/": {
+    "company": "Camlin Fine",
+    "ticker": "CAMLINFINE",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JMFINANCIL/consolidated/": {
+    "company": "JM Financial",
+    "ticker": "JMFINANCIL",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APOLLOPIPE/consolidated/": {
+    "company": "Apollo Pipes",
+    "ticker": "APOLLOPIPE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MPSLTD/consolidated/": {
+    "company": "MPS",
+    "ticker": "MPSLTD",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Printing & Publication",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KIRIINDUS/consolidated/": {
+    "company": "Kiri Industries",
+    "ticker": "KIRIINDUS",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OPTIMYSTIX/": {
+    "company": "Optimystix Entertainment",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Media & Entertainment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHARATFORG/consolidated/": {
+    "company": "Bharat Forge",
+    "ticker": "BHARATFORG",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KAMATHOTEL/consolidated/": {
+    "company": "Kamat Hotels",
+    "ticker": "KAMATHOTEL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELLEN/": {
+    "company": "Ellen.Indl.Gas",
+    "ticker": "ELLEN",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Industrial Gases",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NCC/consolidated/": {
+    "company": "NCC",
+    "ticker": "NCC",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABB/": {
+    "company": "A B B",
+    "ticker": "ABB",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MILKYMIST/consolidated/": {
+    "company": "Milky Mist Dairy",
+    "ticker": "MILKYMIST",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/504380/": {
+    "company": "Flomic Global",
+    "ticker": "504380",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAPACITE/consolidated/": {
+    "company": "Capacit'e Infra.",
+    "ticker": "CAPACITE",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAXIND/consolidated/": {
+    "company": "Max India Ltd",
+    "ticker": "MAXIND",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Holding Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SURYAROSNI/consolidated/": {
+    "company": "Surya Roshni",
+    "ticker": "SURYAROSNI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GOLDIAM/consolidated/": {
+    "company": "Goldiam Intl.",
+    "ticker": "GOLDIAM",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHANTIGOLD/": {
+    "company": "Shanti Gold",
+    "ticker": "SHANTIGOLD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAVNETEDUL/consolidated/": {
+    "company": "Navneet Educat.",
+    "ticker": "NAVNETEDUL",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": "Stationary",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INNOMET/": {
+    "company": "Innomet Advanced",
+    "ticker": "SME",
+    "sector": "Metals & Mining",
+    "industry": "Diversified Metals",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CCAVENUE/consolidated/": {
+    "company": "AvenuesAI",
+    "ticker": "CCAVENUE",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OAL/consolidated/": {
+    "company": "Oriental Aromat.",
+    "ticker": "OAL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/APCOTEXIND/": {
+    "company": "Apcotex Industri",
+    "ticker": "APCOTEXIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/REPCOHOME/consolidated/": {
+    "company": "Repco Home Fin",
+    "ticker": "REPCOHOME",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Housing Finance Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIACABS/": {
+    "company": "Diamond Power",
+    "ticker": "DIACABS",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARVINDFASN/consolidated/": {
+    "company": "Arvind Fashions.",
+    "ticker": "ARVINDFASN",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHEL/consolidated/": {
+    "company": "B H E L",
+    "ticker": "BHEL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUNDROP/consolidated/": {
+    "company": "Sundrop Brands",
+    "ticker": "SUNDROP",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UNIPARTS/consolidated/": {
+    "company": "Uniparts India",
+    "ticker": "UNIPARTS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAATVIKGL/consolidated/": {
+    "company": "Saatvik Green",
+    "ticker": "SAATVIKGL",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RICOAUTO/consolidated/": {
+    "company": "Rico Auto Inds",
+    "ticker": "RICOAUTO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EXIDEIND/consolidated/": {
+    "company": "Exide Inds.",
+    "ticker": "EXIDEIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ROSSTECH/consolidated/": {
+    "company": "Rossell Techsys",
+    "ticker": "ROSSTECH",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544332/consolidated/": {
+    "company": "Fabtech Cleanrooms",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RPGLIFE/consolidated/": {
+    "company": "RPG LifeScience.",
+    "ticker": "RPGLIFE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RSYSTEMS/consolidated/": {
+    "company": "R Systems Intl.",
+    "ticker": "RSYSTEMS",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SACHEEROME/": {
+    "company": "Sacheerome",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
   }
 }
