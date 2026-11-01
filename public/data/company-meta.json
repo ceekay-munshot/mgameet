@@ -10062,5 +10062,325 @@
     "industry": "Chemicals & Petrochemicals",
     "sub_industry": "Specialty Chemicals",
     "_tries": 1
+  },
+  "https://www.screener.in/company/TMPV/consolidated/": {
+    "company": "Tata Motors PVeh",
+    "ticker": "TMPV",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Passenger Cars & Utility Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HUDCO/consolidated/": {
+    "company": "H U D C O",
+    "ticker": "HUDCO",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Financial Institution",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/512437/": {
+    "company": "Apollo Finvest",
+    "ticker": "512437",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/V2RETAIL/": {
+    "company": "V2 Retail",
+    "ticker": "V2RETAIL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANTHEM/consolidated/": {
+    "company": "Anthem Bioscienc",
+    "ticker": "ANTHEM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Biotechnology",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRCL/": {
+    "company": "Gayatri Rubbers",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Rubber",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EIDPARRY/consolidated/": {
+    "company": "EID Parry",
+    "ticker": "EIDPARRY",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Other Food Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STYLAMIND/": {
+    "company": "Stylam Industrie",
+    "ticker": "STYLAMIND",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544213/consolidated/": {
+    "company": "Aelea Commoditi.",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JAINREC/consolidated/": {
+    "company": "Jain Resource",
+    "ticker": "JAINREC",
+    "sector": "Metals & Mining",
+    "industry": "Diversified Metals",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SANGAMIND/": {
+    "company": "Sangam India",
+    "ticker": "SANGAMIND",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GAJA/consolidated/": {
+    "company": "Gaja Alternative Asset",
+    "ticker": "GAJA",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRACXN/": {
+    "company": "Tracxn Technolo.",
+    "ticker": "TRACXN",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Data Processing Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKFINDIA/": {
+    "company": "SKF India",
+    "ticker": "SKFINDIA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Abrasives & Bearings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DHOOTTRANS/consolidated/": {
+    "company": "Dhoot Transmission",
+    "ticker": "DHOOTTRANS",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LUMINO/": {
+    "company": "Lumino Inds",
+    "ticker": "LUMINO",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BALAMINES/consolidated/": {
+    "company": "Balaji Amines",
+    "ticker": "BALAMINES",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TOTAL/consolidated/": {
+    "company": "Total Transport",
+    "ticker": "TOTAL",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANUP/consolidated/": {
+    "company": "The Anup Enginee",
+    "ticker": "ANUP",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MRPL/consolidated/": {
+    "company": "M R P L",
+    "ticker": "MRPL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Petroleum Products",
+    "sub_industry": "Refineries & Marketing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRINFRA/consolidated/": {
+    "company": "G R Infraproject",
+    "ticker": "GRINFRA",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544538/": {
+    "company": "Praruh Tech",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RACLGEAR/": {
+    "company": "RACL Geartech",
+    "ticker": "RACLGEAR",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONIDA/": {
+    "company": "Onida Electronics",
+    "ticker": "ONIDA",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SMARTEN/consolidated/": {
+    "company": "Smarten Power",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SONATSOFTW/consolidated/": {
+    "company": "Sonata Software",
+    "ticker": "SONATSOFTW",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RATNAMANI/consolidated/": {
+    "company": "Ratnamani Metals",
+    "ticker": "RATNAMANI",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMAPARTNER/consolidated/": {
+    "company": "EMA Partners",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIGNPOST/": {
+    "company": "Signpost India",
+    "ticker": "SIGNPOST",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Advertising & Media Agencies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SAKSOFT/consolidated/": {
+    "company": "Saksoft",
+    "ticker": "SAKSOFT",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GREENLAM/consolidated/": {
+    "company": "Greenlam Industr",
+    "ticker": "GREENLAM",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/540097/": {
+    "company": "Gamco Ltd",
+    "ticker": "540097",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Other Financial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEGA/consolidated/": {
+    "company": "Tega Inds.",
+    "ticker": "TEGA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UFO/consolidated/": {
+    "company": "UFO Moviez",
+    "ticker": "UFO",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Entertainment",
+    "sub_industry": "Film Production, Distribution & Exhibition",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LORDSCHLO/": {
+    "company": "Lords Chloro",
+    "ticker": "LORDSCHLO",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLUEJET/": {
+    "company": "Blue Jet Health",
+    "ticker": "BLUEJET",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/513502/": {
+    "company": "Baroda Extrusion",
+    "ticker": "513502",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PROTEAN/consolidated/": {
+    "company": "Protean eGov",
+    "ticker": "PROTEAN",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GSPLTRANS/consolidated/": {
+    "company": "GSPL Transmission",
+    "ticker": "GSPLTRANS",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Gas",
+    "sub_industry": "LPG/CNG/PNG/LNG Supplier",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRYSTAL/consolidated/": {
+    "company": "Krystal Integrat",
+    "ticker": "KRYSTAL",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
   }
 }
