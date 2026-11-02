@@ -10382,5 +10382,261 @@
     "industry": "Commercial Services & Supplies",
     "sub_industry": "Diversified Commercial Services",
     "_tries": 1
+  },
+  "https://www.screener.in/company/IRIS/consolidated/": {
+    "company": "IRIS Regtech Solutions",
+    "ticker": "IRIS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHAMBLFERT/consolidated/": {
+    "company": "Chambal Fert.",
+    "ticker": "CHAMBLFERT",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHREEPUSHK/consolidated/": {
+    "company": "Sh.Pushkar Chem.",
+    "ticker": "SHREEPUSHK",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHRINGARMS/": {
+    "company": "Shringar House",
+    "ticker": "SHRINGARMS",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544735/": {
+    "company": "Novus Loyalty",
+    "ticker": null,
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Web based media and service",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AWFIS/consolidated/": {
+    "company": "AWFIS Space",
+    "ticker": "AWFIS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544940/consolidated/": {
+    "company": "Robokidz Eduventures",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "E-Learning",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GHCL/": {
+    "company": "GHCL",
+    "ticker": "GHCL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOLDTECH/consolidated/": {
+    "company": "Mold-Tek Technol",
+    "ticker": "MOLDTECH",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARTH/": {
+    "company": "Parth Electrical",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EXICOM/consolidated/": {
+    "company": "Exicom Tele-Sys.",
+    "ticker": "EXICOM",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIGACHI/": {
+    "company": "Sigachi Indust.",
+    "ticker": "SIGACHI",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SBCL/consolidated/": {
+    "company": "Shivalik Bimetal",
+    "ticker": "SBCL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CENTURYPLY/consolidated/": {
+    "company": "Century Plyboard",
+    "ticker": "CENTURYPLY",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Plywood Boards/ Laminates",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SDREAMS/": {
+    "company": "S D Retail",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FIEMIND/consolidated/": {
+    "company": "Fiem Industries",
+    "ticker": "FIEMIND",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BALRAMCHIN/consolidated/": {
+    "company": "Balrampur Chini",
+    "ticker": "BALRAMCHIN",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Sugar",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CPPLUS/consolidated/": {
+    "company": "Aditya Infotech",
+    "ticker": "CPPLUS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZIMLAB/consolidated/": {
+    "company": "Zim Laboratories",
+    "ticker": "ZIMLAB",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BANKBARODA/consolidated/": {
+    "company": "Bank of Baroda",
+    "ticker": "BANKBARODA",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Public Sector Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VENKEYS/": {
+    "company": "Venky's (India)",
+    "ticker": "VENKEYS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Meat Products including Poultry",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IFBIND/": {
+    "company": "IFB Industries",
+    "ticker": "IFBIND",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SVLL/": {
+    "company": "Shree Vasu Logis",
+    "ticker": "SVLL",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HNDFDS/consolidated/": {
+    "company": "Hindustan Foods",
+    "ticker": "HNDFDS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Diversified FMCG",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RPTECH/consolidated/": {
+    "company": "Rashi Peripheral",
+    "ticker": "RPTECH",
+    "sector": "Information Technology",
+    "industry": "IT - Hardware",
+    "sub_industry": "Computers Hardware & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/THERMAX/consolidated/": {
+    "company": "Thermax",
+    "ticker": "THERMAX",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BCLIND/consolidated/": {
+    "company": "BCL Industries",
+    "ticker": "BCLIND",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DIVISLAB/consolidated/": {
+    "company": "Divi's Lab.",
+    "ticker": "DIVISLAB",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRIZOR/": {
+    "company": "Prizor Viztech",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADFFOODS/consolidated/": {
+    "company": "ADF Foods",
+    "ticker": "ADFFOODS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UTKARSHBNK/": {
+    "company": "Utkarsh Small F.",
+    "ticker": "UTKARSHBNK",
+    "sector": "Financial Services",
+    "industry": "Banks",
+    "sub_industry": "Other Bank",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABFRL/consolidated/": {
+    "company": "Aditya Bir. Fas.",
+    "ticker": "ABFRL",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
   }
 }
