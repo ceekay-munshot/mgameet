@@ -10638,5 +10638,317 @@
     "industry": "Retailing",
     "sub_industry": "Speciality Retail",
     "_tries": 1
+  },
+  "https://www.screener.in/company/TONBO/": {
+    "company": "Tonbo Imaging",
+    "ticker": "TONBO",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MUTHOOTCAP/": {
+    "company": "Muthoot Cap.Serv",
+    "ticker": "MUTHOOTCAP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LINC/": {
+    "company": "Linc",
+    "ticker": "LINC",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": "Stationary",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CLASSICEIL/": {
+    "company": "Classic Electrod",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WEBELSOLAR/": {
+    "company": "Websol Energy",
+    "ticker": "WEBELSOLAR",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VENUSPIPES/": {
+    "company": "Venus Pipes",
+    "ticker": "VENUSPIPES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MOLBIO/": {
+    "company": "Molbio Diagnosti",
+    "ticker": "MOLBIO",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ONGC/consolidated/": {
+    "company": "O N G C",
+    "ticker": "ONGC",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIYASH/consolidated/": {
+    "company": "Viyash Scientific",
+    "ticker": "VIYASH",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ELIN/consolidated/": {
+    "company": "Elin Electronics",
+    "ticker": "ELIN",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JUBLPHARMA/consolidated/": {
+    "company": "Jubilant Pharmo",
+    "ticker": "JUBLPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AUGMONT/consolidated/": {
+    "company": "Augmont Enterpri",
+    "ticker": "AUGMONT",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Precious Metals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ESTER/consolidated/": {
+    "company": "Ester Industries",
+    "ticker": "ESTER",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CAPLIPOINT/consolidated/": {
+    "company": "Caplin Point Lab",
+    "ticker": "CAPLIPOINT",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KMEW/consolidated/": {
+    "company": "Knowledge Marine",
+    "ticker": "KMEW",
+    "sector": "Services",
+    "industry": "Engineering Services",
+    "sub_industry": "Dredging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRABHA/consolidated/": {
+    "company": "Prabha Energy",
+    "ticker": "PRABHA",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUYOG/": {
+    "company": "Suyog Telematics",
+    "ticker": "SUYOG",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Infrastructure",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PYRAMID/": {
+    "company": "Pyramid Technopl",
+    "ticker": "PYRAMID",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EXCELINDUS/consolidated/": {
+    "company": "Excel Industries",
+    "ticker": "EXCELINDUS",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IRB/consolidated/": {
+    "company": "IRB Infra.Devl.",
+    "ticker": "IRB",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544668/consolidated/": {
+    "company": "Nanta Tech",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Consumer Electronics",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VIDYAWIRES/consolidated/": {
+    "company": "Vidya Wires",
+    "ticker": "VIDYAWIRES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Aluminium, Copper & Zinc Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HINDOILEXP/consolidated/": {
+    "company": "Hind.Oil Explor.",
+    "ticker": "HINDOILEXP",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VTL/consolidated/": {
+    "company": "Vardhman Textile",
+    "ticker": "VTL",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GRASIM/consolidated/": {
+    "company": "Grasim Inds",
+    "ticker": "GRASIM",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NHPC/consolidated/": {
+    "company": "NHPC Ltd",
+    "ticker": "NHPC",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SULA/consolidated/": {
+    "company": "Sula Vineyards",
+    "ticker": "SULA",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SCHNEIDER/": {
+    "company": "Schneider Elect.",
+    "ticker": "SCHNEIDER",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HMVL/consolidated/": {
+    "company": "Hindustan Media",
+    "ticker": "HMVL",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Print Media",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544387/": {
+    "company": "Desco Infra.",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DDEVPLSTIK/": {
+    "company": "DDev Plastiks",
+    "ticker": "DDEVPLSTIK",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GODIGIT/": {
+    "company": "Go Digit General",
+    "ticker": "GODIGIT",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "General Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HTMEDIA/consolidated/": {
+    "company": "H T Media",
+    "ticker": "HTMEDIA",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Print Media",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HITECH/consolidated/": {
+    "company": "Hi-Tech Pipes",
+    "ticker": "HITECH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRIMECAB/": {
+    "company": "Prime Cable Ind.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHEMPLASTS/consolidated/": {
+    "company": "Chemplast Sanmar",
+    "ticker": "CHEMPLASTS",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SMSPHARMA/consolidated/": {
+    "company": "SMS Pharma.",
+    "ticker": "SMSPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVALON/consolidated/": {
+    "company": "Avalon Tech",
+    "ticker": "AVALON",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARAS/consolidated/": {
+    "company": "Paras Defence",
+    "ticker": "PARAS",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
   }
 }
