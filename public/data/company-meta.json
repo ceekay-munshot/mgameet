@@ -11198,5 +11198,109 @@
     "industry": "Industrial Manufacturing",
     "sub_industry": "Industrial Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/ATLPP/": {
+    "company": "Allcargo Terminals PP",
+    "ticker": "ATLPP",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Port & Port services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ARDEE/": {
+    "company": "Ardee Industries",
+    "ticker": "ARDEE",
+    "sector": "Metals & Mining",
+    "industry": "Diversified Metals",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PREMEXPLN/consolidated/": {
+    "company": "Prem. Explosives",
+    "ticker": "PREMEXPLN",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Explosives",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SINGERIND/": {
+    "company": "Singer India",
+    "ticker": "SINGERIND",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MPIMANIPAL/consolidated/": {
+    "company": "Manipal Payment",
+    "ticker": "MPIMANIPAL",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VEEGALAND/": {
+    "company": "Veegaland Developers",
+    "ticker": "VEEGALAND",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DCAL/consolidated/": {
+    "company": "Dishman Carbogen",
+    "ticker": "DCAL",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GPPL/consolidated/": {
+    "company": "Guj Pipavav Port",
+    "ticker": "GPPL",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Port & Port services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GCSL/consolidated/": {
+    "company": "Gretex Corporate",
+    "ticker": "GCSL",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Other Capital Market related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRITURBINE/consolidated/": {
+    "company": "Triveni Turbine",
+    "ticker": "TRITURBINE",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NAVA/consolidated/": {
+    "company": "Nava",
+    "ticker": "NAVA",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOUTHWEST/consolidated/": {
+    "company": "South West Pinn.",
+    "ticker": "SOUTHWEST",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/STARCEMENT/consolidated/": {
+    "company": "Star Cement",
+    "ticker": "STARCEMENT",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
   }
 }
