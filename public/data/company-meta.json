@@ -11302,5 +11302,173 @@
     "industry": "Cement & Cement Products",
     "sub_industry": null,
     "_tries": 1
+  },
+  "https://www.screener.in/company/RGL/consolidated/": {
+    "company": "Renaiss. Global",
+    "ticker": "RGL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SURAKSHA/consolidated/": {
+    "company": "Suraksha Diagno.",
+    "ticker": "SURAKSHA",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SANDHAR/consolidated/": {
+    "company": "Sandhar Tech",
+    "ticker": "SANDHAR",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICELCO/": {
+    "company": "IC Electricals",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PATILAUTOM/consolidated/": {
+    "company": "Patil Automation",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VINYAS/": {
+    "company": "Vinyas Innovativ",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOFTTECH/consolidated/": {
+    "company": "Softtech Enginee",
+    "ticker": "SOFTTECH",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FINCABLES/consolidated/": {
+    "company": "Finolex Cables",
+    "ticker": "FINCABLES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Cables - Electricals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRENT/consolidated/": {
+    "company": "Trent",
+    "ticker": "TRENT",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "Speciality Retail",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MUFIN/": {
+    "company": "Mufin Green",
+    "ticker": "MUFIN",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KDDL/consolidated/": {
+    "company": "KDDL Ltd",
+    "ticker": "KDDL",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANAPPURAM/consolidated/": {
+    "company": "Manappuram Fin.",
+    "ticker": "MANAPPURAM",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASHAPURMIN/consolidated/": {
+    "company": "Ashapura Minech.",
+    "ticker": "ASHAPURMIN",
+    "sector": "Metals & Mining",
+    "industry": "Minerals & Mining",
+    "sub_industry": "Industrial Minerals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EDELALTS/consolidated/": {
+    "company": "EAAA India",
+    "ticker": "EDELALTS",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Asset Management Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QLINE/consolidated/": {
+    "company": "Q-Line Biotech",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MDL/consolidated/": {
+    "company": "Marvel Decor",
+    "ticker": "SME",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GESHIP/consolidated/": {
+    "company": "GE Shipping Co",
+    "ticker": "GESHIP",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Shipping",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EIHOTEL/consolidated/": {
+    "company": "EIH",
+    "ticker": "EIHOTEL",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VHLTD/consolidated/": {
+    "company": "Viceroy Hotels",
+    "ticker": "VHLTD",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRITIKAUTO/consolidated/": {
+    "company": "Pritika Auto",
+    "ticker": "PRITIKAUTO",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORIENTCABL/consolidated/": {
+    "company": "Orient Cables",
+    "ticker": "ORIENTCABL",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Equipment & Accessories",
+    "sub_industry": null,
+    "_tries": 1
   }
 }
