@@ -11470,5 +11470,301 @@
     "industry": "Telecom - Equipment & Accessories",
     "sub_industry": null,
     "_tries": 1
+  },
+  "https://www.screener.in/company/TECHNOE/": {
+    "company": "Techno Elec.Engg",
+    "ticker": "TECHNOE",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544869/": {
+    "company": "Sham Foam",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UGROCAP/consolidated/": {
+    "company": "Ugro Capital",
+    "ticker": "UGROCAP",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZETWERK/consolidated/": {
+    "company": "Zetwerk Manufacturing",
+    "ticker": "ZETWERK",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BONFIG/": {
+    "company": "Bonfiglioli Tran",
+    "ticker": "BONFIG",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544925/consolidated/": {
+    "company": "Maharaja & Speedex India",
+    "ticker": null,
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Houseware",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LINC/consolidated/": {
+    "company": "Linc",
+    "ticker": "LINC",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Household Products",
+    "sub_industry": "Stationary",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANURAS/consolidated/": {
+    "company": "Anupam Rasayan",
+    "ticker": "ANURAS",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DENTALKART/": {
+    "company": "Vasa Denticity",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PRESTIGE/consolidated/": {
+    "company": "Prestige Estates",
+    "ticker": "PRESTIGE",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DEEPAKFERT/consolidated/": {
+    "company": "Deepak Fertilis.",
+    "ticker": "DEEPAKFERT",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PARASHLTH/": {
+    "company": "Paras Healthcare",
+    "ticker": "PARASHLTH",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GUFICBIO/": {
+    "company": "Gufic BioScience",
+    "ticker": "GUFICBIO",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICICILIFE/": {
+    "company": "ICICI Life Insurance",
+    "ticker": "ICICILIFE",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "sub_industry": "Life Insurance",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INOXGREEN/consolidated/": {
+    "company": "Inox Green",
+    "ticker": "INOXGREEN",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PAGEIND/": {
+    "company": "Page Industries",
+    "ticker": "PAGEIND",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/VERANDA/consolidated/": {
+    "company": "Veranda Learning",
+    "ticker": "VERANDA",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "E-Learning",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KSB/consolidated/": {
+    "company": "KSB",
+    "ticker": "KSB",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Compressors, Pumps & Diesel Engines",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FIRSTCRY/consolidated/": {
+    "company": "Brainbees Solut.",
+    "ticker": "FIRSTCRY",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FREDUN/": {
+    "company": "Fredun Pharma",
+    "ticker": "FREDUN",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ICEMAKE/consolidated/": {
+    "company": "ICE Make Refrig.",
+    "ticker": "ICEMAKE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/THOMASCOTT/": {
+    "company": "Thomas Scott",
+    "ticker": "THOMASCOTT",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RENTOMOJO/": {
+    "company": "Rentomojo",
+    "ticker": "RENTOMOJO",
+    "sector": "Consumer Services",
+    "industry": "Retailing",
+    "sub_industry": "E-Retail/ E-Commerce",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FASCINATE/": {
+    "company": "Fascinate Textiles",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DBL/consolidated/": {
+    "company": "Dilip Buildcon",
+    "ticker": "DBL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POCL/": {
+    "company": "Pondy Oxides",
+    "ticker": "POCL",
+    "sector": "Metals & Mining",
+    "industry": "Diversified Metals",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OLECTRA/consolidated/": {
+    "company": "Olectra Greentec",
+    "ticker": "OLECTRA",
+    "sector": "Automobile and Auto Components",
+    "industry": "Automobiles",
+    "sub_industry": "Passenger Cars & Utility Vehicles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SCODATUBES/": {
+    "company": "Scoda Tubes",
+    "ticker": "SCODATUBES",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RELIGARE/consolidated/": {
+    "company": "Religare Enterp.",
+    "ticker": "RELIGARE",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Investment Company",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NATCOPHARM/consolidated/": {
+    "company": "Natco Pharma",
+    "ticker": "NATCOPHARM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TRAVELFOOD/consolidated/": {
+    "company": "Travel Food",
+    "ticker": "TRAVELFOOD",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TURTLEMINT/consolidated/": {
+    "company": "Turtlemint Fintech",
+    "ticker": "TURTLEMINT",
+    "sector": "Financial Services",
+    "industry": "Financial Technology (Fintech)",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MANIPALHOS/consolidated/": {
+    "company": "Manipal Health",
+    "ticker": "MANIPALHOS",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HDFIRE/": {
+    "company": "HD Fire Protect",
+    "ticker": "HDFIRE",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEXAGON/": {
+    "company": "Hexagon Nutri.",
+    "ticker": "HEXAGON",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RELAXO/": {
+    "company": "Relaxo Footwear",
+    "ticker": "RELAXO",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Footwear",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544940/": {
+    "company": "Robokidz Eduventures",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "E-Learning",
+    "_tries": 1
   }
 }
