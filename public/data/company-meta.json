@@ -11766,5 +11766,197 @@
     "industry": "Other Consumer Services",
     "sub_industry": "E-Learning",
     "_tries": 1
+  },
+  "https://www.screener.in/company/544854/": {
+    "company": "Dhaval Packaging",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Packaging",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BEWLTD/": {
+    "company": "BEW Engg",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BELRISE/": {
+    "company": "Belrise Industri",
+    "ticker": "BELRISE",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DYNAMATECH/consolidated/": {
+    "company": "Dynamatic Tech.",
+    "ticker": "DYNAMATECH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KPL/consolidated/": {
+    "company": "Kwality Pharma",
+    "ticker": "KPL",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544682/": {
+    "company": "GRE Renew",
+    "ticker": null,
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KOLTEPATIL/consolidated/": {
+    "company": "Kolte Patil Dev.",
+    "ticker": "KOLTEPATIL",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Residential, Commercial Projects",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/HEALTHX/consolidated/": {
+    "company": "Health X Platform",
+    "ticker": "HEALTHX",
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Healthcare Service Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SENCO/consolidated/": {
+    "company": "Senco Gold",
+    "ticker": "SENCO",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CEINSYS/consolidated/": {
+    "company": "Ceinsys Tech",
+    "ticker": "CEINSYS",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MALLCOM/consolidated/": {
+    "company": "Mallcom (India)",
+    "ticker": "MALLCOM",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/LAXMIINDIA/": {
+    "company": "Laxmi India Fin.",
+    "ticker": "LAXMIINDIA",
+    "sector": "Financial Services",
+    "industry": "Finance",
+    "sub_industry": "Non Banking Financial Company (NBFC)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RISHABH/consolidated/": {
+    "company": "Rishabh Instrum.",
+    "ticker": "RISHABH",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NGLFINE/consolidated/": {
+    "company": "NGL Fine Chem",
+    "ticker": "NGLFINE",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/IGLSPIRITS/": {
+    "company": "IGL Spirits",
+    "ticker": "IGLSPIRITS",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/YATRA/consolidated/": {
+    "company": "Yatra Online",
+    "ticker": "YATRA",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUTLEJTEX/consolidated/": {
+    "company": "Sutlej Textiles",
+    "ticker": "SUTLEJTEX",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/WAKEFIT/": {
+    "company": "Wakefit Innovati",
+    "ticker": "WAKEFIT",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Furniture, Home Furnishing",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GREENPOWER/consolidated/": {
+    "company": "Orient Green",
+    "ticker": "GREENPOWER",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SKFINDUS/": {
+    "company": "SKF India Indus.",
+    "ticker": "SKFINDUS",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Abrasives & Bearings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MIDWESTLTD/consolidated/": {
+    "company": "Midwest",
+    "ticker": "MIDWESTLTD",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Granites & Marbles",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ROXHITECH/": {
+    "company": "ROX Hi-Tech",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PPAP/consolidated/": {
+    "company": "PPAP Automotive",
+    "ticker": "PPAP",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLEL/": {
+    "company": "Behari Lal Engg.",
+    "ticker": "BLEL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
   }
 }
