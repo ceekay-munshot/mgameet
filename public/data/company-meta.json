@@ -11958,5 +11958,45 @@
     "industry": "Industrial Products",
     "sub_industry": "Iron & Steel Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/DIGISPICE/consolidated/": {
+    "company": "DigiSpice Tech.",
+    "ticker": "DIGISPICE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OIL/consolidated/": {
+    "company": "Oil India",
+    "ticker": "OIL",
+    "sector": "Oil, Gas & Consumable Fuels",
+    "industry": "Oil",
+    "sub_industry": "Oil Exploration & Production",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PENIND/consolidated/": {
+    "company": "Pennar Industrie",
+    "ticker": "PENIND",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/COROMANDEL/consolidated/": {
+    "company": "Coromandel Inter",
+    "ticker": "COROMANDEL",
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Fertilizers",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AGL/consolidated/": {
+    "company": "Allcargo Global",
+    "ticker": "AGL",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
   }
 }
