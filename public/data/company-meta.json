@@ -11998,5 +11998,149 @@
     "industry": "Transport Services",
     "sub_industry": "Logistics Solution Provider",
     "_tries": 1
+  },
+  "https://www.screener.in/company/TITAGARH/consolidated/": {
+    "company": "Titagarh Rail",
+    "ticker": "TITAGARH",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Railway Wagons",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BONDADA/consolidated/": {
+    "company": "Bondada Engineer",
+    "ticker": "BONDADA",
+    "sector": "Telecommunication",
+    "industry": "Telecom - Services",
+    "sub_industry": "Telecom - Infrastructure",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASALCBR/": {
+    "company": "Assoc.Alcohols",
+    "ticker": "ASALCBR",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/RADIANTCMS/consolidated/": {
+    "company": "Radiant Cash",
+    "ticker": "RADIANTCMS",
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Diversified Commercial Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EXPLEOSOL/consolidated/": {
+    "company": "Expleo Solutions",
+    "ticker": "EXPLEOSOL",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ECOSMOBLTY/consolidated/": {
+    "company": "Ecos (India)",
+    "ticker": "ECOSMOBLTY",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Road Transport",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/EMSLIMITED/consolidated/": {
+    "company": "EMS",
+    "ticker": "EMSLIMITED",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Waste Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/PURPLEUTED/": {
+    "company": "Purple United",
+    "ticker": "SME",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SOLARWORLD/consolidated/": {
+    "company": "Solarworld Ene.",
+    "ticker": "SOLARWORLD",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AUTOAXLES/": {
+    "company": "Automotive Axles",
+    "ticker": "AUTOAXLES",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SHARDAMOTR/consolidated/": {
+    "company": "Sharda Motor",
+    "ticker": "SHARDAMOTR",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DUCOL/consolidated/": {
+    "company": "Ducol Organics",
+    "ticker": "SME",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZAGGLE/": {
+    "company": "Zaggle Prepaid",
+    "ticker": "ZAGGLE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NUVAMA/consolidated/": {
+    "company": "Nuvama Wealth",
+    "ticker": "NUVAMA",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "sub_industry": "Stockbroking & Allied",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AMBER/consolidated/": {
+    "company": "Amber Enterp.",
+    "ticker": "AMBER",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Household Appliances",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CITIUSINVT/consolidated/": {
+    "company": "Citius Transnet",
+    "ticker": "CITIUSINVT",
+    "sector": "Services",
+    "industry": "Transport Infrastructure",
+    "sub_industry": "Road AssetsToll, Annuity, Hybrid-Annuity",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MMFL/": {
+    "company": "M M Forgings",
+    "ticker": "MMFL",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544516/": {
+    "company": "Airfloa Rail",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
   }
 }
