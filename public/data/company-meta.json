@@ -12510,5 +12510,117 @@
     "industry": "Other Consumer Services",
     "sub_industry": null,
     "_tries": 1
+  },
+  "https://www.screener.in/company/BMISL/": {
+    "company": "Bench Mark Infotech Services",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544489/": {
+    "company": "LGT Global Hospitality",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Tour, Travel Related Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TECHERA/": {
+    "company": "Techera Enginee.",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TEJASCARGO/": {
+    "company": "Tejas Cargo",
+    "ticker": "SME",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAMATA/consolidated/": {
+    "company": "Mamata Machinery",
+    "ticker": "MAMATA",
+    "sector": "Capital Goods",
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DOLLAR/consolidated/": {
+    "company": "Dollar Industrie",
+    "ticker": "DOLLAR",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Garments & Apparels",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/FRONTSP/": {
+    "company": "Frontier Springs",
+    "ticker": "FRONTSP",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544998/": {
+    "company": "Shellz India",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543874/": {
+    "company": "Maiden Forgings",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NLCINDIA/consolidated/": {
+    "company": "NLC India",
+    "ticker": "NLCINDIA",
+    "sector": "Power",
+    "industry": "Power",
+    "sub_industry": "Power Generation",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRMAYURVED/": {
+    "company": "KRM Ayurveda",
+    "ticker": "SME",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/INVPRECQ/consolidated/": {
+    "company": "Inv.& Prec.Cast.",
+    "ticker": "INVPRECQ",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/JSIPL/": {
+    "company": "Jindal Supreme",
+    "ticker": "JSIPL",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ETML/consolidated/": {
+    "company": "Emerald Tyre",
+    "ticker": "SME",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Tyres & Rubber Products",
+    "_tries": 1
   }
 }
