@@ -12622,5 +12622,173 @@
     "industry": "Auto Components",
     "sub_industry": "Tyres & Rubber Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/GRSE/": {
+    "company": "Garden Reach Sh.",
+    "ticker": "GRSE",
+    "sector": "Capital Goods",
+    "industry": "Aerospace & Defense",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/543991/": {
+    "company": "Techknowgreen",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Consulting Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/UHTL/": {
+    "company": "United Heat",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MAANALU/": {
+    "company": "Maan Aluminium",
+    "ticker": "MAANALU",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Aluminium",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544150/consolidated/": {
+    "company": "KP Green Engg.",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/POEL/": {
+    "company": "POCL Enterprises",
+    "ticker": "POEL",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Commodity Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544535/": {
+    "company": "BharatRohan Air.",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ZAGGLE/consolidated/": {
+    "company": "Zaggle Prepaid",
+    "ticker": "ZAGGLE",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SUTLEJTEX/": {
+    "company": "Sutlej Textiles",
+    "ticker": "SUTLEJTEX",
+    "sector": "Textiles",
+    "industry": "Textiles & Apparels",
+    "sub_industry": "Other Textile Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544546/": {
+    "company": "Chatterbox Tech",
+    "ticker": null,
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Media",
+    "sub_industry": "Advertising & Media Agencies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NCLIND/": {
+    "company": "NCL Industries",
+    "ticker": "NCLIND",
+    "sector": "Construction Materials",
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AERON/": {
+    "company": "Aeron Composites",
+    "ticker": "SME",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Other Industrial Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TECHD/": {
+    "company": "TechD Cybersec.",
+    "ticker": "SME",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ADDICTIVE/consolidated/": {
+    "company": "Addictive Learn",
+    "ticker": "SME",
+    "sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "sub_industry": "E-Learning",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/XELPMOC/consolidated/": {
+    "company": "Xelpmoc Design",
+    "ticker": "XELPMOC",
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Software Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544343/consolidated/": {
+    "company": "CapitalNumbers",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/QMSMEDI/consolidated/": {
+    "company": "QMS Medical",
+    "ticker": "QMSMEDI",
+    "sector": "Healthcare",
+    "industry": "Healthcare Equipment & Supplies",
+    "sub_industry": "Medical Equipment & Supplies",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/CHETANA/consolidated/": {
+    "company": "Chetana Educa.",
+    "ticker": "SME",
+    "sector": "Media, Entertainment & Publication",
+    "industry": "Printing & Publication",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DMCC/": {
+    "company": "DMCC Speciality",
+    "ticker": "DMCC",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ORCHPHARMA/consolidated/": {
+    "company": "Orchid Pharma",
+    "ticker": "ORCHPHARMA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GLOTTIS/consolidated/": {
+    "company": "Glottis",
+    "ticker": "GLOTTIS",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
   }
 }
