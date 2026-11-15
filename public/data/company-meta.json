@@ -12790,5 +12790,53 @@
     "industry": "Transport Services",
     "sub_industry": "Logistics Solution Provider",
     "_tries": 1
+  },
+  "https://www.screener.in/company/523676/": {
+    "company": "Golkunda Diamond",
+    "ticker": "523676",
+    "sector": "Consumer Durables",
+    "industry": "Consumer Durables",
+    "sub_industry": "Gems, Jewellery And Watches",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544091/consolidated/": {
+    "company": "Qualitek Labs",
+    "ticker": null,
+    "sector": "Services",
+    "industry": "Commercial Services & Supplies",
+    "sub_industry": "Consulting Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/538546/": {
+    "company": "Bansal Roofing",
+    "ticker": "538546",
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Iron & Steel Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/NATCAPSUQ/consolidated/": {
+    "company": "Natural Capsules",
+    "ticker": "NATCAPSUQ",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ASAHISONG/consolidated/": {
+    "company": "Asahi Songwon",
+    "ticker": "ASAHISONG",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Dyes And Pigments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/542459/consolidated/": {
+    "company": "Kranti Industrie",
+    "ticker": "542459",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
