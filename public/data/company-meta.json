@@ -12838,5 +12838,29 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/544452/": {
+    "company": "Swastika Castal",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Castings & Forgings",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544978/": {
+    "company": "Shree TNB Polymers",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ALICON/consolidated/": {
+    "company": "Alicon Cast.",
+    "ticker": "ALICON",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
   }
 }
