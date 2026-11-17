@@ -12862,5 +12862,109 @@
     "industry": "Auto Components",
     "sub_industry": "Auto Components & Equipments",
     "_tries": 1
+  },
+  "https://www.screener.in/company/544765/": {
+    "company": "Vegorama Punjabi",
+    "ticker": null,
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Restaurants",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/GUJTHEM/consolidated/": {
+    "company": "Guj. Themis Bio.",
+    "ticker": "GUJTHEM",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544471/consolidated/": {
+    "company": "Takyon Networks",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/SIEMENS/consolidated/": {
+    "company": "Siemens",
+    "ticker": "SIEMENS",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544568/consolidated/": {
+    "company": "DSM Fresh",
+    "ticker": null,
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Meat Products including Poultry",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TECHNOCRAF/": {
+    "company": "Technocraft Ven.",
+    "ticker": "TECHNOCRAF",
+    "sector": "Utilities",
+    "industry": "Other Utilities",
+    "sub_industry": "Water Supply & Management",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVG/": {
+    "company": "AVG Logistics",
+    "ticker": "AVG",
+    "sector": "Services",
+    "industry": "Transport Services",
+    "sub_industry": "Logistics Solution Provider",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544626/": {
+    "company": "Exato Technologies",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544920/consolidated/": {
+    "company": "Amtech Esters",
+    "ticker": null,
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Petrochemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/AVANTIFEED/consolidated/": {
+    "company": "Avanti Feeds",
+    "ticker": "AVANTIFEED",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Food Products",
+    "sub_industry": "Animal Feed",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BLSPOLY/": {
+    "company": "BLS Polymers",
+    "ticker": "BLSPOLY",
+    "sector": "Chemicals",
+    "industry": "Chemicals & Petrochemicals",
+    "sub_industry": "Specialty Chemicals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/MARKOLINES/": {
+    "company": "Markolines Pavem",
+    "ticker": "MARKOLINES",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544611/consolidated/": {
+    "company": "Mahamaya Lifesc.",
+    "ticker": null,
+    "sector": "Chemicals",
+    "industry": "Fertilizers & Agrochemicals",
+    "sub_industry": "Pesticides & Agrochemicals",
+    "_tries": 1
   }
 }

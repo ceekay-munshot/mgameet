@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-16T08:38:29.549Z",
-  "total_upcoming": 1165,
-  "today_count": 356,
-  "week_count": 1080,
-  "companies": 553,
+  "updated_at": "2026-11-17T10:04:46.368Z",
+  "total_upcoming": 943,
+  "today_count": 330,
+  "week_count": 849,
+  "companies": 467,
   "types": {
-    "Conference": 596,
-    "Earnings Call": 185,
-    "Group Meeting": 167,
-    "One-on-One": 149,
-    "Analyst Meet": 12,
-    "Investor Meet": 44,
+    "Conference": 442,
+    "One-on-One": 185,
+    "Earnings Call": 100,
+    "Group Meeting": 135,
+    "Analyst Meet": 13,
+    "Investor Meet": 48,
     "Other": 2,
-    "Investor Day": 7,
-    "Plant Visit": 3
+    "Investor Day": 11,
+    "Plant Visit": 7
   }
 }
