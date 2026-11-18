@@ -12966,5 +12966,69 @@
     "industry": "Fertilizers & Agrochemicals",
     "sub_industry": "Pesticides & Agrochemicals",
     "_tries": 1
+  },
+  "https://www.screener.in/company/PRECAM/consolidated/": {
+    "company": "Precision Camshf",
+    "ticker": "PRECAM",
+    "sector": "Automobile and Auto Components",
+    "industry": "Auto Components",
+    "sub_industry": "Auto Components & Equipments",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544922/consolidated/": {
+    "company": "Om Galaxy",
+    "ticker": null,
+    "sector": "Construction Materials",
+    "industry": "Other Construction Materials",
+    "sub_industry": null,
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544505/": {
+    "company": "Austere Sys.",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Software",
+    "sub_industry": "Computers - Software & Consulting",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DECNGOLD/consolidated/": {
+    "company": "Dec.Gold Mines",
+    "ticker": "DECNGOLD",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Precious Metals",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544924/": {
+    "company": "Raksan Transformers",
+    "ticker": null,
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Heavy Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ANNU/": {
+    "company": "Annu Projects",
+    "ticker": "ANNU",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/OMINFRAL/consolidated/": {
+    "company": "Om Infra",
+    "ticker": "OMINFRAL",
+    "sector": "Construction",
+    "industry": "Construction",
+    "sub_industry": "Civil Construction",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BHAGYANGR/consolidated/": {
+    "company": "Bhagyanagar Ind",
+    "ticker": "BHAGYANGR",
+    "sector": "Metals & Mining",
+    "industry": "Non - Ferrous Metals",
+    "sub_industry": "Copper",
+    "_tries": 1
   }
 }
