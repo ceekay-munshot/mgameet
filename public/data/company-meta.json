@@ -13030,5 +13030,45 @@
     "industry": "Non - Ferrous Metals",
     "sub_industry": "Copper",
     "_tries": 1
+  },
+  "https://www.screener.in/company/543943/": {
+    "company": "Asarfi Hospital",
+    "ticker": null,
+    "sector": "Healthcare",
+    "industry": "Healthcare Services",
+    "sub_industry": "Hospital",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TAJGVK/consolidated/": {
+    "company": "TajGVK Hotels",
+    "ticker": "TAJGVK",
+    "sector": "Consumer Services",
+    "industry": "Leisure Services",
+    "sub_industry": "Hotels & Resorts",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/DSSL/": {
+    "company": "Dynacons Sys.",
+    "ticker": "DSSL",
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544979/consolidated/": {
+    "company": "EverestIMS Tech.",
+    "ticker": null,
+    "sector": "Information Technology",
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/BCSSL/": {
+    "company": "Bombay Coated",
+    "ticker": "BCSSL",
+    "sector": null,
+    "industry": null,
+    "sub_industry": null,
+    "_tries": 1
   }
 }
