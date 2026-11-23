@@ -1,71 +1,4 @@
 {
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-eb601d23-ca6b-46b7-8af0-a1e6ab91c474-pdf": {
-    "announced_at": "2026-09-07",
-    "company": "Tata Technolog.",
-    "company_url": "https://www.screener.in/company/TATATECH/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Day scheduled on November 19, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb601d23-ca6b-46b7-8af0-a1e6ab91c474.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Investor Day",
-        "mode": "In-person",
-        "counterparty": null,
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4a1a71b1-f605-4a06-90d1-fc3ef36c5425-pdf": {
-    "announced_at": "2026-10-05",
-    "company": "Adani Ports",
-    "company_url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of interaction with Investors / Analysts",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a1a71b1-f605-4a06-90d1-fc3ef36c5425.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7cf4988d-8dc3-4588-9c20-4961677e5d7b-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Adani Enterp.",
-    "company_url": "https://www.screener.in/company/ADANIENT/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 23m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation for interaction with Investors / Analyst",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cf4988d-8dc3-4588-9c20-4961677e5d7b.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-328bd77d-5409-47e2-9a8c-a8f6bc2e078e-pdf": {
     "announced_at": "2026-10-06",
     "company": "SIS",
@@ -80,197 +13,6 @@
         "mode": "In-person",
         "counterparty": "Kotak Midcap Conference 2026",
         "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-eb9dcffd-5f90-4d21-94cd-050a891237f3-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Adani Green",
-    "company_url": "https://www.screener.in/company/ADANIGREEN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of interaction with Investors/ Analysts",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb9dcffd-5f90-4d21-94cd-050a891237f3.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2ec43370-dd9f-4b36-99eb-1bedbbf534e6-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Orient Cement",
-    "company_url": "https://www.screener.in/company/ORIENTCEM/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Orient Cement Limited has informed the Exchange about interaction with",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ec43370-dd9f-4b36-99eb-1bedbbf534e6.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1e11c9bb-0fc9-45f4-94f0-12adea406246-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Adani Power",
-    "company_url": "https://www.screener.in/company/ADANIPOWER/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Adani Power Limited has informed the Exchange about Analyst / Investor",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e11c9bb-0fc9-45f4-94f0-12adea406246.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-712cb1ea-516d-4bd3-afdf-e918d5a71a5a-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "ACC",
-    "company_url": "https://www.screener.in/company/ACC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Analysts on November 18, 2026 ACC to meet investors and analysts at Adani Annual Conference on November 18-19, 2026 in Singapore",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=712cb1ea-516d-4bd3-afdf-e918d5a71a5a.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8ea9cefb-3187-4250-838c-948044a78e15-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Ambuja Cements",
-    "company_url": "https://www.screener.in/company/AMBUJACEM/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Investors / Analysts on November 18 & 19, 2026. Ambuja Cements to meet investors at Adani Annual Conference 2026 in Singapore on November 18-19",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ea9cefb-3187-4250-838c-948044a78e15.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d064534f-16dc-484c-b9d7-7c25efcd0e18-pdf": {
-    "announced_at": "2026-10-07",
-    "company": "Adani Energy Sol",
-    "company_url": "https://www.screener.in/company/ADANIENSOL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Interaction with Investors",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d064534f-16dc-484c-b9d7-7c25efcd0e18.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Adani Annual Conference 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-e83c07ec-d2db-4eca-a7a3-6edc212250ec-pdf": {
-    "announced_at": "2026-10-16",
-    "company": "Apollo Hospitals",
-    "company_url": "https://www.screener.in/company/APOLLOHOSP/consolidated/",
-    "heading": "Intimation Of Schedule Of Analyst/ Institutional Investors Meeting Intimation Of Schedule Of Analyst/ Institutional Investors Meeting As per annexure enclosed Apollo Hospitals schedules investor meetings in",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e83c07ec-d2db-4eca-a7a3-6edc212250ec.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "One-on-One",
-        "mode": "In-person",
-        "counterparty": "BOFA Securities",
-        "venue": "OUE Bayfront, 50 Collyer Quay, Singapore"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Group Meeting",
-        "mode": "In-person",
-        "counterparty": "BOFA Securities",
-        "venue": "OUE Bayfront, 50 Collyer Quay, Singapore"
-      },
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley's Twenty-Fifth Annual Asia Pacific Summit",
-        "venue": "Mandarin Oriental, Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley's Twenty-Fifth Annual Asia Pacific Summit",
-        "venue": "Mandarin Oriental, Singapore"
       }
     ]
   },
@@ -299,55 +41,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-20c35afb-fe71-4ed6-87a4-ee48d3d3d3b2-pdf": {
-    "announced_at": "2026-10-27",
-    "company": "FSN E-Commerce",
-    "company_url": "https://www.screener.in/company/NYKAA/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Please find enclosed herewith schedule of Analyst/ Institutional",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20c35afb-fe71-4ed6-87a4-ee48d3d3d3b2.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "JM Financial Annual India Conference - India Xchange 2026",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "29th CITIC CLSA India Forum",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "One-on-One",
-        "mode": "In-person",
-        "counterparty": "Institutional investors organized by Nomura",
-        "venue": "Kuala Lumpur"
-      },
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley Twenty-Fifth Annual Asia Pacific Summit",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley Twenty-Fifth Annual Asia Pacific Summit",
-        "venue": "Singapore"
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6f05adf7-9cca-40a9-baf1-2bcd93173f6c-pdf": {
     "announced_at": "2026-10-29",
     "company": "Yes Bank",
@@ -369,23 +62,6 @@
         "event_type": "Conference",
         "mode": "In-person",
         "counterparty": "Kotak Midcap Conference 2026",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-429126f4-8335-4927-9b23-882e41511a27-pdf": {
-    "announced_at": "2026-10-29",
-    "company": "ERIS Lifescience",
-    "company_url": "https://www.screener.in/company/ERIS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation The Company will host \"Eris Investor Meet - 2026\" on November 19, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=429126f4-8335-4927-9b23-882e41511a27.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Investor Meet",
-        "mode": "Hybrid",
-        "counterparty": null,
         "venue": "Mumbai"
       }
     ]
@@ -652,56 +328,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8e3b4c06-ccd5-4aac-a57b-0abf323713d5-pdf": {
-    "announced_at": "2026-11-04",
-    "company": "ITC",
-    "company_url": "https://www.screener.in/company/ITC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 1h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Participation in Investor Conferences",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e3b4c06-ccd5-4aac-a57b-0abf323713d5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "29th CITIC CLSA India Forum 2026 organised by CLSA India Private Limited",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley's 25th Annual Asia Pacific Summit, 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley's 25th Annual Asia Pacific Summit, 2026",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-c3cdd00c-158c-4b6d-8d94-523be0e022dc-pdf": {
-    "announced_at": "2026-11-03",
-    "company": "ICICI Lombard",
-    "company_url": "https://www.screener.in/company/ICICIGI/",
-    "heading": "Schedule Of Analyst/ Institutional Investor Meet - Intimation Schedule Of Analyst/ Institutional Investor Meet - Intimation Schedule of Analyst/Institutional Investor meet to be held on November 19, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3cdd00c-158c-4b6d-8d94-523be0e022dc.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "Virtual",
-        "counterparty": "JPM 2Q27 Premium Perspective Series",
-        "venue": "Mumbai"
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7715c44a-2743-4909-bc7c-0f2ca5117985-pdf": {
     "announced_at": "2026-11-03",
     "company": "One 97",
@@ -936,31 +562,6 @@
         "mode": "In-person",
         "counterparty": "Kotak Midcap Conference",
         "venue": "Grand Hyatt, Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-df4f8489-dfa1-409e-b93b-ab638d9662f5-pdf": {
-    "announced_at": "2026-11-05",
-    "company": "Sterlite Tech.",
-    "company_url": "https://www.screener.in/company/STLTECH/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation November 17 and 19, 2026. Sterlite Technologies to host investor forum on Nov 17 and plant visit on Nov 19, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df4f8489-dfa1-409e-b93b-ab638d9662f5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "29th CITIC CLSA India Forum 2026",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Plant Visit",
-        "mode": "In-person",
-        "counterparty": "Credit Lyonnais Securities Asia (CLSA)",
-        "venue": "Chhatrapati Sambhajinagar Plants"
       }
     ]
   },
@@ -1255,23 +856,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-eae88fcb-b27c-4918-8a56-101471ce0287-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Western Carriers",
-    "company_url": "https://www.screener.in/company/WCIL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 18m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation In terms of Regulation 30(6) of the SEBI (Listing Obligations and",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eae88fcb-b27c-4918-8a56-101471ce0287.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "12:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-e07e6efb-5e86-4778-9248-eab43322b1d8-pdf": {
     "announced_at": "2026-11-07",
     "company": "Samvardh. Mothe.",
@@ -1463,23 +1047,6 @@
         "mode": "In-person",
         "counterparty": "ORION V - Centrum Conference",
         "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-bf4d649a-43be-4330-8f2e-ecf8a874b34f-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "KPI Green Energy",
-    "company_url": "https://www.screener.in/company/KPIGREEN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 28m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation KPI Green Energy Limited has informed the exchange about the schedule of",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf4d649a-43be-4330-8f2e-ecf8a874b34f.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "14:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
       }
     ]
   },
@@ -1677,361 +1244,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2cc0b42a-aa15-4e8a-9329-ff5aaf9f59d2-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Health.Global",
-    "company_url": "https://www.screener.in/company/HCG/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 41m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome This is to inform you that the Audio recording of the Earnings Call with",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cc0b42a-aa15-4e8a-9329-ff5aaf9f59d2.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-50bd82ec-920d-463d-ace4-dabd4349a228-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Techno Elec.Engg",
-    "company_url": "https://www.screener.in/company/TECHNOE/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 51m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Concall Q2 FY27 earnings conference call scheduled for",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50bd82ec-920d-463d-ace4-dabd4349a228.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "15:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-globe-07112026120918-investor-presentation-final-signed-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Globe Enterprises",
-    "company_url": "https://www.screener.in/company/GLOBE/consolidated/",
-    "heading": "Investor Presentation 1h ago Investor Presentation GLOBE ENTERPRISES (INDIA) LIMITED has informed the Exchange about Investor Presentation Investor presentation for Q2 and H1",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/GLOBE_07112026120918_Investor_Presentation_Final_signed.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4e0d0524-f69a-4298-b1d4-d08705d1e8cd-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Oswal Pumps",
-    "company_url": "https://www.screener.in/company/OSWALPUMPS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 1h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation As per attached intimation letter. Conference call scheduled for 13",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e0d0524-f69a-4298-b1d4-d08705d1e8cd.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "14:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Anand Rathi Research",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ecbbc0da-53e8-430d-b532-7d5d84962256-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Electrost.Cast.",
-    "company_url": "https://www.screener.in/company/ELECTCAST/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 1h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation A Conference Call is scheduled to be held at 4.00 pm IST on Friday, 13",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbbc0da-53e8-430d-b532-7d5d84962256.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-596352d7-c6fe-46ff-937c-58c3de7abf33-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "BMW Industries",
-    "company_url": "https://www.screener.in/company/542669/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Outcome of the Investor/Analyst Meet for the Second Quarter and Half Year",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=596352d7-c6fe-46ff-937c-58c3de7abf33.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "10:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-38c4de4f-725c-43c5-9954-8331b36c988a-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Cosmic CRF",
-    "company_url": "https://www.screener.in/company/543928/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Submission of Audio/Video Recording of Analysts/Investors Call pertaining",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38c4de4f-725c-43c5-9954-8331b36c988a.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-9bf82a8d-e517-4cd7-9495-bcc7fc26f3c3-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Gala Precis. Eng",
-    "company_url": "https://www.screener.in/company/GALAPREC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Please find the Audio Recording for the earnings concall Audio recording",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bf82a8d-e517-4cd7-9495-bcc7fc26f3c3.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6c51b25b-f954-4c7b-9626-a85bbf94e025-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Sham Foam",
-    "company_url": "https://www.screener.in/company/544869/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Pursuant to Regulation 30 read with schedule III of the SEBI (LODR",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c51b25b-f954-4c7b-9626-a85bbf94e025.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-12",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-07d74d2d-57e1-46e4-b4ce-a4149f581008-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Cohance Life",
-    "company_url": "https://www.screener.in/company/COHANCE/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio link for the conference call Audio recording of Q2 and half-year",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07d74d2d-57e1-46e4-b4ce-a4149f581008.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-bfb369e6-257c-4980-a758-367a059ffdab-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Finkurve Fin.",
-    "company_url": "https://www.screener.in/company/FINKURVE/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome enclosed copy of Audio Recording link of Earnings Call organized by the",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfb369e6-257c-4980-a758-367a059ffdab.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "15:00",
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7a660440-c3a9-4908-9f85-9c4dc50cad74-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Manipal Payment",
-    "company_url": "https://www.screener.in/company/MPIMANIPAL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a660440-c3a9-4908-9f85-9c4dc50cad74.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-04",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-cac30dd4-97c0-4cca-a6a9-13bcd07c47d9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Acutaas Chemical",
-    "company_url": "https://www.screener.in/company/ACUTAAS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of schedule of Investor Conferences/Meets is attached",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cac30dd4-97c0-4cca-a6a9-13bcd07c47d9.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "360 one capital conference - Trinity Asia 2026",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "JM Financial India Xchange 2026 conference: 17th Annual Investor Conference",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark INDX: Annual Investor Conference",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-0571dbef-121e-478e-8ad1-454bd9c37964-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "PPAP Automotive",
-    "company_url": "https://www.screener.in/company/PPAP/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 3h ago Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation on unaudited financial result for quarter ended 30 September",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0571dbef-121e-478e-8ad1-454bd9c37964.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-24101207-55fc-49b3-b832-884421d2a2ae-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Vishnu Chemicals",
-    "company_url": "https://www.screener.in/company/VISHNU/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio Link of Analysts/Investors' Conference Call regarding discussions on",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24101207-55fc-49b3-b832-884421d2a2ae.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d3bc10cc-3791-432b-8193-71f8c1b65cf5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Highness Microelectronics",
-    "company_url": "https://www.screener.in/company/544741/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio Recording of the Earnings call for Half Year ended September 30, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3bc10cc-3791-432b-8193-71f8c1b65cf5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "13:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-92a15fbb-ef6b-485c-903b-c329ed01e004-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "General Insuranc",
-    "company_url": "https://www.screener.in/company/GICRE/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 4h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Intimation is enclosed. Audio recording of 6 Nov 2026 earnings call on Q2",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92a15fbb-ef6b-485c-903b-c329ed01e004.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-306fee99-3ee4-40c2-97f4-6c0d4c12de34-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Hind.Oil Explor.",
-    "company_url": "https://www.screener.in/company/HINDOILEXP/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 5h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=306fee99-3ee4-40c2-97f4-6c0d4c12de34.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "19:30",
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1b4769e9-e1c7-46d4-900a-c575ec50cf49-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Ola Electric",
-    "company_url": "https://www.screener.in/company/OLAELEC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 12h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of the schedule of Earnings Conference Call-Q2 FY 2026-27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b4769e9-e1c7-46d4-900a-c575ec50cf49.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-12",
-        "event_time": "17:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "Zoom"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-15814953-6ec9-4e66-848e-866c310d12c5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "3i Infotech",
-    "company_url": "https://www.screener.in/company/3IINFOLTD/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 13h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome please find attached the transcript of investor call held on November 2",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15814953-6ec9-4e66-848e-866c310d12c5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-02",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4e59b651-39c4-4a4a-b09c-4236e544b0b9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Apollo Finvest",
-    "company_url": "https://www.screener.in/company/512437/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 13h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Outcome of the Investor Call/ Earnings Call for the Quarter and half year",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e59b651-39c4-4a4a-b09c-4236e544b0b9.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8855d9d2-f368-4a53-9ae4-21501f4b876b-pdf": {
     "announced_at": "2026-11-06",
     "company": "ICICI Life Insurance",
@@ -2196,72 +1408,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-943133ef-943d-4df9-9696-291013a5d927-pdf": {
-    "announced_at": "2026-11-06",
-    "company": "Wipro",
-    "company_url": "https://www.screener.in/company/WIPRO/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Schedule of Analyst / Institutional Investor Meetings",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=943133ef-943d-4df9-9696-291013a5d927.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": null,
-        "counterparty": "JM Financial Annual India Conference",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Group Meeting",
-        "mode": null,
-        "counterparty": "Non-Deal Road Show",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-130473cb-ad4e-4aa9-b320-eb4a1e681df1-pdf": {
-    "announced_at": "2026-11-06",
-    "company": "Mankind Pharma",
-    "company_url": "https://www.screener.in/company/MANKIND/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Please find attached Intimation of participation in the Investor",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130473cb-ad4e-4aa9-b320-eb4a1e681df1.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Jefferies Global Healthcare Conference",
-        "venue": "London"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Jefferies Global Healthcare Conference",
-        "venue": "London"
-      },
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Jefferies Global Healthcare Conference",
-        "venue": "London"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Jefferies Global Healthcare Conference",
-        "venue": "London"
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-84d1a2d8-2b91-48e1-8f74-4168fa63bc22-pdf": {
     "announced_at": "2026-11-06",
     "company": "eMudhra",
@@ -2276,81 +1422,6 @@
         "mode": "In-person",
         "counterparty": "Investor Group",
         "venue": "Trident BKC, Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-434e6bfa-9b65-41c7-a9a2-2558d916fdae-pdf": {
-    "announced_at": "2026-11-06",
-    "company": "Phoenix Mills",
-    "company_url": "https://www.screener.in/company/PHOENIXLTD/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation please refer the attached letter",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=434e6bfa-9b65-41c7-a9a2-2558d916fdae.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Morgan Stanley Twenty-Fifth Annual Asia Pacific Summit",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6009f582-933b-4451-924d-4ea086389e40-pdf": {
-    "announced_at": "2026-11-06",
-    "company": "T R I L",
-    "company_url": "https://www.screener.in/company/TARIL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation NDR by Nuvama at Singapore - 18th and 19th November, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6009f582-933b-4451-924d-4ea086389e40.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": null,
-        "event_type": "One-on-One",
-        "mode": "In-person",
-        "counterparty": "Nuvama Institutional Equities",
-        "venue": "Singapore"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": null,
-        "event_type": "One-on-One",
-        "mode": "In-person",
-        "counterparty": "Nuvama Institutional Equities",
-        "venue": "Singapore"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2c0eb9cc-bde5-4661-a12e-b02dedf5eb0b-pdf": {
-    "announced_at": "2026-11-06",
-    "company": "Allied Blenders",
-    "company_url": "https://www.screener.in/company/ABDL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Schedule of Investor Meeting(s",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c0eb9cc-bde5-4661-a12e-b02dedf5eb0b.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "10:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark INDX : Annual Investor Conference",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": "10:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "JM Financial Annual India Conference - India Xchange 2026",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": "15:00",
-        "event_type": "Conference",
-        "mode": "Virtual",
-        "counterparty": "J.P. Morgan India Emerging Opportunities Forum",
-        "venue": null
       }
     ]
   },
@@ -2428,1084 +1499,6 @@
         "venue": null
       }
     ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7df20929-ae54-440f-9980-5a682457c59b-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Elin Electronics",
-    "company_url": "https://www.screener.in/company/ELIN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Attached",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7df20929-ae54-440f-9980-5a682457c59b.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-05",
-        "event_time": "15:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-340092cb-4e31-4580-b92c-19c9f13c042d-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Power & Instrum.",
-    "company_url": "https://www.screener.in/company/PIGL/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=340092cb-4e31-4580-b92c-19c9f13c042d.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4cb22365-bf15-401d-99e6-a5d211c80754-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Mamata Machinery",
-    "company_url": "https://www.screener.in/company/MAMATA/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Earnings presentation for results pertaining to quarter and half year ended September",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4cb22365-bf15-401d-99e6-a5d211c80754.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-72a586e8-a60f-484e-9cc3-da8319cd20b9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Veegaland Developers",
-    "company_url": "https://www.screener.in/company/VEEGALAND/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation on financial results for the quarter and half year ended",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a586e8-a60f-484e-9cc3-da8319cd20b9.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6a88c28d-e6de-4c08-9a2b-020a14b82496-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Pyramid Technopl",
-    "company_url": "https://www.screener.in/company/PYRAMID/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Pyramid Technoplast Limited has informed the Exchange about Link of",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a88c28d-e6de-4c08-9a2b-020a14b82496.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-marushika-07112026210748-transcript-of-con-call-04-11-2026-f-signed-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Marushika Tech.",
-    "company_url": "https://www.screener.in/company/MARUSHIKA/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Marushika Technology Limited has informed the Exchange about Transcript",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUSHIKA_07112026210748_Transcript_of_CON_Call_04-11-2026_f_Signed.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-04",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-cmrsl-07112026210449-cmrsltranscriptnov2-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Cyber Media Res.",
-    "company_url": "https://www.screener.in/company/CMRSL/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Cyber Media Research & Services Limited has informed the Exchange about Transcript",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/CMRSL_07112026210449_cmrsltranscriptNov2.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-02",
-        "event_time": "15:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7645f5c0-2f9f-4d70-b861-cca313293f3b-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Emerald Finance",
-    "company_url": "https://www.screener.in/company/538882/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Submission of outcome of Analyst meet Investor call audio recording for Q2",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7645f5c0-2f9f-4d70-b861-cca313293f3b.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8b8dffd1-1747-4471-a5c9-6f2d2f67218d-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Belrise Industri",
-    "company_url": "https://www.screener.in/company/BELRISE/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation scheduled of earnings conference call with Analyst/investors. Q2 and H1 FY27 earnings conference call scheduled for November 16, 2026 at 9:30 a.m",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b8dffd1-1747-4471-a5c9-6f2d2f67218d.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "09:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2325bc6d-8d3a-4727-b334-a72e546f26a2-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Susan Electrical",
-    "company_url": "https://www.screener.in/company/544793/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Transcript of Investors Conference Call held on 05nd November 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2325bc6d-8d3a-4727-b334-a72e546f26a2.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-05",
-        "event_time": "17:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Moonwalk Capital",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-c90479ce-2c8b-49c8-b35c-243773684fbb-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Gujarat Alkalies",
-    "company_url": "https://www.screener.in/company/GUJALKALI/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation We have uploaded an updated Investors Presentation on Company''s website for the",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c90479ce-2c8b-49c8-b35c-243773684fbb.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-a0def260-e119-44ba-8334-daf96fff9f29-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Varroc Engineer",
-    "company_url": "https://www.screener.in/company/VARROC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Transcript Varroc Q2 FY27 transcript: revenue up 33.6% to ₹2,948 crore",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0def260-e119-44ba-8334-daf96fff9f29.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-04",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "ICICI Securities",
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-aimtron-07112026191452-intimation-con-call-recording-07-11-2026-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Aimtron",
-    "company_url": "https://www.screener.in/company/AIMTRON/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Aimtron Electronics Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AIMTRON_07112026191452_Intimation_Con_Call_Recording_07-11-2026.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8e436197-fc46-4f52-8035-d1126e9279a9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "KP Green Engg.",
-    "company_url": "https://www.screener.in/company/544150/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation schedule of earning conference call with analysts/ investors on Friday, November 13, 2026, at 06:00 PM to discuss the unaudited financial results for",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e436197-fc46-4f52-8035-d1126e9279a9.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "18:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-636a638c-4528-4974-a455-16108fe3d0a7-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "LAPL Automotive",
-    "company_url": "https://www.screener.in/company/544863/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Disclosure under the SEBI (Listing Obligations and Disclosure",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=636a638c-4528-4974-a455-16108fe3d0a7.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": "15:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ac9556dc-194b-4dee-adf0-aacb8b69d316-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Dynamatic Tech.",
-    "company_url": "https://www.screener.in/company/DYNAMATECH/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Investor Meeting Schedule",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac9556dc-194b-4dee-adf0-aacb8b69d316.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": "11:00",
-        "event_type": "Investor Meet",
-        "mode": "In-person",
-        "counterparty": null,
-        "venue": "JKM Plaza, Dynamatic Aerotropolis, 55, KIADB Aerospace Park, Bangalore 562149"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-3b6beafd-758e-470e-b448-e5fb3210bf45-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Greenlam Industr",
-    "company_url": "https://www.screener.in/company/GREENLAM/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Revised Investor Presentation Q2 FY 27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b6beafd-758e-470e-b448-e5fb3210bf45.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-60479e57-079c-4a3a-aff9-e268cd8b7c9c-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "South Ind.Bank",
-    "company_url": "https://www.screener.in/company/SOUTHBANK/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Schedule of Analysts / Institutional Investors meet",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60479e57-079c-4a3a-aff9-e268cd8b7c9c.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-18",
-        "event_time": "13:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark INDX: Annual Investor Conference",
-        "venue": "Grand Hyatt Mumbai Hotel and Residence, Bandra Kurla Complex, Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8144ffdf-85a0-49e1-a9d0-35a7d58304d0-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Prime Focus",
-    "company_url": "https://www.screener.in/company/PFOCUS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation regarding Schedule of Institutional Investor(s) Meeting",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8144ffdf-85a0-49e1-a9d0-35a7d58304d0.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark INDX 2026 – Annual Investor Conference",
-        "venue": "Grand Hyatt, Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-91e92b69-f201-4d3b-9060-9f75feee9a58-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "SBI",
-    "company_url": "https://www.screener.in/company/SBIN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Transcript SBI released Q2FY27 analyst meet transcript covering results",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91e92b69-f201-4d3b-9060-9f75feee9a58.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-03",
-        "event_time": null,
-        "event_type": "Analyst Meet",
-        "mode": "Hybrid",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-3f7b7cf5-eb13-4383-bce0-63f985c4f012-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Ramky Infra",
-    "company_url": "https://www.screener.in/company/RAMKY/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation for the quarter and half year ended September 30, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f7b7cf5-eb13-4383-bce0-63f985c4f012.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-bc892786-a17a-4087-8996-94b2ce1d6f70-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Kwality Pharma",
-    "company_url": "https://www.screener.in/company/KPL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Earnings Conference Call for Q2 FY 2026-27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc892786-a17a-4087-8996-94b2ce1d6f70.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-eab43878-cbd6-4d7b-aff0-d58a189d6c8a-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Data Pattern",
-    "company_url": "https://www.screener.in/company/DATAPATTNS/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation the schedule of Earnings Conference Call with Analysts / Investors to be held on Monday, November 09, 2026 at 11.00 am IST. In this regard, please",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eab43878-cbd6-4d7b-aff0-d58a189d6c8a.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-09",
-        "event_time": "11:00",
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-325e0a85-8bec-497c-b844-91dad4cbc8a4-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Divi's Lab.",
-    "company_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Intimation of audio link of Q2FY26 earnings call held on 07.11.2026. Audio",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=325e0a85-8bec-497c-b844-91dad4cbc8a4.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": "14:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6b017883-ccb1-46d0-9a2c-3bc317954648-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Corona Remedies",
-    "company_url": "https://www.screener.in/company/CORONA/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Participation in Analyst / Investor Conference",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b017883-ccb1-46d0-9a2c-3bc317954648.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "11:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4b85e60e-a66b-46d9-8531-f97245fea60e-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Suprajit Engg.",
-    "company_url": "https://www.screener.in/company/SUPRAJIT/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Press Release and Investors Presentation dated November 7, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b85e60e-a66b-46d9-8531-f97245fea60e.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-3e64b75d-ae8b-4e0e-abc9-b665402831ff-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Tata Chemicals",
-    "company_url": "https://www.screener.in/company/TATACHEM/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation for the second quarter and half-year ended September 30, 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e64b75d-ae8b-4e0e-abc9-b665402831ff.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Analysts/Investors",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-48da502b-fd5c-46ec-9c66-d0c340a52670-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Solex Energy",
-    "company_url": "https://www.screener.in/company/SOLEX/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Schedule of Investor Meet",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48da502b-fd5c-46ec-9c66-d0c340a52670.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-14",
-        "event_time": "11:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d7cf81e7-0ca7-45b1-8aeb-a5b5af3a83c9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Sh. Jagdamba Pol",
-    "company_url": "https://www.screener.in/company/SHRJAGP/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Enclosed herewith Investor Presentation for the quarter and half year ended on",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7cf81e7-0ca7-45b1-8aeb-a5b5af3a83c9.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7d8d6cd2-218d-410a-b983-ea635acb987f-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Surya Roshni",
-    "company_url": "https://www.screener.in/company/SURYAROSNI/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio recording of Earning Call (Group meet) Audio recording of Q2 FY27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d8d6cd2-218d-410a-b983-ea635acb987f.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": "15:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-423d033c-1c76-4e42-bfbc-9130719c6b02-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Inox India",
-    "company_url": "https://www.screener.in/company/INOXINDIA/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Conference Call to be held on 17.11.2026 INOX India to",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=423d033c-1c76-4e42-bfbc-9130719c6b02.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": null,
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "JM Financial India Xchange 2026",
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-skpbearing-07112026170251-skp-nse-cover-letter-earnings-call-q2-h1-fy27-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "SKP Bearing",
-    "company_url": "https://www.screener.in/company/SKP/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Skp Bearing Industries Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SKPBEARING_07112026170251_SKP_NSE_Cover_Letter_Earnings_Call_Q2_H1_FY27.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "14:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7e4b3914-09fa-4dab-8293-1d27657017b2-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "D.P. Abhushan",
-    "company_url": "https://www.screener.in/company/DPABHUSHAN/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation We hereby submit intimation with respect to Q2FY27 Earnings Call on",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e4b3914-09fa-4dab-8293-1d27657017b2.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-12",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-sdretail-07112026165553-outcome-of-call-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "S D Retail",
-    "company_url": "https://www.screener.in/company/SDREAMS/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates S D Retail Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SDRETAIL_07112026165553_Outcome_of_call.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-138d2a53-ffed-4de6-95a3-531c820dff12-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Cohance Life",
-    "company_url": "https://www.screener.in/company/COHANCE/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=138d2a53-ffed-4de6-95a3-531c820dff12.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-91ad2b2d-8248-4140-aefc-c17da68fc452-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Tata Steel PP",
-    "company_url": "https://www.screener.in/company/TATASTLPP/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio-video recording of Tata Steel 2QFY27 Earnings Discussion Tata Steel",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91ad2b2d-8248-4140-aefc-c17da68fc452.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": "14:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-75024562-7643-4c41-9820-f1d57cb41bbd-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "GRE Renew",
-    "company_url": "https://www.screener.in/company/544682/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation under regulation 30 for earning conference call invite",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75024562-7643-4c41-9820-f1d57cb41bbd.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "17:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "Conference Call"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-3f21b67c-8a1e-4f3c-8e8b-e9810e487af6-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Rossell Techsys",
-    "company_url": "https://www.screener.in/company/ROSSTECH/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio recording of Earnings Call pertaining to Financial Results for the",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f21b67c-8a1e-4f3c-8e8b-e9810e487af6.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-79a6c236-add6-44cc-9ec1-84c93e8412c5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Kolte Patil Dev.",
-    "company_url": "https://www.screener.in/company/KOLTEPATIL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Analyst/Investor call to be held on 13 November 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79a6c236-add6-44cc-9ec1-84c93e8412c5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "14:00",
-        "event_type": "Analyst Meet",
-        "mode": "In-person",
-        "counterparty": "Motilal Oswal Financial Services",
-        "venue": "Mumbai"
-      },
-      {
-        "event_date": "2026-11-13",
-        "event_time": "16:30",
-        "event_type": "Investor Meet",
-        "mode": "In-person",
-        "counterparty": "HDFC Mutual Fund",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-fc2f02b3-feca-4231-bfa3-1aacd57b0ef6-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Sudarshan Pharma",
-    "company_url": "https://www.screener.in/company/SUDARSHAN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation In terms of Regulation 30 read with Para A of Part A of Schedule III to the SEBI",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc2f02b3-feca-4231-bfa3-1aacd57b0ef6.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-81dc9b56-59a7-4210-94d3-21be045a2b45-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Kolte Patil Dev.",
-    "company_url": "https://www.screener.in/company/KOLTEPATIL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Analyst Call to be held on Thursday 12 November 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81dc9b56-59a7-4210-94d3-21be045a2b45.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-12",
-        "event_time": "11:30",
-        "event_type": "Analyst Meet",
-        "mode": "In-person",
-        "counterparty": "Axis Capital Ltd",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-madhusudan-07112026161654-covering-sd-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Madhusudan Masa",
-    "company_url": "https://www.screener.in/company/MADHUSUDAN/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Madhusudan Masala Limited has informed the Exchange about Transcript",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MADHUSUDAN_07112026161654_Covering-sD.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-03",
-        "event_time": "12:00",
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-88b78f8e-070d-4a58-bb69-cd0bfbd8324f-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Landmark Cars",
-    "company_url": "https://www.screener.in/company/LANDMARK/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Landmark Cars Limited has informed the exchange about the schedule of",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88b78f8e-070d-4a58-bb69-cd0bfbd8324f.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "09:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "360 One Capital Market Research",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-982d7d35-90a0-4fe6-b4fd-c6acc962320a-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "G S F C",
-    "company_url": "https://www.screener.in/company/GSFC/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome pls find the transcript of con call held on 04/11/2026 GSFC Q2 FY27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=982d7d35-90a0-4fe6-b4fd-c6acc962320a.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-04",
-        "event_time": "13:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-447ded7b-36ed-44d8-b316-0e192fa7cbab-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Fineotex Chem",
-    "company_url": "https://www.screener.in/company/FCL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation scheduled of Investor/Analyst Conference call to be held on November 16",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=447ded7b-36ed-44d8-b316-0e192fa7cbab.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "11:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-93294eef-2fa4-4190-a75e-0638e81d6074-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Health X Platform",
-    "company_url": "https://www.screener.in/company/HEALTHX/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Schedule of the Earnings Conference Call for Q2 of FY2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93294eef-2fa4-4190-a75e-0638e81d6074.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Go India Advisors",
-        "venue": "Conference Call"
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-safeenterprises-07112026154532-earning-call-recording-intimation-06112026-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Safe Enterprises",
-    "company_url": "https://www.screener.in/company/SAFEENTP/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Safe Enterprises Retail Fixtures Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SAFEENTERPRISES_07112026154532_earning_call_recording_intimation_06112026.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-shritech-07112026153958-investor-presentation-h1-fy27-signed-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Shri Techtex",
-    "company_url": "https://www.screener.in/company/SHRITECH/",
-    "heading": "Investor Presentation Investor Presentation Shri Techtex Limited has informed the Exchange about Investor Presentation",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SHRITECH_07112026153958_INVESTOR_PRESENTATION_H1_FY27_signed.pdf",
-    "events": []
-  },
-  "nsearchives-nseindia-com-corporate-lead-07112026153139-recording-intimation-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Lead Reclaim",
-    "company_url": "https://www.screener.in/company/LRRPL/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Lead Reclaim And Rubber Products Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/LEAD_07112026153139_Recording_Intimation.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-b612932e-6fcd-4936-a754-8dff7e4f8ad5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Zydus Wellness",
-    "company_url": "https://www.screener.in/company/ZYDUSWELL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Transcript of the Earnings Conference call held on November 3, 2026 Q2",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b612932e-6fcd-4936-a754-8dff7e4f8ad5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-03",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "ICICI Securities",
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-sumax-07112026150823-investorpresentationsigned-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Sumax Engineering",
-    "company_url": "https://www.screener.in/company/SUMAX/",
-    "heading": "Investor Presentation Investor Presentation Sumax Engineering Limited has informed the Exchange about Investor Presentation",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUMAX_07112026150823_investorpresentationsigned.pdf",
-    "events": []
-  },
-  "nsearchives-nseindia-com-corporate-vilas-07112026150548-draft-investor-call-link-recording-signed-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Vilas Transcore",
-    "company_url": "https://www.screener.in/company/VILAS/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Vilas Transcore Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/VILAS_07112026150548_Draft_Investor_call_link_recording_signed.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "13:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7c8633bc-ac5a-4ad3-b108-71f6f22e7343-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Hester Bios",
-    "company_url": "https://www.screener.in/company/HESTERBIO/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 20261105 Transcript of Earnings Conference Call for Q2 & H1 FY27 Financial",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c8633bc-ac5a-4ad3-b108-71f6f22e7343.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-05",
-        "event_time": "14:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-parth-07112026145458-parthelect-earnings-nov05-2026-signed-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Parth Electrical",
-    "company_url": "https://www.screener.in/company/PARTH/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Parth Electricals & Engineering Limited has informed the Exchange about Transcript",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/PARTH_07112026145458_ParthElect-Earnings-Nov05-2026_signed.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-05",
-        "event_time": "09:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Karnametic Partners LLP",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-985633ff-a3a5-4993-b272-f1a7e4451943-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Senco Gold",
-    "company_url": "https://www.screener.in/company/SENCO/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Earnings Conference call for Q2 FY27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=985633ff-a3a5-4993-b272-f1a7e4451943.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "11:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-14c6e761-882d-4f68-ae61-8940f9e7cf25-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Chamanlal Setia",
-    "company_url": "https://www.screener.in/company/CLSEL/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation INTIMATION OF CONCALL TO BE HELD ON 13.11.2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14c6e761-882d-4f68-ae61-8940f9e7cf25.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "12:15",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "Zoom"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ba711633-7a86-46a6-86a7-a23603a351ad-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Surya Roshni",
-    "company_url": "https://www.screener.in/company/SURYAROSNI/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation - November 2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba711633-7a86-46a6-86a7-a23603a351ad.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": "14:00",
-        "event_type": "Investor Meet",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-rnfi-07112026144244-nse-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "RNFI Services",
-    "company_url": "https://www.screener.in/company/RNFI/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates RNFI Services Limited has informed the Exchange about Schedule of meet",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/RNFI_07112026144244_NSE.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "12:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "https://www.c-meeting.com/web3/join/3RBMX9N2BJ8KVF"
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-shritech-07112026142642-investor-presentation-h1-fy27-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Shri Techtex",
-    "company_url": "https://www.screener.in/company/SHRITECH/",
-    "heading": "Investor Presentation Investor Presentation Shri Techtex Limited has informed the Exchange about Investor Presentation",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SHRITECH_07112026142642_INVESTOR_PRESENTATION_H1_FY27.pdf",
-    "events": []
-  },
-  "nsearchives-nseindia-com-corporate-viviana-07112026142158-audio-link-covering-letter-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Viviana Power",
-    "company_url": "https://www.screener.in/company/VIVIANA/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Viviana Power Tech Limited has informed the Exchange about Link of Recording Audio recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/VIVIANA_07112026142158_Audio_link_covering_letter.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-0053d7a4-f27a-4f41-baae-8862ad4618df-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Kaka Industries",
-    "company_url": "https://www.screener.in/company/543939/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation - H1 & FY27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0053d7a4-f27a-4f41-baae-8862ad4618df.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2271560f-d569-4882-9330-ffcbe1fb7637-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Azad Engineering",
-    "company_url": "https://www.screener.in/company/AZAD/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome The link to access the Audio Recording of Earnings Conference Call held on",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2271560f-d569-4882-9330-ffcbe1fb7637.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-e75de8ea-d061-4635-b47f-b9b798163068-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Kalyani Forge",
-    "company_url": "https://www.screener.in/company/KALYANIFRG/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Please find enclosed Kalyani Forge Limited Website Link to access Audio",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e75de8ea-d061-4635-b47f-b9b798163068.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Investor Meet",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-472e90eb-1c15-4b1c-aa20-c7830b5b81b4-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Sarda Energy",
-    "company_url": "https://www.screener.in/company/SARDAEN/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Concall Transcript Q2/H1 FY27 earnings call: EBITDA ₹1,326 crore, PAT",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=472e90eb-1c15-4b1c-aa20-c7830b5b81b4.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-02",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Elara Securities India Private Limited",
-        "venue": null
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-k2infra-07112026141336-earningsconferencecallintimation16112026-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "K2 Infragen",
-    "company_url": "https://www.screener.in/company/K2INFRA/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates K2 Infragen Limited has informed the Exchange about Intimation regarding Earnings Conference",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/K2INFRA_07112026141336_EarningsConferenceCallIntimation16112026.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "14:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ca2cd336-f499-48cf-b11e-3ff305da632c-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Prasol Chemicals",
-    "company_url": "https://www.screener.in/company/PRASOLCHEM/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Annual Investor Conference",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca2cd336-f499-48cf-b11e-3ff305da632c.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "10:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Avendus Spark INDX Annual Investor Conference",
-        "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-92571701-fe87-4d29-85ef-6c347e1823fc-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Alicon Cast.",
-    "company_url": "https://www.screener.in/company/ALICON/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of conference call for investors and analysts attached",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92571701-fe87-4d29-85ef-6c347e1823fc.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d9720d58-7577-49e9-a712-fbb087632c3d-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Ceinsys Tech",
-    "company_url": "https://www.screener.in/company/CEINSYS/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Q2 FY 2026-27 Earnings Call Ceinsys Tech to hold Q2 FY27",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9720d58-7577-49e9-a712-fbb087632c3d.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": "11:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Arihant Capital Markets Ltd.",
-        "venue": "Conference Call"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-76ee70b3-c4d6-476f-847b-6f0247f0749c-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Usha Martin",
-    "company_url": "https://www.screener.in/company/USHAMART/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Please find enclosed herewith the details of Q2 & H1 FY27 Earnings",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76ee70b3-c4d6-476f-847b-6f0247f0749c.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "17:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-5a739d21-7ea5-4c1a-b220-45f77e240c2e-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Tata Steel PP",
-    "company_url": "https://www.screener.in/company/TATASTLPP/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Press Release and Investor Presentation",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a739d21-7ea5-4c1a-b220-45f77e240c2e.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-367d7091-9f58-4c06-923c-946489a405d9-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Bluspring Enter.",
-    "company_url": "https://www.screener.in/company/BLUSPRING/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio Recording of the Investor/ Analysts'' Earnings Conference Call on the",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=367d7091-9f58-4c06-923c-946489a405d9.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-07",
-        "event_time": "10:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-569d3f9e-82d7-45c9-bb22-81509bb8ec3c-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Tata Steel PP",
-    "company_url": "https://www.screener.in/company/TATASTLPP/",
-    "heading": "Announcement under Regulation 30 (LODR)-Press Release / Media Release Announcement under Regulation 30 (LODR)-Press Release / Media Release Press Release and Investor Presentation - Tata Steel Limited Tata Steel",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=569d3f9e-82d7-45c9-bb22-81509bb8ec3c.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-a10cb52b-e846-4a80-a709-c94b264e6532-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Tata Steel PP",
-    "company_url": "https://www.screener.in/company/TATASTLPP/",
-    "heading": "Announcement under Regulation 30 (LODR)-Press Release / Media Release Announcement under Regulation 30 (LODR)-Press Release / Media Release Press Release and Investor Presentation - Tata Steel Limited Tata Steel",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a10cb52b-e846-4a80-a709-c94b264e6532.pdf",
-    "events": []
   },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-96e5c1e1-ec69-416b-bc83-ec0eeb69988b-pdf": {
     "announced_at": "2026-11-07",
@@ -3701,39 +1694,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-2abb97fd-1c52-493f-bec0-bf149f35193f-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Remsons Ind",
-    "company_url": "https://www.screener.in/company/REMSONSIND/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2abb97fd-1c52-493f-bec0-bf149f35193f.pdf",
-    "events": []
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-a20fa78e-7ee8-4734-9e5e-3e98a84e4fb5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "K.P. Energy",
-    "company_url": "https://www.screener.in/company/KPEL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation K.P. Energy Limited has informed the exchange about the schedule of",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a20fa78e-7ee8-4734-9e5e-3e98a84e4fb5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-13",
-        "event_time": "16:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Share India Securities Ltd",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7babcb3d-0912-4e42-a6d8-ef72b8f52572-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Goldiam Intl.",
-    "company_url": "https://www.screener.in/company/GOLDIAM/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation-7-11-2026",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7babcb3d-0912-4e42-a6d8-ef72b8f52572.pdf",
-    "events": []
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d79da66b-8f6d-41f2-8f0f-4e6549f21f27-pdf": {
     "announced_at": "2026-11-07",
     "company": "Samvardh. Mothe.",
@@ -3828,57 +1788,6 @@
         "mode": "In-person",
         "counterparty": "ORION V - Centrum Conference",
         "venue": "Mumbai"
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-4140b3db-e999-47c5-9907-afa0a3642f97-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Oval Projects",
-    "company_url": "https://www.screener.in/company/544498/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Intimation under Regulation 30 of Securities Exchange Board of India",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4140b3db-e999-47c5-9907-afa0a3642f97.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": null,
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-de6e1e0b-2304-4239-94f5-bc0656f2e5c5-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Flomic Global",
-    "company_url": "https://www.screener.in/company/504380/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Refer the attached document Audio recording of 06 Nov 2026 earnings call",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de6e1e0b-2304-4239-94f5-bc0656f2e5c5.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": null,
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-cc277c4f-7918-47fd-a982-df814b77f862-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Glottis",
-    "company_url": "https://www.screener.in/company/GLOTTIS/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Glottis Limited has informed the Exchange about the Schedule of Meet",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc277c4f-7918-47fd-a982-df814b77f862.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-12",
-        "event_time": "12:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": null
       }
     ]
   },
@@ -3979,81 +1888,6 @@
       }
     ]
   },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-c6817b32-05ad-4424-829d-bb125498d364-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Maximus Interna.",
-    "company_url": "https://www.screener.in/company/540401/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Conference Call scheduled to be held on 16th",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6817b32-05ad-4424-829d-bb125498d364.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-16",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
-        "venue": "Conference Call"
-      }
-    ]
-  },
-  "nsearchives-nseindia-com-corporate-ranjan-07112026123940-vil-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "V-Marc India",
-    "company_url": "https://www.screener.in/company/VMARCIND/",
-    "heading": "Investor Presentation Investor Presentation V Marc India Limited has informed the Exchange about Investor Presentation",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Ranjan_07112026123940_VIL.pdf",
-    "events": []
-  },
-  "nsearchives-nseindia-com-corporate-adisoft-07112026120303-intimation-of-earning-call-recording-pdf": {
-    "announced_at": "2026-11-07",
-    "company": "Adisoft Technol.",
-    "company_url": "https://www.screener.in/company/ADISOFT/consolidated/",
-    "heading": "Analysts/Institutional Investor Meet/Con. Call Updates Analysts/Institutional Investor Meet/Con. Call Updates Adisoft Technologies Limited has informed the Exchange about Link of Recording",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ADISOFT_07112026120303_Intimation_of_Earning_Call_Recording.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-06",
-        "event_time": "12:30",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": "Multiple Investors/Institutional Investors/Analysts",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-142ba71f-c977-4cde-85bf-74aef5ca338e-pdf": {
-    "announced_at": "2026-11-05",
-    "company": "GAIL (India)",
-    "company_url": "https://www.screener.in/company/GAIL/consolidated/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Obligations and Disclosure Requirements) Regulations, 2015, schedule of Analyst/ Institutional Investor Meet /Conference is proposed to be attended by",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=142ba71f-c977-4cde-85bf-74aef5ca338e.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-17",
-        "event_time": "09:00",
-        "event_type": "One-on-One",
-        "mode": "In-person",
-        "counterparty": "Non Deal Roadshow",
-        "venue": "New York (USA)"
-      },
-      {
-        "event_date": "2026-11-17",
-        "event_time": "09:00",
-        "event_type": "Group Meeting",
-        "mode": "In-person",
-        "counterparty": "Non Deal Roadshow",
-        "venue": "New York (USA)"
-      },
-      {
-        "event_date": "2026-11-19",
-        "event_time": "09:00",
-        "event_type": "Conference",
-        "mode": "In-person",
-        "counterparty": "Daiwa Miami Corporate Day",
-        "venue": "Miami (USA)"
-      }
-    ]
-  },
   "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6333e0c7-19b5-4af3-8606-55d763a503bc-pdf": {
     "announced_at": "2026-11-05",
     "company": "Ather Energy",
@@ -4139,23 +1973,6 @@
         "event_type": "Conference",
         "mode": "Virtual",
         "counterparty": "Share India: Alpha Connect Conference",
-        "venue": null
-      }
-    ]
-  },
-  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-27f96559-2a5f-4745-b750-04ff8c72a15d-pdf": {
-    "announced_at": "2026-11-05",
-    "company": "IGL Spirits",
-    "company_url": "https://www.screener.in/company/IGLSPIRITS/",
-    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Please refer to attachment. Q2 and H1FY27 earnings conference call",
-    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27f96559-2a5f-4745-b750-04ff8c72a15d.pdf",
-    "events": [
-      {
-        "event_date": "2026-11-19",
-        "event_time": "16:00",
-        "event_type": "Earnings Call",
-        "mode": "Virtual",
-        "counterparty": null,
         "venue": null
       }
     ]
@@ -41039,6 +38856,733 @@
         "mode": null,
         "counterparty": "Fortuna Asset Managers LLP",
         "venue": "Delhi"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-62876ae7-bb96-487e-b1ca-15b047d3bd71-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Praj Industries",
+    "company_url": "https://www.screener.in/company/PRAJIND/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 24m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Praj Industries Limited will be participating in Investor Conference",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62876ae7-bb96-487e-b1ca-15b047d3bd71.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Midcap Conference 2026",
+        "venue": "Grand Hyatt, Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-b5f59657-fa0d-4ead-b94d-9986e07b4969-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Natural Capsules",
+    "company_url": "https://www.screener.in/company/NATCAPSUQ/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 40m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Transcript of Conference Call held on Thursday, November 19, 2026",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5f59657-fa0d-4ead-b94d-9986e07b4969.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-19",
+        "event_time": null,
+        "event_type": "Earnings Call",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-592454cf-60e7-48a5-a2d3-c30d53589fbe-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Leap India",
+    "company_url": "https://www.screener.in/company/LEAPIND/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 47m ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Schedule of LEAP India Limited''s Analyst meet hosted by GoIndia",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=592454cf-60e7-48a5-a2d3-c30d53589fbe.pdf",
+    "events": [
+      {
+        "event_date": "2026-12-01",
+        "event_time": "09:00",
+        "event_type": "Analyst Meet",
+        "mode": "In-person",
+        "counterparty": "GoIndia Advisors",
+        "venue": "Jio World Convention Center, Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-15d03a88-3019-4c26-9fff-a785de857ca4-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "DCB Bank",
+    "company_url": "https://www.screener.in/company/DCBBANK/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 1h ago participating in the below mentioned analysts/ institutional investors meet: Date: November 27, 2026 Event Name: Kotak Institutional Equities",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15d03a88-3019-4c26-9fff-a785de857ca4.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Institutional Equities – Midcap Conference 2026",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6c67289f-6f90-41f9-8264-5c27c8bb797c-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Dynacons Sys.",
+    "company_url": "https://www.screener.in/company/DSSL/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 1h ago Announcement under Regulation 30 (LODR)-Investor Presentation Please find enclosed investor presentation for un-audited consolidated and standalone",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c67289f-6f90-41f9-8264-5c27c8bb797c.pdf",
+    "events": []
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-f7ca1df4-7e95-49fe-bcc0-372558ac4ec4-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Vodafone Idea",
+    "company_url": "https://www.screener.in/company/IDEA/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Analyst(s)/Institutional Investor(s) Meeting. Vodafone Idea to participate in London non-deal roadshow on 30 Nov–1 Dec 2026",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7ca1df4-7e95-49fe-bcc0-372558ac4ec4.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-30",
+        "event_time": null,
+        "event_type": "One-on-One",
+        "mode": "In-person",
+        "counterparty": "Non-Deal Roadshow",
+        "venue": "London"
+      },
+      {
+        "event_date": "2026-12-01",
+        "event_time": null,
+        "event_type": "Group Meeting",
+        "mode": "In-person",
+        "counterparty": "Non-Deal Roadshow",
+        "venue": "London"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-b44a4cfc-55a2-494d-9693-3ee3ff43fe0c-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "V2 Retail",
+    "company_url": "https://www.screener.in/company/V2RETAIL/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation for Schedule of Analyst and Institutional Investor Meeting",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b44a4cfc-55a2-494d-9693-3ee3ff43fe0c.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-26",
+        "event_time": "10:00",
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Institutional Equities Midcap Conference 2026",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-c450ec20-b688-4d13-9b87-30d6c21bb7c2-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Pearl Global Ind",
+    "company_url": "https://www.screener.in/company/PGIL/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation regarding Analyst/ Institutional investors Meet scheduled to",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c450ec20-b688-4d13-9b87-30d6c21bb7c2.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": "09:30",
+        "event_type": "Group Meeting",
+        "mode": "In-person",
+        "counterparty": null,
+        "venue": "Chennai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-81044c69-5f93-46f7-b5d6-df24c511e5b2-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Megamont",
+    "company_url": "https://www.screener.in/company/523888/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 2h ago Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation on Financial results for the Quarter and half year ended 30th",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81044c69-5f93-46f7-b5d6-df24c511e5b2.pdf",
+    "events": []
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d5bf6f08-f560-4801-9ca5-ee0a68075fe5-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Apollo Micro Sys",
+    "company_url": "https://www.screener.in/company/APOLLO/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation AMS intimation on participating in Mid Cap Conference 2026 Apollo",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5bf6f08-f560-4801-9ca5-ee0a68075fe5.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": "10:00",
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Mid Cap Conference 2026 - Kotak Institutional Equities",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-31d95cdf-60a6-45d5-9a83-02803e0b37b6-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Inox India",
+    "company_url": "https://www.screener.in/company/INOXINDIA/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Meet Inox India to meet Dolat Capital in virtual",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31d95cdf-60a6-45d5-9a83-02803e0b37b6.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Dolat Capital",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-309f7668-2c7e-49e1-bc7a-2647e7d10920-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Krishna Institu.",
+    "company_url": "https://www.screener.in/company/KIMS/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Healthcare Conference KIMS schedules analyst/investor group meetings on Dec 8 (Centrum) and Dec 10 (DAM Capital) in Mumbai",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=309f7668-2c7e-49e1-bc7a-2647e7d10920.pdf",
+    "events": [
+      {
+        "event_date": "2026-12-08",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Centrum Broking - Flagship Investor Conference",
+        "venue": "Mumbai, India"
+      },
+      {
+        "event_date": "2026-12-10",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "DAM Capital's Healthcare Conference",
+        "venue": "Mumbai, India"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7e1bce07-6d24-441c-a006-c4dd9d047575-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Inox India",
+    "company_url": "https://www.screener.in/company/INOXINDIA/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 2h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Meet Inox India to meet Panvira Investment",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e1bce07-6d24-441c-a006-c4dd9d047575.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Panvira Investment",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1e406cee-84ca-4a6a-bcbb-0e764fba7de0-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Privi Speci.",
+    "company_url": "https://www.screener.in/company/PRIVISCL/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Schedule of Analyst / Institutional Investor meetings",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e406cee-84ca-4a6a-bcbb-0e764fba7de0.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-26",
+        "event_time": "09:00",
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Midcap Conference",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ed38e767-b352-4e28-ad4a-cb154fcba18f-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Om Galaxy",
+    "company_url": "https://www.screener.in/company/544922/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome Audio Recording w.r.t Investors Meet held today, i.e., Friday, November 20",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed38e767-b352-4e28-ad4a-cb154fcba18f.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-20",
+        "event_time": "15:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1e103994-7e3c-4294-b2bf-02cb3a8f37eb-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Sheela Foam",
+    "company_url": "https://www.screener.in/company/SFL/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Investor Meet",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e103994-7e3c-4294-b2bf-02cb3a8f37eb.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "Group Meeting",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-eacfdd8e-4793-41a8-8573-3cc8cf06a2c8-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "N S D L",
+    "company_url": "https://www.screener.in/company/544467/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation regarding Analyst/Investor Meeting dated December 03, 2026",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eacfdd8e-4793-41a8-8573-3cc8cf06a2c8.pdf",
+    "events": [
+      {
+        "event_date": "2026-12-03",
+        "event_time": null,
+        "event_type": "Investor Meet",
+        "mode": "In-person",
+        "counterparty": "Antique BFSI",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-fd2751e2-1c11-4935-96cc-88636d8531f7-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Shriram Finance",
+    "company_url": "https://www.screener.in/company/SHRIRAMFIN/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago III thereto, this is informing that Fund/ Analysts/ Institutional Investor/ Broker/Broker Conference meeting is scheduled to be held on Tuesday",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd2751e2-1c11-4935-96cc-88636d8531f7.pdf",
+    "events": [
+      {
+        "event_date": "2026-12-01",
+        "event_time": null,
+        "event_type": "Group Meeting",
+        "mode": "In-person",
+        "counterparty": "Macquarie Foreign Institutional Investors",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-9d482bd2-f8f7-471f-8ce9-c5e8ae3a5a02-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "CreditAcc. Gram.",
+    "company_url": "https://www.screener.in/company/CREDITACC/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Meet CreditAccess Grameen to meet Balyansy Asset",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d482bd2-f8f7-471f-8ce9-c5e8ae3a5a02.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "16:30",
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Balyansy Asset Management",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-6e0a6df7-2db9-44cd-929b-3e6646ee3130-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Tata Capital",
+    "company_url": "https://www.screener.in/company/TATACAP/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Analyst / Institutional Investor Meeting. Tata Capital schedules analyst/investor meeting on Nov 27, 2026, at TRUST India Debt Capital Market Summit",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0a6df7-2db9-44cd-929b-3e6646ee3130.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "TRUST India Debt Capital Market Summit 2026",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-17715727-ed56-49d9-bd72-3ce8f25f25ab-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Gala Precis. Eng",
+    "company_url": "https://www.screener.in/company/GALAPREC/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 3h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17715727-ed56-49d9-bd72-3ce8f25f25ab.pdf",
+    "events": [
+      {
+        "event_date": "2026-12-01",
+        "event_time": null,
+        "event_type": "Group Meeting",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-db12a28a-9f21-49bd-925d-02966cc7bc30-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Raymond",
+    "company_url": "https://www.screener.in/company/RAYMOND/consolidated/",
+    "heading": "Announcement Under Regulation 30 Of SEBI Listing Regulations - Analyst / Investor Conference Meet 4h ago Announcement Under Regulation 30 Of SEBI Listing Regulations - Analyst / Investor Conference Meet PFA Analyst / Investor Conference meet intimation",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db12a28a-9f21-49bd-925d-02966cc7bc30.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-26",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Midcap Conference 2026",
+        "venue": "Grand Hyatt, Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7fdcaaae-4e9a-4c41-b733-a2f02da77cc8-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Endurance Tech.",
+    "company_url": "https://www.screener.in/company/ENDURANCE/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 4h ago meetings with various analysts/institutional investors have been scheduled on 26th November, 2026 from 11 a.m. to 9.00 p.m. in Mumbai. Endurance",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fdcaaae-4e9a-4c41-b733-a2f02da77cc8.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-26",
+        "event_time": "11:00",
+        "event_type": "One-on-One",
+        "mode": "In-person",
+        "counterparty": "Investec Capital Services (India) Private Limited",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-14ed3de6-e6bc-446f-9059-262fd98f30ed-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Enterp",
+    "company_url": "https://www.screener.in/company/WELENT/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 4h ago Presentation Filed updated Investor Day 2026 presentation; order book ₹18,708 Cr across water, tunnels, transport, oil & gas",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14ed3de6-e6bc-446f-9059-262fd98f30ed.pdf",
+    "events": []
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-38567e6a-785e-40f9-ba3c-6a4e61e8d929-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Inv.& Prec.Cast.",
+    "company_url": "https://www.screener.in/company/INVPRECQ/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 4h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of 3 Investor Meetings (Schedual) Investor meetings on Nov",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38567e6a-785e-40f9-ba3c-6a4e61e8d929.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-27",
+        "event_time": "14:00",
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Xponent Tribe LLP",
+        "venue": null
+      },
+      {
+        "event_date": "2026-11-30",
+        "event_time": "14:00",
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "White oak capital",
+        "venue": null
+      },
+      {
+        "event_date": "2026-12-02",
+        "event_time": "11:00",
+        "event_type": "One-on-One",
+        "mode": "In-person",
+        "counterparty": "CWC Advisors",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-71615bfe-3298-4ed6-af38-7d38a677eb8d-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "CreditAcc. Gram.",
+    "company_url": "https://www.screener.in/company/CREDITACC/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 4h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of investor Meet CreditAccess Grameen to meet Ashmore Group",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71615bfe-3298-4ed6-af38-7d38a677eb8d.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-24",
+        "event_time": "14:00",
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Ashmore Group",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-866f9674-817c-43c6-ba98-2d672b6b3133-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "CreditAcc. Gram.",
+    "company_url": "https://www.screener.in/company/CREDITACC/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 4h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Meet Investor meeting with Avendus Wealth",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=866f9674-817c-43c6-ba98-2d672b6b3133.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "16:00",
+        "event_type": "One-on-One",
+        "mode": "Virtual",
+        "counterparty": "Avendus Wealth Management",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-7fbe9d79-6190-46f5-918a-3abd8c461812-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "IFGL Refractori.",
+    "company_url": "https://www.screener.in/company/IFGLEXPOR/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 5h ago https://ifglgroup.com/investor/meetings-reports/ . IFGL Q2/H1FY27 earnings call transcript held 17 Nov 2026",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fbe9d79-6190-46f5-918a-3abd8c461812.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-17",
+        "event_time": null,
+        "event_type": "Earnings Call",
+        "mode": "Virtual",
+        "counterparty": "Monarch Networth Capital",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-ed92566e-e79a-4900-8166-72f6ccd619c3-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Living",
+    "company_url": "https://www.screener.in/company/WELSPUNLIV/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Please find enclosed Welspun World Investor Presentation. Analyst/institutional",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed92566e-e79a-4900-8166-72f6ccd619c3.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1a32596c-a51b-4012-a6e5-453ca0039fdb-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Corp",
+    "company_url": "https://www.screener.in/company/WELCORP/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Welspun World Investor Presentation. Welspun Corp to present investor presentation at",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a32596c-a51b-4012-a6e5-453ca0039fdb.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": "Welspun World Investor Day",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-34e05155-e98e-4108-bd68-bb976ec77422-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Enterp",
+    "company_url": "https://www.screener.in/company/WELENT/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Welspun Enterprises Limited has informed the Exchange about Investor Presentation",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34e05155-e98e-4108-bd68-bb976ec77422.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-5950f9b2-eb55-44bd-a6a3-3d8c353f5a3b-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "APL Apollo Tubes",
+    "company_url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 5h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation APL Apollo Tubes Ltd has informed the stock exchanges regarding Investor",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5950f9b2-eb55-44bd-a6a3-3d8c353f5a3b.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "18:30",
+        "event_type": "Earnings Call",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-c67fa8bf-42bf-4aa1-b398-b11613e835cf-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Corp",
+    "company_url": "https://www.screener.in/company/WELCORP/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Investor Presentation of the Company Welspun Corp to present investor presentation at",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c67fa8bf-42bf-4aa1-b398-b11613e835cf.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-58e1c19d-e23c-498f-b8d2-d69f5ee07d5f-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Special.",
+    "company_url": "https://www.screener.in/company/WELSPLSOL/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Welspun World Investor Presentation Investor presentation for Welspun World Investor",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58e1c19d-e23c-498f-b8d2-d69f5ee07d5f.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": "Welspun World Investor Day",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-91d97ce9-995b-4a13-af6c-42cda3927c3c-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Living",
+    "company_url": "https://www.screener.in/company/WELSPUNLIV/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Please find enclosed Investor Presentation of the Company Welspun Living investor",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91d97ce9-995b-4a13-af6c-42cda3927c3c.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": null,
+        "venue": "Welspun World"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-f4f97c9e-27e5-492c-8129-1e5319a6f2e4-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Welspun Enterp",
+    "company_url": "https://www.screener.in/company/WELENT/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 5h ago Announcement under Regulation 30 (LODR)-Investor Presentation Welspun Enterprises Limited has informed the Exchange about Investor Presentation",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4f97c9e-27e5-492c-8129-1e5319a6f2e4.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "10:00",
+        "event_type": "Investor Day",
+        "mode": "In-person",
+        "counterparty": "Welspun World - Investor Day",
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1f18811b-3719-4cb9-8a07-455acb4c4b53-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Expleo Solutions",
+    "company_url": "https://www.screener.in/company/EXPLEOSOL/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 5h ago November 16, 2026 relating to the audio recording of Analyst or Investor Call and pursuant to the requirement of Regulation 30 read with Part A of",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f18811b-3719-4cb9-8a07-455acb4c4b53.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-16",
+        "event_time": null,
+        "event_type": "Investor Meet",
+        "mode": null,
+        "counterparty": null,
+        "venue": null
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-60bf73b2-f86e-42e5-a0aa-22f361c13e57-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Tata Steel PP",
+    "company_url": "https://www.screener.in/company/TATASTLPP/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 7h ago Announcement under Regulation 30 (LODR)-Investor Presentation Please find enclosed the Investor Presentation to be presented to analysts/investors at",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60bf73b2-f86e-42e5-a0aa-22f361c13e57.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "17:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": "Webex / YouTube"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-f63b5c82-f041-4b4a-8e80-56236321870b-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "Tata Steel PP",
+    "company_url": "https://www.screener.in/company/TATASTLPP/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 7h ago Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Investor Call Tata Steel to sell tubes/colour-coated",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f63b5c82-f041-4b4a-8e80-56236321870b.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-23",
+        "event_time": "17:00",
+        "event_type": "Investor Meet",
+        "mode": "Virtual",
+        "counterparty": null,
+        "venue": "Webex / YouTube"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-1653e7b2-bd72-4f1d-8d97-c5527c508fe7-pdf": {
+    "announced_at": "2026-11-23",
+    "company": "APL Apollo Tubes",
+    "company_url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Investor Presentation 7h ago Announcement under Regulation 30 (LODR)-Investor Presentation Investors Presentation Tata Steel to acquire majority stake in APL Apollo; APL to buy",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1653e7b2-bd72-4f1d-8d97-c5527c508fe7.pdf",
+    "events": []
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-3815aee9-e150-4aee-9b10-7a91ab078881-pdf": {
+    "announced_at": "2026-11-22",
+    "company": "Aether Industri.",
+    "company_url": "https://www.screener.in/company/AETHER/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation In accordance with Reg. 30 of the SEBI (Listing Obligations and",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3815aee9-e150-4aee-9b10-7a91ab078881.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-25",
+        "event_time": null,
+        "event_type": "One-on-One",
+        "mode": "In-person",
+        "counterparty": "Antifragile Thinking",
+        "venue": "Company premises"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-8691444a-6bb3-4767-88b0-81a128e39f16-pdf": {
+    "announced_at": "2026-11-22",
+    "company": "United Foodbrands",
+    "company_url": "https://www.screener.in/company/UFBL/consolidated/",
+    "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation Intimation of Schedule of Analyst or Investors'' Meet / Conference",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8691444a-6bb3-4767-88b0-81a128e39f16.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-26",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Kotak Midcap Conference 2026",
+        "venue": "Mumbai"
+      }
+    ]
+  },
+  "www-bseindia-com-stockinfo-annpdfopen-aspx-pname-d7ad5f3b-1932-46c5-a189-b5a0db0287b9-pdf": {
+    "announced_at": "2026-11-22",
+    "company": "Sammaan Capital",
+    "company_url": "https://www.screener.in/company/SAMMAANCAP/consolidated/",
+    "heading": "Intimation Of Analysts /Investor Meeting. Intimation Of Analysts /Investor Meeting. Pursuant to Regulation 30 of the SEBI (LODR) Regulations, 2015, we wish to inform the schedule of Investor",
+    "pdf_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7ad5f3b-1932-46c5-a189-b5a0db0287b9.pdf",
+    "events": [
+      {
+        "event_date": "2026-11-25",
+        "event_time": null,
+        "event_type": "Conference",
+        "mode": "In-person",
+        "counterparty": "Dam Capital: Small - Mid Cap NBFC Conference 2026",
+        "venue": null
       }
     ]
   }
