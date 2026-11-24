@@ -13158,5 +13158,37 @@
     "industry": "Other Utilities",
     "sub_industry": "Waste Management",
     "_tries": 1
+  },
+  "https://www.screener.in/company/RAMRAT/consolidated/": {
+    "company": "Ram Ratna Wires",
+    "ticker": "RAMRAT",
+    "sector": "Capital Goods",
+    "industry": "Electrical Equipment",
+    "sub_industry": "Other Electrical Equipment",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/KRT/consolidated/": {
+    "company": "Knowledge Realty",
+    "ticker": "KRT",
+    "sector": "Realty",
+    "industry": "Realty",
+    "sub_industry": "Real Estate Investment Trusts (REITs)",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/512025/consolidated/": {
+    "company": "Asgard Alcobev",
+    "ticker": "512025",
+    "sector": "Fast Moving Consumer Goods",
+    "industry": "Beverages",
+    "sub_industry": "Breweries & Distilleries",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/ABBOTINDIA/": {
+    "company": "Abbott India",
+    "ticker": "ABBOTINDIA",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals & Biotechnology",
+    "sub_industry": "Pharmaceuticals",
+    "_tries": 1
   }
 }
