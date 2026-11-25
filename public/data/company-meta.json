@@ -13190,5 +13190,21 @@
     "industry": "Pharmaceuticals & Biotechnology",
     "sub_industry": "Pharmaceuticals",
     "_tries": 1
+  },
+  "https://www.screener.in/company/VOEPL/consolidated/": {
+    "company": "Virtuoso Optoel.",
+    "ticker": "VOEPL",
+    "sector": null,
+    "industry": "Consumer Durables",
+    "sub_industry": "Diversified consumer products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/526355/": {
+    "company": "Duropack",
+    "ticker": "526355",
+    "sector": null,
+    "industry": "Industrial Products",
+    "sub_industry": "Plastic Products - Industrial",
+    "_tries": 1
   }
 }
