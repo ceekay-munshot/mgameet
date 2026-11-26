@@ -13206,5 +13206,21 @@
     "industry": "Industrial Products",
     "sub_industry": "Plastic Products - Industrial",
     "_tries": 1
+  },
+  "https://www.screener.in/company/526081/": {
+    "company": "SC Agrotech",
+    "ticker": "526081",
+    "sector": null,
+    "industry": "Agricultural Food & other Products",
+    "sub_industry": "Other Agricultural Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544001/consolidated/": {
+    "company": "Sunita Tools Ltd",
+    "ticker": null,
+    "sector": null,
+    "industry": "Industrial Manufacturing",
+    "sub_industry": "Industrial Products",
+    "_tries": 1
   }
 }
