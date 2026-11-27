@@ -13222,5 +13222,13 @@
     "industry": "Industrial Manufacturing",
     "sub_industry": "Industrial Products",
     "_tries": 1
+  },
+  "https://www.screener.in/company/RAMCOCEM/consolidated/": {
+    "company": "The Ramco Cement",
+    "ticker": "RAMCOCEM",
+    "sector": null,
+    "industry": "Cement & Cement Products",
+    "sub_industry": null,
+    "_tries": 1
   }
 }
