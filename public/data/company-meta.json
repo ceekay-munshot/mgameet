@@ -13230,5 +13230,29 @@
     "industry": "Cement & Cement Products",
     "sub_industry": null,
     "_tries": 1
+  },
+  "https://www.screener.in/company/VADILALIND/consolidated/": {
+    "company": "Vadilal Inds.",
+    "ticker": "VADILALIND",
+    "sector": null,
+    "industry": "Food Products",
+    "sub_industry": "Dairy Products",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/TERASOFT/": {
+    "company": "Tera Software",
+    "ticker": "TERASOFT",
+    "sector": null,
+    "industry": "IT - Services",
+    "sub_industry": "IT Enabled Services",
+    "_tries": 1
+  },
+  "https://www.screener.in/company/544151/consolidated/": {
+    "company": "Chatha Foods",
+    "ticker": null,
+    "sector": null,
+    "industry": "Food Products",
+    "sub_industry": "Packaged Foods",
+    "_tries": 1
   }
 }
